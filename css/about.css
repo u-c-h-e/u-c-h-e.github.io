@@ -134,7 +134,7 @@
       background-color: #ffffff;
   }
   .hero {
-    background-image: url("./images/homepage/hero/hero-bkgd.png");
+    background-image: url("../images/homepage/hero/hero-bkgd.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -149,7 +149,7 @@
   }
   
   .contact-me {
-    background-image: url("./images/homepage/work/contact/contact-background.png");
+    background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
     padding: 5rem 0;
     height: 650px;
@@ -552,7 +552,7 @@
   @media only screen and (min-width: 400px) {
   
     .contact-me {
-      background-image: url("./images/homepage/work/contact/contact-background.png");
+      background-image: url("../images/homepage/work/contact/contact-background.png");
       color: #4a4a4a;
       padding: 5rem 0;
       height: 780px;
@@ -587,7 +587,7 @@
   
   @media only screen and (min-width: 500px) {
     .contact-me {
-      background-image: url("./images/homepage/work/contact/contact-background.png");
+      background-image: url("../images/homepage/work/contact/contact-background.png");
       color: #4a4a4a;
       padding: 5rem 0;
       height: 690px;
@@ -608,7 +608,7 @@
       display: none;
     }
     .hero {
-      background-image: url("./images/homepage/hero/hero-bkgd.png");
+      background-image: url("../images/homepage/hero/hero-bkgd.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
@@ -633,7 +633,7 @@
   
   @media only screen and (min-width: 600px) {
     .contact-me {
-      background-image: url("./images/homepage/work/contact/contact-background.png");
+      background-image: url("../images/homepage/work/contact/contact-background.png");
       color: #4a4a4a;
       padding: 5rem 0;
       height: 760px;
@@ -794,7 +794,7 @@
   
     @media only screen and (min-width: 925px) {
       .contact-me {
-        background-image: url("./images/homepage/work/contact/contact-background.png");
+        background-image: url("../images/homepage/work/contact/contact-background.png");
         color: #4a4a4a;
         padding: 5rem 0;
         height: 690px;
@@ -819,7 +819,7 @@
     }
     
     .contact-me {
-      background-image: url("./images/homepage/work/contact/contact-background.png");
+      background-image: url("../images/homepage/work/contact/contact-background.png");
       color: #4a4a4a;
       padding: 5rem 0;
       height: 690px;
@@ -885,7 +885,7 @@
   
   @media only screen and (min-width: 1199px) {
   .contact-me {
-    background-image: url("./images/homepage/work/contact/contact-background.png");
+    background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
     padding: 5rem 0;
     height: 650px;
