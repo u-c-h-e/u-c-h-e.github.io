@@ -1709,7 +1709,7 @@ h3.main-header-white {
 }
 
 h3.main-header-white-center {
-  text-transform: lowercase;
+  text-transform: initial;
   line-height: 3.5rem; 
   padding: 2.1rem 0;
   text-align: center;
@@ -2415,7 +2415,7 @@ h5.comp {
 @media screen and (min-width:600px) {
 
   h3.main-header-white {
-    text-transform: lowercase;
+    text-transform: initial;
     line-height: 4.1rem; 
     padding: 1.2rem 0 2.0rem 0;
     font-size: 3.79rem
@@ -2466,7 +2466,7 @@ h5.comp {
     margin-right: auto; 
   }
   h3.main-header-white {
-    text-transform: lowercase;
+    text-transform: initial;
     line-height: 4.1rem; 
     padding: 1.2rem 0 2.0rem 0;
     font-size: 3.79rem
@@ -2898,7 +2898,7 @@ h5.comp {
   }
 
   h3.main-header-white {
-    text-transform: lowercase;
+    text-transform: initial;
     line-height: 4.1rem; 
     padding: 1.2rem 0 2.0rem 0;
     font-size: 3.79rem

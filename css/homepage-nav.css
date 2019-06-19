@@ -10,12 +10,6 @@ html {
   width: 100%;
 }
 
-h1 {
-  font-family: 'Muli', sans-serif;
-  font-size: 3em;
-  font-weight: 300;
-}
-
 li,a,p {
   text-decoration: none;
   list-style: none;
@@ -291,7 +285,7 @@ h3.portfolio {
   padding-top: 1rem;
   margin: auto;
   line-height: 120%;
-  text-transform: lowercase;
+  text-transform: initial;
   max-width: 400px;
 
 }
@@ -530,7 +524,7 @@ section#contact div.return-top {
     margin: 1.5rem 0rem;
     font-size: 4.8rem;
     font-family: 'Playfair Display', serif;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 1.15;
     text-align: center;
     color: #ffffff;
@@ -640,7 +634,7 @@ section#contact div.return-top {
     margin: 2rem 0rem;
     font-size: 6.034rem;
     font-family: 'Playfair Display', serif;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 1.15;
     text-align: center;
     color: #ffffff;
@@ -856,7 +850,7 @@ section#contact div.return-top {
       margin: 2rem 0rem;
       font-size: 6.734rem;
       font-family: 'Playfair Display', serif;
-      font-weight: 800;
+      font-weight: 600;
       line-height: 1.15;
       text-align: center;
       color: #ffffff;

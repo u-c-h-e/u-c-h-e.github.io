@@ -705,7 +705,6 @@
             /* padding-right: 60px; */
           }
         
-        
               .column2-v2 {
                 float: right;
                 width: 60%;
@@ -716,7 +715,7 @@
                 display: inline;
                 float: left;
                 width: 40%;
-                padding: 0% 10% 0 10%;
+                padding: 0% ;
               }
       h1 {
         margin: 2rem 0rem;
@@ -743,7 +742,7 @@
     margin-top: .5rem;
     margin-bottom: 1rem;
     padding: 0 1rem;
-    max-width: 200px;
+    /* max-width: 200px; */
 }
 
 
@@ -757,11 +756,12 @@
     position: relative;
     display: inline;
     border-bottom: 1px dotted #8F47EC;
+    width: 100%;
   }
   
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 200px;
+    min-width: 200px; 
     background-color: #fff;
     text-align: left;
     border-radius: 6px;
@@ -924,6 +924,10 @@
     color: #ffffff;
     font-family: 'Muli', sans-serif;
     /* text-transform: lowercase; */
+  }
+
+  .image-360px {
+    width: 100%;
   }
   
   .contact-text {
