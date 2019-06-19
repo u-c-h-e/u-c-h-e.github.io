@@ -934,6 +934,7 @@ nav ul li:hover::before {
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .hero-content {
@@ -3331,6 +3332,9 @@ h5.comp {
 
 
 @media screen and (min-width:1024px) {
+  .hero {
+    margin-top: 8rem;
+  }
 
   .card-container4 {
     padding: 0 0 0 0%;
@@ -3808,6 +3812,10 @@ section#contact div.return-top {
 
 
 @media only screen and (min-width: 0px) {
+  .hero {
+    margin-top: 6rem;
+  }
+
   .contact-me {
   height: 100%;
   margin-left: 0;
