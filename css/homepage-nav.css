@@ -282,7 +282,7 @@ h3.portfolio {
   font-family: 'Playfair Display', serif;
   color: #666567;
   text-align: center;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   margin: auto;
   line-height: 120%;
   text-transform: initial;
@@ -850,10 +850,11 @@ section#contact div.return-top {
       margin: 2rem 0rem;
       font-size: 6.734rem;
       font-family: 'Playfair Display', serif;
-      font-weight: 600;
+      font-weight: 800;
       line-height: 1.15;
       text-align: center;
       color: #ffffff;
+      letter-spacing: .8px;
     }
 
     .intro-desktop {

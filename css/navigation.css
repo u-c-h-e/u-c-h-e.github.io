@@ -3,12 +3,7 @@
 Primary style
 
 -------------------------------- */
-h3 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  max-width: 1024px;
-  margin: 0 auto;
-}
+
 
 .cd-primary-nav > ul {
   top: 44px;
