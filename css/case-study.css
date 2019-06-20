@@ -693,7 +693,7 @@ small {
 
 .button-container4 {
   text-align: center;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
 }
 
 .button-text {
@@ -771,7 +771,7 @@ small {
   height: 48px;
   width: 140px;
   text-align: center;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   padding-bottom: 1.2rem;
   padding-top: 1.2rem;
   text-transform: LOWERcase;
@@ -779,7 +779,7 @@ small {
   white-space: nowrap;
   -moz-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
-  margin: 3rem 0 8rem 5%;
+  margin: 3rem 0 4rem 5%;
 }
 
 .button-style-2:hover {
@@ -1617,17 +1617,15 @@ footer div h4 {
 }
 
 .text-container2 {
-  position: absolute;
+  /* position: absolute;
   padding: 20px 20px;
   background-color: rgb(139, 39, 227, .9);
   width: 90%;
   max-width: 640px;
-  /* width: 260px; */
-  /* margin-bottom: 2rem; */
   margin-top: 9rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  transform: translateX(-50%); */
 }
 
 @keyframes fade-in {
@@ -1793,6 +1791,13 @@ h4.key-insights {
 }
 
 @media screen and (min-width: 0px) {
+  .container-padding-min2 {
+    margin: 0 auto;
+    margin-top: 5rem;
+    max-width: 620px;
+    padding: 0 10%;
+  }
+
   .persona-card {
     margin-top: 5rem;
   }
@@ -1918,7 +1923,7 @@ h5.comp {
   }
 
   .text-container2 {
-    margin-top: 5.5rem;
+    /* margin-top: 5.5rem; */
   }
 
   .image-container {
@@ -2603,6 +2608,7 @@ h5.comp {
     margin: 0 auto;
     margin-top: 5rem;
     max-width: 620px;
+    padding: 0;
   }
 
   .overview-column-1b {
