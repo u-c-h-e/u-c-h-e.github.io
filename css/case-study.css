@@ -940,8 +940,8 @@ nav ul li:hover::before {
   background-size: auto;
   color: #343434;
   width: 100%;
-  padding-bottom: 0rem; 
-  padding-top: 0px;
+  /* padding-bottom: 0rem;  */
+  /* padding-top: 0px; */
 }
 
 .hero-banner {
