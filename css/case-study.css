@@ -128,7 +128,7 @@ header {
   margin: 0 auto;
 }
 .main-header {
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   text-transform: inherit;
   text-align: center;
 }
@@ -936,7 +936,7 @@ nav ul li:hover::before {
 
 
 /******Hero*********/
-.hero {
+.hero2 {
   background-size: auto;
   color: #343434;
   width: 100%;
@@ -1910,7 +1910,7 @@ h5.comp {
 }
 
  @media screen and (min-width: 0px) {
-  .hero {
+  .hero2 {
     margin-top: 6rem;
   }
   .text-container {
@@ -3355,7 +3355,7 @@ h5.comp {
 
 @media screen and (min-width:1024px) {
   
-  .hero {
+  .hero2 {
     margin-top: 8rem;
   }
   .card-container4 {
