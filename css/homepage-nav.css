@@ -205,7 +205,7 @@ p {
 }
 
 h1 {
-  margin: 2rem 0rem;
+  padding: 0rem 0rem;
   font-size: 6.734rem;
   font-family: 'Playfair Display', serif;
   font-weight: 600;
@@ -492,6 +492,12 @@ section#contact div.return-top {
     padding-right: 2.5%;
     padding-top: 25vh;
 }
+
+.hero-copy-container2 {
+  padding-top: 10vh;
+  margin: 0 auto;
+  display: block;
+}
   .hero {
     background-image: url("../images/homepage/hero/hero-bkgd2.png");
     background-position: center;
@@ -521,13 +527,14 @@ section#contact div.return-top {
   }
 
   h1 {
-    margin: 1.5rem 0rem;
+    padding: 0rem 0rem;
     font-size: 4.8rem;
     font-family: 'Playfair Display', serif;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 1.15;
     text-align: center;
     color: #ffffff;
+    letter-spacing: .1rem;
   }
 
   h4.hero-mini-copy {
@@ -607,7 +614,7 @@ section#contact div.return-top {
   }
 
   .hero-copy-container {
-    padding-top: 27vh;
+    padding-top: 18vh;
   }
   .intro-desktop {
     /* padding: 0 5% ; */
@@ -631,13 +638,14 @@ section#contact div.return-top {
   }
 
   h1 {
-    margin: 2rem 0rem;
+    padding: 0rem 0rem;
     font-size: 6.034rem;
     font-family: 'Playfair Display', serif;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 1.15;
     text-align: center;
     color: #ffffff;
+    letter-spacing: .1rem;
   }
 }
 
@@ -842,12 +850,12 @@ section#contact div.return-top {
 
     .hero-copy-container {
       /* padding-top: 50%; */
-      padding-top: 33vh;
+      /* padding-top: 33vh; */
       /* transform: translateY(50%); */
     }
 
     h1 {
-      margin: 2rem 0rem;
+      padding: 0rem 0rem;
       font-size: 6.734rem;
       font-family: 'Playfair Display', serif;
       font-weight: 800;
