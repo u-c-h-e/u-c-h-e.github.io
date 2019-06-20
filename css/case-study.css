@@ -779,7 +779,7 @@ small {
   white-space: nowrap;
   -moz-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
-  margin: 3rem 0 4rem 5%;
+  margin: 4rem 0 5rem 5%;
 }
 
 .button-style-2:hover {
@@ -1494,9 +1494,13 @@ footer div h4 {
   }
 
   .problem-bkgd-mobile{
-    display: inline-block;
+    /* display: inline-block; */
+    display: none;
     height: 800px;
     /* width: 100% */
+  }
+  .text-container {
+    display: none;
   }
 
   .vis-des-mobile{
@@ -1616,17 +1620,7 @@ footer div h4 {
   transform: translateX(-50%);
 }
 
-.text-container2 {
-  /* position: absolute;
-  padding: 20px 20px;
-  background-color: rgb(139, 39, 227, .9);
-  width: 90%;
-  max-width: 640px;
-  margin-top: 9rem;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%); */
-}
+
 
 @keyframes fade-in {
   from {opacity: 0; transform: scale(.7,.7)}
@@ -1938,7 +1932,7 @@ h5.comp {
     display: none;
   }
   .text-container2 {
-    padding: 40px 40px;
+    padding: 40px 10%;
     background-color: rgb(120, 34, 224);
   }
 
@@ -2340,7 +2334,7 @@ h5.comp {
   }
 
   .problem-bkgd-desktop{
-    display: block;
+    display: none;
     object-fit: cover;
     height: 680px;
     width: 1440px
@@ -2441,6 +2435,21 @@ h5.comp {
 /* 600!!!!!!!!!!!!!!!!*/
 
 @media screen and (min-width:600px) {
+
+  .problem-bkgd-mobile{
+    display: none;
+  }
+
+  .problem-bkgd-desktop{
+    display: block;
+    object-fit: cover;
+    height: 680px;
+    width: 1440px
+  }
+
+  .text-container {
+    display: inline-block;
+  }
 
   h3.main-header-white {
     text-transform: initial;
@@ -3961,6 +3970,19 @@ section#contact div.return-top {
 
 
 @media only screen and (min-width: 600px) {
+  .text-container2 {
+    position: absolute;
+    padding: 20px 20px;
+    background-color: rgb(139, 39, 227, .9);
+    width: 90%;
+    max-width: 640px;
+    margin-top: 9rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+
   .contact-me {
     background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
