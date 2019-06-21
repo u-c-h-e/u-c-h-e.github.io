@@ -283,7 +283,7 @@ h3 {
 
 
 .content-label {
-  font-weight: 1200;
+  font-weight: 800;
   padding-top: 8rem;
   padding-bottom: 4rem;
   text-transform: lowercase;
@@ -295,7 +295,7 @@ h3 {
 }
 
 .content-label2 {
-  font-weight: 1200;
+  font-weight: 800;
   padding-top: 4.5rem;
   padding-bottom: 2.5rem;
   text-transform: lowercase;
@@ -305,7 +305,7 @@ h3 {
 }
 
 .content-label-small {
-  font-weight: 1200;
+  font-weight: 800;
   padding-top: 5.5rem;
   padding-bottom: 2.5rem;
   text-transform: lowercase;
@@ -432,7 +432,7 @@ a {
   }
   
   .content-label {
-    font-weight: 1200;
+    font-weight: 800;
     padding-top: 4.5rem;
     padding-bottom: 2.5rem;
     text-transform: lowercase;
@@ -497,7 +497,7 @@ a {
   }
   
   .content-label {
-    font-weight: 1200;
+    font-weight: 800;
     padding-top: 4.5rem;
     padding-bottom: 2.5rem;
     text-transform: lowercase;
