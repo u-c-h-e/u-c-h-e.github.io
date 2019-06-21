@@ -1785,6 +1785,7 @@ h4.key-insights {
 }
 
 @media screen and (min-width: 0px) {
+
   .container-padding-min2 {
     margin: 0 auto;
     margin-top: 5rem;
@@ -1831,7 +1832,7 @@ h4.key-insights {
       margin-right: auto; 
     }
     .overview-column-b {
-      display: block;
+      display: inline-block;
       /* width: 290px; */
       /* background-color: #F9F9F9; */
       margin-left: auto; 
@@ -1854,8 +1855,8 @@ h4.key-insights {
     max-height:800px;
   }
   .survey-and-copy {
-    padding-bottom:15px;
-  }
+    padding-bottom: 1rem;
+}
 }
 
 
@@ -2561,7 +2562,19 @@ h5.comp {
 }
 
 
+
+
 @media screen and (min-width:660px) {
+  .overview-column-copy-a {
+    display: inline-block;
+  }
+
+  .overview-column-b {
+    display: inline-block;
+  }
+  .survey-and-copy {
+    padding-bottom: 15px;
+}
     .card-container {
       padding: 0 0 0 0%;
       /* width: 380px; */
