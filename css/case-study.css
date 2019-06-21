@@ -10,6 +10,7 @@ html {
 
 body {
   background-color: #F7F7F7;
+  font-family: 'Muli', sans-serif;
   max-width: 1440px;
   margin: auto;
   display: grid;
