@@ -566,23 +566,7 @@ a {
 
 
 
-.quote {
-  border-left: .5rem solid #92C6EF;
-  font-family: droid-serif, serif;
-  font-size: 2.0rem;
-  font-style: italic;
-  font-weight: 400;
-  padding-left: 2rem;
-  color: #343434;
-}
 
-.bullet {
-  align-items: center;
-  color: #343434;
-  display: flex;
-  display: inline-block;
-  padding-right: .8rem;
-}
 
 
 
