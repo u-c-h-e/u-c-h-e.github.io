@@ -1049,6 +1049,12 @@ nav ul li:hover::before {
   padding: 1rem;
 }
 
+.container-9 {
+  width: 100%;
+  display: block;
+  margin-top:10rem;
+}
+
 .persona1-card-top {
   max-width: 380px;
   display: inline-table;
@@ -3057,7 +3063,7 @@ h5.comp {
       "demographic-info";
     grid-template-columns: 1fr;
     vertical-align: top;
-    float: left;
+    float: none;
     margin-top: 3.5rem;
   }
 
@@ -3069,7 +3075,7 @@ h5.comp {
       "demographic-info";
     grid-template-columns: 1fr;
     vertical-align: top;
-    float: right;
+    float: none;
   }
 
 
