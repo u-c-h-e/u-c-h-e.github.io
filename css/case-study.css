@@ -1143,7 +1143,7 @@ nav ul li:hover::before {
   overflow: hidden;
 }
 
-#persona3-img {
+.persona3-img {
   background-image: url("../images/spaceKit/sections/vis-des/vis-des-logo.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -1154,7 +1154,7 @@ nav ul li:hover::before {
   margin-bottom: 2rem;
 }
 
-#persona4-img {
+.persona4-img {
   background-image: url("../images/spaceKit/sections/vis-des/vis-des-color-palette.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -1165,7 +1165,7 @@ nav ul li:hover::before {
   /* width: 380px */
 }
 
-#persona5-img {
+.persona5-img {
   background-image: url("../images/spaceKit/sections/vis-des/vis-des-typography.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -1317,7 +1317,7 @@ nav ul li:hover::before {
     background-size: cover;
   }
 
-  #persona3-img {
+  .persona3-img {
     background-image: url("../images/spaceKit/sections/vis-des/vis-des-logo.png");
     background-size: cover;
   }
