@@ -335,7 +335,8 @@ h4.case-study {
 
 
 h5 {
-  font-family: 'Muli ExtraBold', san-serif;
+  font-family: 'Muli', san-serif;
+  font-weight: 800;
   font-size: 18px;
 }
 
@@ -427,8 +428,8 @@ a {
   
   h2 {
     /* font-size: 3rem; */
-    font-family: 'Muli ExtraBold', san-serif;
-    font-weight: 400;
+    font-family: 'Muli', san-serif;
+    font-weight: 800;
     line-height: 1.15;
     color: rgb(214, 214, 214);
     text-align: center;
@@ -452,8 +453,9 @@ a {
   }
   
   h5 {
-    font-family: 'Muli ExtraBold', san-serif;
+    font-family: 'Muli', san-serif;
     font-size: 18px;
+    font-weight: 800;
   }
   
   h5.testing {
@@ -492,8 +494,8 @@ a {
   
   h2 {
     /* font-size: 3rem; */
-    font-family: 'Muli ExtraBold', san-serif;
-    font-weight: 400;
+    font-family: 'Muli', san-serif;
+    font-weight: 800;
     line-height: 1.15;
     color: rgb(214, 214, 214);
     text-align: center;
@@ -517,8 +519,9 @@ a {
   }
   
   h5 {
-    font-family: 'Muli ExtraBold', san-serif;
+    font-family: 'Muli', san-serif;
     font-size: 18px;
+    font-weight: 800;
   }
   
   h5.testing {
@@ -877,9 +880,10 @@ small {
 
 .main-nav li {
   color: #4a4a4a;
-  font-family: "Muli ExtraBold", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.6rem;
   font-style: normal;
+  font-weight: 800;
   text-transform: lowercase;
 }
 
@@ -3804,8 +3808,8 @@ h1 {
 
 h2 {
   font-size: 5rem;
-  font-family: 'Muli ExtraBold', sans-serif;
-  font-weight: 400;
+  font-family: 'Muli', sans-serif;
+  font-weight: 800;
   line-height: 1.15;
   color:#8186a7;
   text-align: center;
