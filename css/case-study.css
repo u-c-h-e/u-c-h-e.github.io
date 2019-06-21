@@ -268,8 +268,8 @@ h1 {
 
 h2 {
   font-size: 5rem;
-  font-family: 'Muli ExtraBold', san-serif;
-  font-weight: 400;
+  font-family: 'Muli', san-serif;
+  font-weight: 800;
   line-height: 1.15;
   color: rgb(214, 214, 214);
   text-align: center;
@@ -284,6 +284,7 @@ h3 {
 
 
 .content-label {
+  font-family: 'Muli', san-serif;
   font-weight: 800;
   padding-top: 8rem;
   padding-bottom: 4rem;
@@ -296,6 +297,7 @@ h3 {
 }
 
 .content-label2 {
+  font-family: 'Muli', san-serif;
   font-weight: 800;
   padding-top: 4.5rem;
   padding-bottom: 2.5rem;
