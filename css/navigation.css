@@ -384,7 +384,7 @@ a {
   height: 100%;
   width: 100px;
   background: transparent;
-  background: -webkit-linear-gradient(right, #343330, rgba(37, 40, 61, 0));
+  background: -webkit-linear-gradient(right, #ffffff, rgba(37, 40, 61, 0));
   background: linear-gradient(to left, #ffffff, rgba(37, 40, 61, 0));
   pointer-events: none;
   -webkit-transition: opacity 0.2s;
