@@ -396,6 +396,7 @@ section#contact div.return-top {
 
 
 @media only screen and (min-width: 0px) {
+  
   .white {
     font-size: 1.8rem;
     font-weight: 800; 
@@ -450,6 +451,7 @@ section#contact div.return-top {
     overflow: hidden;
     position: relative;
     margin-bottom: .5%;
+    margin-top: 6rem;
   }
 
   #case-study-third-mobile {
@@ -568,7 +570,12 @@ section#contact div.return-top {
 
 
 @media only screen and (min-width: 400px) {
-  
+  .card-container6-mobile {
+    max-width: 100%;
+    display: block;
+    float: none;
+    padding: 5% 5% 0 5%;
+  }
   .contact-me {
     background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
@@ -590,7 +597,7 @@ section#contact div.return-top {
   
 
   .persona-card3 {
-    margin-top: 6rem;
+    margin-top: 0rem;
   }
 
   .intro-desktop {
@@ -651,6 +658,12 @@ section#contact div.return-top {
 
 
 @media only screen and (min-width: 600px) {
+  .card-container6-mobile {
+    max-width: 100%;
+    display: block;
+    float: none;
+    padding: 5% 0% 0 0;
+  }
   .contact-me {
     background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
@@ -671,7 +684,7 @@ section#contact div.return-top {
   }
 
   .container-spaceKit2 {
-    max-width: 50%;
+    max-width: 100%;
     /* display: inline-block; */
   }
   .second-case {
@@ -686,6 +699,10 @@ section#contact div.return-top {
 
 
 @media only screen and (min-width: 700px) {
+
+  #case-study-second-mobile {
+    margin-top: 0rem;
+  }
   .button-style-4 {
     display: block;
     margin: 0;
@@ -786,7 +803,7 @@ section#contact div.return-top {
     max-width: 50%;
     display: inline-block;
     float: left;
-    margin-top: 11%;
+    margin-top: 9rem;
   }
 
   
@@ -973,6 +990,10 @@ section#contact div.return-top {
   height: 650px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.persona-card3 {
+  margin-top:6rem;
 }
 }
 

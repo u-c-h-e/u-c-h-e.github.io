@@ -457,7 +457,7 @@
     
     
       .column1-v2 {
-        float: right;  
+        float: none;  
         width: 100%;
         max-width: 620px;
         margin: auto;
