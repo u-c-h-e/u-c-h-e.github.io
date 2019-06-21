@@ -1042,7 +1042,7 @@ nav ul li:hover::before {
   padding: 1rem;
 }
 
-#persona1-card-top {
+.persona1-card-top {
   max-width: 380px;
   display: inline-table;
   grid-template-areas:
@@ -2020,7 +2020,7 @@ h5.comp {
   .persona-copy3 {
     display: block;
   }
-  #persona1-card-top {
+  .persona1-card-top {
     max-width: 380px;
     display: block;
     grid-template-areas: none;
@@ -2664,7 +2664,7 @@ h5.comp {
     margin-top: 5.5rem;
   }
 
-  #persona1-card-top {
+  .persona1-card-top {
     width: 380px;
     display: inline-table;
     grid-template-areas:
@@ -2715,7 +2715,7 @@ h5.comp {
     display: none;
   }
     
-  #persona1-card-top {
+  .persona1-card-top {
     /* margin-top: 50px; */
     max-width: 380px;
     display: inline-table;
@@ -3027,7 +3027,7 @@ h5.comp {
   .persona-copy2 {
     display: none;
   }
-  #persona1-card-top {
+  .persona1-card-top {
     /* margin-top: 50px; */
     max-width: 380px;
     display: inline-table;
