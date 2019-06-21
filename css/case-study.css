@@ -1237,7 +1237,7 @@ nav ul li:hover::before {
   font-weight: 700;
   line-height: 100%;
   text-align: center;
-  font-family: 'Montserrat', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .persona-role {
