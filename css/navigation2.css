@@ -1,8 +1,7 @@
 /* -------------------------------- 
-
 Primary style
-
 -------------------------------- */
+
 h3 {
   font-size: 3rem;
   text-transform: uppercase;
@@ -102,9 +101,7 @@ a {
 }
 
 /* --------------------------------
-
 1. Auto-Hiding Navigation - Simple
-
 -------------------------------- */
 .cd-secondary-nav ul {
   margin: 0;
@@ -131,8 +128,6 @@ a {
 
 @media only screen and (min-width: 1024px) {
   .cd-auto-hide-header {
-
-
     /*position is the key here to change the width and positioning*/
     /* position:sticky; */
     /* top: -1px; */
@@ -363,9 +358,7 @@ ul a.active {
 }
 
 /* -------------------------------- 
-
 2. Auto-Hiding Navigation - with Sub Nav
-
 -------------------------------- */
 .cd-secondary-nav {
   position: relative;
@@ -395,8 +388,8 @@ ul a.active {
   height: 100%;
   width: 100px;
   background: transparent;
-  background: -webkit-linear-gradient(right, #343330, rgba(37, 40, 61, 0));
-  background: linear-gradient(to left, #ffffff, rgba(37, 40, 61, 0));
+  background: -webkit-linear-gradient(right, #ffffff, rgba(255, 255, 255, 0));
+  background: linear-gradient(to left, #ffffff, rgba(255, 255, 255, 0));
   pointer-events: none;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
@@ -428,23 +421,15 @@ ul a.active {
 .cd-secondary-nav li {
   display: inline-block;
   float: left;
-  /* do not shrink - el
-  
-  
-  ents float on the right of the element */
+  /* do not shrink - elents float on the right of the element */
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
 
-
 /* .cd-secondary-nav li:last-of-type {
   padding-right: 20px;
 } */
-
-
-
-
 
 .cd-secondary-nav a {
   display: block;
@@ -462,8 +447,6 @@ ul a.active {
 .cd-secondary-nav a.active {
   background: red;;
 }
-
-
 
 
 #top-menu li.active a {
@@ -503,9 +486,7 @@ ul a.active {
 }
 
 /* -------------------------------- 
-
 3. Auto-Hiding Navigation - with Sub Nav + Hero Image
-
 -------------------------------- */
 .cd-secondary-nav.fixed {
   position: fixed;
@@ -535,9 +516,7 @@ ul a.active {
 }
 
 /* -------------------------------- 
-
 Main content
-
 -------------------------------- */
 .cd-main-content {
   padding: 60px 5% 2em;
@@ -634,15 +613,3 @@ Intro Section
     margin-top: 80px;
   }
 }
-
-
-
-
-
-/*  */
-
-
-
-
-
-
