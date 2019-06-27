@@ -19,6 +19,11 @@ jQuery(document).ready(function($){
 		mainHeader.toggleClass('nav-open');
 	});
 
+	mainHeader.on('click', '.nav-links', function(event){
+		// open primary navigation on mobile
+		mainHeader.toggleClass('nav-open');
+	 });
+
 	$(window).on('scroll', function(){
 		if( !scrolling ) {
 			scrolling = true;
@@ -88,6 +93,19 @@ jQuery(document).ready(function($){
 
 	    }
 	}
+
+	var h = document.documentElement,
+  b = document.body,
+  st = 'scrollTop',
+  sh = 'scrollHeight',
+  progress = document.querySelector('.progress'),
+  scroll;
+
+document.addEventListener('scroll', function() {
+  scroll = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+  progress.style.setProperty('--scroll', scroll + '%');
+});
+
 
 
 $(function(){  // $(document).ready shorthand
