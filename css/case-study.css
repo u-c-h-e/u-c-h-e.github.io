@@ -281,7 +281,7 @@ h3 {
 .content-label {
   font-family: 'Muli', san-serif;
   font-weight: 800;
-  padding-top: 8rem;
+  padding-top: 0rem;
   padding-bottom: 4rem;
   text-transform: lowercase;
   text-decoration-style: dotted;
