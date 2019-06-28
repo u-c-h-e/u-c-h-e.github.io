@@ -38,16 +38,19 @@ hr {
   max-width: 620px;
 }
 
+.container-padding2 {
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 620px;
+}
+
 .container-padding-min {
   margin: 0 auto;
   margin-top: 2rem;
   max-width: 620px;
 }
 
-.container-padding2 {
-  margin: 0 auto;
-  max-width: 460px;
-}
+
 
 .container-8 {
   margin: 0 auto;
@@ -73,7 +76,7 @@ hr {
 .container-10 {
   margin: 0 auto;
   max-width: 780px;
-  padding: 8rem 0 0 0;
+  /* padding: 8rem 0 0 0; */
 }
 
 .container-8-gray {
@@ -190,9 +193,7 @@ header {
 .personas-padding {
   padding: 8rem 0;
 }
-#user-personas2 {
-  margin-top: 5rem;
-}
+
 
 
 .blue-background {
@@ -281,7 +282,7 @@ h3 {
 .content-label {
   font-family: 'Muli', san-serif;
   font-weight: 800;
-  padding-top: 0rem;
+  padding-top: 8rem;
   padding-bottom: 4rem;
   text-transform: lowercase;
   text-decoration-style: dotted;
@@ -579,6 +580,7 @@ a {
 }
 
 .list-black {
+  padding-top: .5rem;
   margin-left: 2rem;
   padding: .3rem;
   padding-left: 1rem;
@@ -649,6 +651,8 @@ a {
 
 small {
   display: block;
+  text-align: center;
+  margin: auto;
 }
 
 .pink {
@@ -666,6 +670,11 @@ small {
 .button-container4 {
   text-align: center;
   /* padding-bottom: 3rem; */
+}
+
+.button-container5 {
+  text-align: center;
+  padding: 2rem 0 0rem 0;
 }
 
 .button-text {
@@ -1444,6 +1453,10 @@ footer div h4 {
 
 
 @media screen and (min-width: 0px) {
+  #user-personas2 {
+    margin-top: 0rem;
+  }
+
   .more-padding {
     padding: 0 5%;
   }
@@ -1544,6 +1557,13 @@ footer div h4 {
     max-width: 620px;
   }
 
+  .container-padding2 {
+    margin: 0 auto;
+    margin: 60px 10% 0 10%;
+    /* max-width: 940px; */
+    max-width: 620px;
+  }
+
   .container-padding-min {
     margin: 0 auto;
     margin: 3rem 10% 0 10%;
@@ -1587,6 +1607,7 @@ footer div h4 {
   }
   
   .list-black {
+    padding-top: .5rem;
     margin-left: 2rem;
     padding: .3rem;
     padding-left: 1rem;
@@ -1827,14 +1848,15 @@ h4.key-insights {
 
   .container-padding-min3 {
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 6rem;
     max-width: 620px;
     padding: 0 10%;
   }
 
   .persona-card {
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
+  
   
   .survey-padding2 {
     /* padding: 0 5%; */
@@ -2082,8 +2104,8 @@ h5.comp {
   .persona-copy2 {
     display: block;
     padding: 0%;
-    margin: 60px 10% 0 10%;
-    margin-top: 3rem;
+    margin: 60px 0% 2rem 0%;
+    margin-top: 0rem;
     /* margin-bottom: 3rem; */
     max-width: 620px;
     
@@ -2198,6 +2220,12 @@ h5.comp {
     max-width: 90%;
     margin: auto;
   }
+
+  .reg-list {
+    padding: .6rem 0 0 0rem;
+    max-width: 90%;
+    margin: auto;
+  }
   p.inline {
     display: inline-block;
     max-width: 220px;
@@ -2290,6 +2318,7 @@ h5.comp {
 
  @media screen and (min-width: 400px) {
   .list-white {
+    padding-top: .5rem;
     margin-left: 2rem;
     padding: .4rem;
     padding-left: 1rem;
@@ -2298,6 +2327,7 @@ h5.comp {
   }
   
   .list-black {
+    padding-top: .5rem;
     margin-left: 2rem;
     padding: .3rem;
     padding-left: 1rem;
@@ -2588,6 +2618,7 @@ h5.comp {
     font-size: 1.4rem;
   }
   .list-black {
+    padding-top: .5rem;
     margin-left: 2rem;
     padding: .3rem;
     padding-left: 1rem;
@@ -2639,6 +2670,7 @@ h5.comp {
     font-size: 1.6rem;
   }
   .list-black {
+    padding-top: .5rem;
     margin-left: 2rem;
     padding: .3rem;
     padding-left: 1rem;
@@ -2749,7 +2781,7 @@ h5.comp {
 
   .container-padding-min {
     margin: 0 auto;
-    margin-top: 0rem;
+    margin-top: 8rem;
     max-width: 620px;
   }
 
@@ -2764,7 +2796,7 @@ h5.comp {
   .container-padding-min3 {
     margin: 0 auto;
     margin-top: 0rem;
-    margin-bottom: 6rem;
+    /* margin-bottom: 6rem; */
     max-width: 620px;
     padding: 0;
   }
@@ -3050,6 +3082,10 @@ h5.comp {
 
 
 @media screen and (min-width:800px) {
+  #user-personas2 {
+    margin-top: 5rem;
+  }
+  
   .image-container {
   display:inline-block;width:100%;float:left;
   margin: 3rem 0;
@@ -3067,18 +3103,21 @@ h5.comp {
 
   .color-pref2 {
     display:inline-block;width:50%;float:left; padding: 0% 1% 1% 1%; box-sizing:border-box; cursor: zoom-in;
+    display:inline-block;width:50%;float:left; padding: 0% 2% 1% 1%; box-sizing:border-box; cursor: zoom-in;
   }
 
   .color-pref3 {
     display:inline-block;width:50%;float:left; padding: 0% 1% 1% 1%; box-sizing:border-box; cursor: zoom-in;
+    display:inline-block;width:50%;float:left; padding: 0% 1% 1% 2%; box-sizing:border-box; cursor: zoom-in;
   }
 
   .color-pref4 {
     display:inline-block;width:50%;float:left; padding: 2% 1% 1% 1%; box-sizing:border-box; cursor: zoom-in;
+    display:inline-block;width:50%;float:left; padding: 4% 2% 1% 1%; box-sizing:border-box; cursor: zoom-in;
   }
 
   .color-pref5 {
-    display:inline-block;width:50%;float:left; padding: 2% 1% 1% 1%; box-sizing:border-box; cursor: zoom-in;
+    display:inline-block;width:50%;float:left; padding: 4% 1% 1% 2%; box-sizing:border-box; cursor: zoom-in;
   }
 
   .color-pref6 {
@@ -3112,6 +3151,7 @@ h5.comp {
     font-size: 1.6rem;
   }
   .list-black {
+    padding-top: .5rem;
     margin-left: 2rem;
     padding: .3rem;
     padding-left: 1rem;
@@ -3469,9 +3509,9 @@ h5.comp {
   background-color: #ffffff;
 }
 
-/* .purple {
+.purple {
   color: #8F47EC;
-} */
+}
 
 
 
@@ -3676,7 +3716,7 @@ h5.comp {
   }
 
   .vis-des-des3 {
-    display: inline-block;
+    /* display: inline-block; */
     width: 57%;
     max-width: 60%;
     object-fit: cover;
@@ -3837,6 +3877,10 @@ h5.comp-name {
 
 .full-content {
   margin: 6rem 0 0 0;
+}
+
+.full-content2 {
+  margin: 0rem 0 0 0;
 }
 
 .insights-content {
@@ -4249,6 +4293,33 @@ footer {
   z-index: 1;
   display: inline;
 }
+
+.tooltip5 {
+  position: relative;
+  display: inline;
+  width: 100%;
+}
+
+.tooltip5 .tooltiptext5 {
+  visibility: hidden;
+  min-width: 300px; 
+  background-color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  border: 1px solid #dabaff; 
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  display: inline;
+  left: -100px;
+  height: 163px;
+}
+
+.tooltip5:hover .tooltiptext5 {
+  visibility: visible;
+}
+
 
 
 .tooltip-dotted {

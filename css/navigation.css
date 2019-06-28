@@ -455,7 +455,7 @@ a {
     color: #8F47EC;
     font-weight: 800;
 }
-@media only screen and (min-width: 790px) {
+@media only screen and (min-width: 810px) {
   
   .cd-secondary-nav {
     height: 40px;
