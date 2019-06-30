@@ -412,6 +412,8 @@ a {
   margin-top: -1rem;
 }
 
+
+
 @media screen and (max-width: 40rem)  {
 
   h1 {
@@ -617,11 +619,13 @@ a {
   text-align: left;
 }
 
+
+
 .gallery-caption2 {
   font-family: "Muli", sans-serif;
   font-size: 1.4rem;
-  font-style: italic;
-  font-weight: 800;
+  font-style: normal;
+  font-weight: 700;
   line-height: 140%;
   padding-bottom: 2.4rem;
   text-align: center;
@@ -630,8 +634,8 @@ a {
 .gallery-caption3 {
   font-family: "Muli", sans-serif;
   font-size: 1.4rem;
-  font-style: italic;
-  font-weight: 800;
+  font-style: normal;
+  font-weight: 700;
   line-height: 140%;
   text-align: left;
   margin-left: 5px;
@@ -1481,8 +1485,8 @@ footer div h4 {
   .gallery-caption4 {
     font-family: "Muli", sans-serif;
     font-size: 1.4rem;
-    font-style: italic;
-    font-weight: 800;
+    font-style: normal;
+    font-weight: 700;
     line-height: 140%;
     text-align: left;
     padding-top: 1rem;
@@ -2873,6 +2877,19 @@ h5.comp {
     margin-left: auto;
     margin-right: auto;
   }
+
+
+}
+
+
+@media screen and (min-width:640px) {
+.info-arch {
+  margin-top: 4rem;
+}
+
+.testing {
+  margin-top: -6rem;
+}
 }
 
 
@@ -3191,13 +3208,14 @@ h5.comp {
   }
 
   .newnew3 {
-    display:inline-block;width:50%;float:left; padding: 0% 2% 1% 1%; margin-top: 5%; box-sizing:border-box; 
+    display:inline-block;width:50%;float:left; padding: 6rem 2% 1% 1%; margin-top: 0rem; box-sizing:border-box; 
   }
-
 
   .newnew4 {
-    display:inline-block;width:50%;float:left; padding: 0% 1% 1% 2%; margin-top: 5%; box-sizing:border-box;
+    display:inline-block;width:50%;float:left; padding: 6rem 1% 1% 2%; margin-top: 0rem; box-sizing:border-box;
   }
+
+
 
   .overview-column-copy {
     padding: 15% 0;
@@ -3581,9 +3599,6 @@ h5.comp {
   background-color: #ffffff;
 }
 
-.purple {
-  color: #8F47EC;
-}
 
 
 
@@ -3955,6 +3970,12 @@ h5.comp-name {
   margin: 0rem 0 0 0;
 }
 
+.purple-bkgd {
+  margin: 0rem 0 0 0;
+  background-color: rgb(218, 222, 255);
+  background-color: rgb(236, 238, 253);
+}
+
 .insights-content {
   margin-top: 3.6rem;
   margin-bottom: 4rem;
@@ -4259,8 +4280,8 @@ color: #ffffff;
   .gallery-caption4 {
     font-family: "Muli", sans-serif;
     font-size: 1.4rem;
-    font-style: italic;
-    font-weight: 800;
+    font-style: normal;
+    font-weight: 700;
     line-height: 140%;
     text-align: left;
     padding-top: 1rem;
@@ -4285,8 +4306,8 @@ color: #ffffff;
   .gallery-caption4 {
     font-family: "Muli", sans-serif;
     font-size: 1.4rem;
-    font-style: italic;
-    font-weight: 800;
+    font-style: normal;
+    font-weight: 700;
     line-height: 140%;
     text-align: left;
     padding-top: 1rem;
@@ -4362,8 +4383,9 @@ footer {
 
   /* Position the tooltip */
   position: absolute;
-  z-index: 1;
+  z-index: 5;
   display: inline;
+  height: 193px;
 }
 
 .tooltip5 {
@@ -4440,6 +4462,70 @@ footer {
 }
 
 
+/* .magnifierWrap {
+	width: 800px; 
+	margin: 50px auto; 
+	position: relative;
+}
+.magnifier {
+	width: 175px; 
+	height: 175px;
+	position: absolute;
+	border-radius: 100%;
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 
+	0 0 7px 7px rgba(0, 0, 0, 0.25), 
+	inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	background: url('https://images-na.ssl-images-amazon.com/images/I/71BTkiEfuxL._SL1200_.jpg') no-repeat;
+	display: none;
+} */
+
+
+/* .magnifierWrap {
+	width: 400px; 
+	margin: 50px auto; 
+	position: relative;
+}
+.magnifier {
+	width: 175px; 
+	height: 175px;
+	position: absolute;
+	border-radius: 100%;
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 
+	0 0 7px 7px rgba(0, 0, 0, 0.25), 
+	inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	background: url('./images/spaceKit/sections/final-product/final-screens-big.png') no-repeat;
+	display: none;
+} */
+
+
+
+
+.magnifierWrap {
+	width: 300px; 
+	margin: 50px auto; 
+	position: relative;
+}
+.magnifier {
+	width: 175px; 
+	height: 175px;
+	position: absolute;
+	border-radius: 100%;
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 
+	0 0 7px 7px rgba(0, 0, 0, 0.25), 
+	inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  background: url('https://raw.githubusercontent.com/JaeRoberts/jaeroberts.github.io/master/images/ark-case-study/branding-work/mindmapping.jpg') no-repeat;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 0px) {
   .tooltip-mobile {
@@ -4475,7 +4561,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 5.5px;
-  z-index: 1;
+  z-index: 10;
 }
 
 
