@@ -22,8 +22,8 @@ jQuery(document).ready(function($){
 				$(".magnifier").fadeOut(100);
 			}
 			if($(".magnifier").is(":visible")){
-				var smallImgX = Math.round(mouseX/$(".smallImg").width()*nativeWidth - $(".magnifier").width()/2)*-1;
-				var smallImgY = Math.round(mouseY/$(".smallImg").height()*nativeHeight - $(".magnifier").height()/2)*-1;
+				var smallImgX = Math.round(mouseX/$(".smallImg").width()*nativeWidth - $(".magnifier").width()/2)*-2;
+				var smallImgY = Math.round(mouseY/$(".smallImg").height()*nativeHeight - $(".magnifier").height()/2)*-2;
 				var bgp = smallImgX + "px " + smallImgY + "px";
 				
 				var largeImgX = mouseX - $(".magnifier").width()/2;
