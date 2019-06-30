@@ -15,6 +15,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/components/favicon-32x32.png">
   <script async custom-element="amp-image-slider" src="https://cdn.ampproject.org/v0/amp-image-slider-0.1.js"></script>
   <link rel="canonical" href="https://amp.dev/documentation/examples/components/amp-image-slider/index.html">
+  <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <link rel="canonical" href="https://amp.dev/documentation/examples/components/amp-image-lightbox/index.html">
+
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
  
 </head>
@@ -527,8 +531,7 @@
                     
                     <!-- <div class="persona6-img"></div> -->
 
-                    <div class="carousel">
-                        <div style="display:table; width:100%; margin:0px auto; max-width:380px;">
+                    <div class="carousel-main"> <div style="display:table; width:100%; margin:0px auto; max-width:380px;">
                         <amp-carousel width="300" height="300" layout="responsive" type="slides">
                           <amp-img src="https://wwwmpa.mpa-garching.mpg.de/galform/cr/CR_TCDM_dump40_400_170000_12000_100_blue.gif" width="400" height="300" layout="responsive" alt="a sample image"></amp-img>
                           <amp-img src="https://wwwmpa.mpa-garching.mpg.de/galform/cr/CR_TCDM_dump30_400_170000_12000_100_red.gif" width="400" height="300" layout="responsive" alt="another sample image"></amp-img>
@@ -793,7 +796,7 @@
             <p>
               After conducting the user surveys, user interviews, and completing the competitive analysis, I then shifted my focus to creating user flows. They primarily focused on general cloud storage tasks since more advanged tasks were later in the usability stage of the design process. The data from my preceding work helped set priorities for what main features of the product should contain. User stories were converted into user flows to illustrate how the user would interact with the product and accomplish those goals.</p>
         </div>
-        <img class="user-flow" src="./images/spaceKit/sections/user-flow/user-flow.png" alt="zoomed in image of a user flow">
+        <!-- <img class="user-flow" src="./images/spaceKit/sections/user-flow/user-flow.png" alt="zoomed in image of a user flow"> -->
         <br>
         <!-- <p class="pink"><u>View user flows</u>  |  <u>View user stories</u></p> -->
         <div class="button-container4">
@@ -832,7 +835,7 @@
                 <img class="user-flow-2" src="./images/spaceKit/sections/lo-fi/lo-fi-wireframes-sketch.png" alt="Early WIP sketch of dashboard wireframe of the dashboard">
                 <p class="gallery-caption2">Early WIP sketch of dashboard wireframe of the dashboard</p>
               </div>
-
+              <div class="three-rem"></div>
               <div class="gallery">
                 <div class="gallery-column1"><img class="box-shadow" id="Wireframe-1" src="./images/spaceKit/sections/lo-fi/lo-fi-wireframes-1.png" alt="wireframe step 1">
                   <p class="gallery-caption">Initial fidelity wireframes of the dashboard</p>
@@ -976,13 +979,13 @@
           <article class="testing">
             <a id="testing"></a>
             <div class="container-padding-min">
-              <div>
+              <!-- <div>
                 <h2 class="content-label">Testing</h2>
                 <h6 class="mini-label">WIREFRAMES & PROTOTYPES</h6>
                 <h3 class="main-header">The devil in the details</h3>
                 <p>
                   After incorporating the highest priority user flows into my initial wireframes, I began testing to gather feedback early in my design flow. The feedback received revolved around provide more flexibility around the dashboard display, and making the top-right section of the navigation bar less busy.</p>
-              </div>
+              </div> -->
             </div>
 
             <!-- <div class="container-padding">
@@ -1026,6 +1029,7 @@
             <a class="user-flows"></a>
             <div class="container-padding">
               <div>
+                  <h2 class="content-label">Testing</h2>
                 <h6 class="mini-label">PROTOTYPES</h6>
                 <h3 class="main-header">Usability testing</h3>
                 <p>
@@ -1087,7 +1091,7 @@
 
                 <div class="image-460px">
                   <img class="" src="./images/spaceKit/sections/testing/featured-banner-a.png" alt="After: sort button drew users into a key function">
-                  <p class="gallery-caption3">After: sort button drew users into a key function</p>
+                  <p class="gallery-caption3">Before: Right-clicking to edit folder image</p>
                 </div>
 
                 <p>
@@ -1163,12 +1167,12 @@
 
               <div class="container-padding-min">
                 <p>
-                  <strong>Adding color as an option:</strong> Some users like to organize their physical files and notes by color, therefore, in order to allow them transfer that same behavior to their online workspace, this simple feature was added.
+                  <strong>
+                    Adding color as an option:</strong> Some users like to organize their physical files and notes by color, therefore, in order to allow them transfer that same behavior to their online workspace, this simple feature was added.
                 </p><br>
-              </div>
-              <div class="container-padding-min2">
                   <p>
-                    <strong>Clarifying upgrade CTA:</strong> Additionally, users felt that the upgrade button in the dropdown menu was confusing. Because they were uncertain about what the word upgrade was in reference to, I updated the dropdown menu to clarify upgrading was in reference to storage space.
+                    <strong>Clarifying upgrade CTA:</strong> 
+                    Additionally, users felt that the upgrade button in the dropdown menu was confusing. Because they were uncertain about what the word upgrade was in reference to, I updated the dropdown menu to clarify upgrading was in reference to storage space.
                   </p>
               </div>
             </div>
@@ -1186,7 +1190,7 @@
                         <h4 class="key-insights"><img class="idea" src="./images/components/idea.png" alt="idea icon">Key insights</h4>
                       </div>
                       <p>
-                        <strong>Biggest takeaway?</strong> Sweat the details. I was 'eh' about my design even though the reactions to it was positive from the poll of designers, developers and x I had test it. But I thought it could be taken a step further so I went back and polished my work.</p>
+                        <strong>Biggest takeaway?</strong> Sweat the details. I was 'eh' about my design even though the reactions to it was positive from the poll of designers, developers and x I had test it. But I thought it could be taken fa step further so I went back and polished my work.</p>
                       </div>
                     </div>
                   <div class="line"></div>
@@ -1394,10 +1398,18 @@
 
                     <div class="container-padding">
                       <!-- <div class="container-padding"> -->
-                          <h4 class="key-insights">Save to the right place from go</h4>
-                          <p>
-                            Users mentioned wanting their cloud storage app to take more of the reins in terms of organization. While adding a tab to control the display that did not actually tackle to core issue of making sure files are stored where they’re supposed to be. In order to make that a part of the user’s flow with the app, </p>
+                          <h4 class="key-insights">Save to the right place from  the start</h4>
+
+                                <p>spaceKit probes users about where they want the folder, file or link to be saved to if they try to drag and drop a file or try to upload any piece of content while on the main dashboard. By incorcorpating that step, <strong>users would save make their make their own lives easier</strong> by content to the right location from the start.  </p>
                     </div>
+                    
+                    <!-- <div class="container-padding-min2"> -->
+                      <!-- <p>
+                        <strong>Unlike Google drive and Dropbox</strong> that allow users to upload files the the main dashboard where they can become unorganize and lost, I added a step to the flow for creating or upload files. </p><br>
+                        
+                        <p>spaceKit probes users about where they want the folder, file or link to be saved to if they try to drag and drop a file or try to upload any piece of content while on the main dashboard. By incorcorpating that step, <strong>users would save make their make their own lives easier</strong> by content to the right location from the start.  </p> -->
+                    <!-- </div> -->
+                    <!-- </div> -->
 
                     <div class="container-8">
                         <div class="single-img-container">
@@ -1410,13 +1422,7 @@
                         </div>
                       </div>
                       
-                    <div class="container-padding-min2">
-                      <p>
-                        <strong>Unlike Google drive and Dropbox</strong> that allow users to upload files the the main dashboard where they can become unorganize and lost, I added a step to the flow for creating or upload files. </p><br>
-                        
-                        <p>spaceKit probes users about where they want the folder, file or link to be saved to if they try to drag and drop a file or try to upload any piece of content while on the main dashboard. By incorcorpating that step, <strong>users would save make their make their own lives easier</strong> by content to the right location from the start.  </p>
-                    <!-- </div> -->
-                    </div>
+                    
 
                  </div>
               </article>
@@ -1497,7 +1503,9 @@
                 <div class="container-12">
                   <article id="final-demo">
                     <div class="tooltip-mobile">
+                      
                       <div class="container-padding-min3">
+                          <!-- <div class="three-rem"></div> -->
                           <h4 class="key-insights">Additional screens</h4>
                           <p class="inline-para">
                               After creating over <strong>118 screens</strong> (and redesigning 80 of them), <strong> 3 rounds</strong> of usability tests, and <strong>2</strong> clickable prototypes, I'd finally reached 
@@ -1509,10 +1517,10 @@
                               <img src="https://media1.tenor.com/images/80e0f6443fededd30444e5a283910a69/tenor.gif" alt="Guy sprinkling salt">
                             </span>
                         </div>
-                          <!-- <div class="three-rem"></div> -->
+                         
                           <div class="button-container4">
-                              <a class="button-style-4" href="https://projects.invisionapp.com/d/main?origin=v7#/projects/prototypes/17141055" target="_blank">initial prototype</a>
-                              <a class="button-style-2" href="https://projects.invisionapp.com/d/main?origin=v7#/projects/prototypes/17141055">final prototype</a>
+                              <a class="button-style-4" href="https://projects.invisionapp.com/d/main?origin=v7#/projects/prototypes/17141055" target="_blank">final prototype</a>
+                              <a class="button-style-2" href="https://projects.invisionapp.com/d/main?origin=v7#/projects/prototypes/17141055" target="_blank">initial prototype</a>
                             </div>
 
                           <!-- </div> -->
@@ -1535,8 +1543,8 @@
                             </div>
                             
                             <div class="button-container4">
-                              <a class="button-style-4" href="https://projects.invisionapp.com/d/main?origin=v7#/projects/prototypes/17141055" target="_blank">initial prototype</a>
-                              <a class="button-style-2" href="#discovery">final prototype</a>
+                              <a class="button-style-4" href="https://projects.invisionapp.com/d/main?origin=v7#/projects/prototypes/17141055" target="_blank">final prototype</a>
+                              <a class="button-style-2" href="#discovery">initial prototype</a>
                             </div>
 
                               <!-- <div class="three-rem"></div> -->
@@ -1556,11 +1564,77 @@
             </section>
 
 
-            <section class="wht-bkgd">
+
+   
+            <div style="display:table; width:100%; margin:0px auto; max-width:940px;">
+                <div style="display:inline-block;width:49%;float:left;padding-left:2%; box-sizing:border-box;" >
+                      <amp-img class="box-shadow"lightbox src="./images/spaceKit/sections/final-product/empty-state.png" width="400" height="300" layout="responsive"></amp-img>
+                      <!-- <p class="gallery-caption4">Adding a new card to the dashboard</p> -->
+                </div>
+                <div style="display:inline-block;width:49%;float:right; margin-right: 2%; padding-right:2%">
+                    <div  style="display:inline-block;width:45%;float:left;  margin-left: 5%; box-sizing:border-box; ">
+                  <amp-img class="box-shadow"lightbox src="./images/spaceKit/sections/final-product/sign-out.png" width="400" height="300" layout="responsive"></amp-img>
+                  <!-- <p class="gallery-caption4">Navigating to the tags section</p> -->
+                  </div>
+
+                  <div style="display:inline-block;width:45%;float:left; padding:0%; margin-left: 5%; box-sizing:border-box;">
+                  <amp-img class="box-shadow" lightbox src="./images/spaceKit/sections/final-product/upload-folder.png" width="400" height="300" layout="responsive"></amp-img>
+                  <!-- <p class="gallery-caption4">Navigating to the tags section</p> -->
+                  </div>
+                  <div style="display:inline-block;width:45%;float:left; padding:0%; margin:6% 0 0 5%; box-sizing:border-box;">
+                  <amp-img class="box-shadow" lightbox src="./images/spaceKit/sections/final-product/dashboard-hierachy.png" width="400" height="300" layout="responsive"></amp-img>
+                  <!-- <p class="gallery-caption4">Navigating to the tags section</p> -->
+                  </div>
+                  <div style="display:inline-block;width:45%;float:left; padding:0%; margin:6% 0 0 5%; box-sizing:border-box;">
+                  <amp-img class="box-shadow"lightbox src="./images/spaceKit/sections/final-product/everything.png" width="400" height="300" layout="responsive"></amp-img>
+                  <!-- <p class="gallery-caption4">Navigating to the tags section</p> -->
+                  </div>
+             <!--================== IF MORE THAN 4 IMAGES hidden class will be added ===========================-->
+                                     
+                                     <div class="col-sm-6 clearfix hidden">
+                                          <amp-img lightbox src="https://www.ampproject.org/static/img/background.jpg" width="1024" height="768" layout="intrinsic"></amp-img>
+                                     </div>
+                                     <div class="col-sm-6 clearfix hidden">
+                                          <amp-img lightbox src="https://ampbyexample.com/img/image3.jpg" width="1024" height="768" layout="intrinsic"></amp-img>
+                                     </div>      
+                </div>
+              </div>
+
+
+
+
+
+
+<!-- 
+            <amp-carousel height="300" layout="fixed-height" type="carousel" style="max-width:780px; margin:auto">
+                        
+                        
+                <amp-img src="./images/spaceKit/sections/final-product/sign-out.png" width="400" height="300" alt="a sample image"></amp-img>
+                  <amp-img src="./images/spaceKit/sections/final-product/sign-out.png" width="400" height="300" alt="another sample image"></amp-img>
+
+
+                      <amp-img on="tap:lightbox1"
+                               role="button"
+                               tabindex="0"
+                               aria-describedby="imageDescription"
+                               alt="Picture of a dog"
+                               title="Picture of a dog, view in lightbox"
+                               src="https://playground.amp.dev/static/samples/img/Border_Collie.jpg"
+                               width="400" height="300"></amp-img>
+
+                  <amp-img src="./images/spaceKit/sections/final-product/sign-out.png" width="400" height="300" alt="and another sample image"></amp-img>
+                  <amp-img src="https://playground.amp.dev/static/samples/img/image1.jpg" width="400" height="300" alt="a sample image"></amp-img>
+                  <amp-img src="https://playground.amp.dev/static/samples/img/image2.jpg" width="400" height="300" alt="another sample image"></amp-img>
+                  <amp-img src="https://playground.amp.dev/static/samples/img/image3.jpg" width="400" height="300" alt="and another sample image"></amp-img>
+                </amp-carousel> -->
+
+<!-- 
+           <section class="wht-bkgd">
                 <article class="user-research">
                   <div class="full-content2">
-                    <div style="display:table; width:100%; margin:0px auto; max-width:940px;">
-      
+  <div style="display:table; width:100%; margin:0px auto; max-width:940px;">
+ 
+
                       <div style="display:inline-block;width:100%;float:left;">
                             <div class="hideme">
                               <div class="newnew1">
@@ -1572,8 +1646,6 @@
                                       </amp-video>
                                 
                                       <div id="myOverlay" class="click-to-play-overlay">
-                                
-                                        <!-- <h3 class="video-title">Title of the video</h3> -->
                                 
                                         <div class="play-icon"
                                              role="button" tabindex="0"
@@ -1598,7 +1670,7 @@
                                   
                                         <div id="myOverlay" class="click-to-play-overlay">
                                   
-                                          <!-- <h3 class="video-title">Title of the video</h3> -->
+                                         
                                   
                                           <div class="play-icon"
                                                role="button" tabindex="0"
@@ -1628,8 +1700,6 @@
                                 
                                       <div id="myOverlay1" class="click-to-play-overlay">
                                 
-                                        <!-- <h3 class="video-title">Title of the video</h3> -->
-                                
                                         <div class="play-icon"
                                              role="button" tabindex="0"
                                              on="tap:myOverlay1.hide, myVideo1.play"></div>
@@ -1650,8 +1720,6 @@
                                         
                                   
                                         <div id="myOverlay2" class="click-to-play-overlay">
-                                  
-                                          <!-- <h3 class="video-title">Title of the video</h3> -->
                                   
                                           <div class="play-icon"
                                                role="button" tabindex="0"
@@ -1680,9 +1748,6 @@
                                       </amp-video>
                                 
                                       <div id="myOverlay3" class="click-to-play-overlay">
-                                
-                                        <!-- <h3 class="video-title">Title of the video</h3> -->
-                                
                                         <div class="play-icon"
                                              role="button" tabindex="0"
                                              on="tap:myOverlay3.hide, myVideo3.play"></div>
@@ -1707,8 +1772,6 @@
                                         
                                   
                                         <div id="myOverlay3" class="click-to-play-overlay">
-                                  
-                                          <!-- <h3 class="video-title">Title of the video</h3> -->
                                   
                                           <div class="play-icon"
                                                role="button" tabindex="0"
@@ -1738,8 +1801,6 @@
                                 
                                       <div id="myOverlay4" class="click-to-play-overlay">
                                 
-                                        <!-- <h3 class="video-title">Title of the video</h3> -->
-                                
                                         <div class="play-icon"
                                              role="button" tabindex="0"
                                              on="tap:myOverlay4.hide, myVideo4.play"></div>
@@ -1760,8 +1821,6 @@
                                         
                                   
                                         <div id="myOverlay2" class="click-to-play-overlay">
-                                  
-                                          <!-- <h3 class="video-title">Title of the video</h3> -->
                                   
                                           <div class="play-icon"
                                                role="button" tabindex="0"
@@ -1788,14 +1847,7 @@
       
       
       
-      
-      
-                        <!-- <div class="color-pref6">
-                          <amp-img lightbox src="./images/spaceKit/sections/final-product/empty-state.png" class="box-shadow3" width="300"  height="200" layout="responsive"></amp-img>
-                        </div> -->
-                        <!-- <div class="color-pref7">
-                          <amp-img lightbox src="./images/spaceKit/sections/final-product/sign-out.png" class="box-shadow3" width="300"  height="200" layout="responsive"></amp-img>
-                        </div> -->
+                        
                       </div>
       
       
@@ -1805,7 +1857,7 @@
                   </div>
       
                 </article>
-            </section> 
+            </section>   -->
 
 
 
@@ -1897,7 +1949,7 @@
                           <div class="padding-1rem"></div>
                             
                           <p class="inline-para">
-                              Okay, <em>so that</em>
+                              Okay, so that probably
                           </p>
                           
                           <div class="tooltip5"><strong><span class="tooltip-dotted"> got your attention</span></strong>. 
@@ -1906,28 +1958,25 @@
                               <!-- <label class="gif-center">"Guy sprinkling salt"</label> -->
                             </span>
                           </div>
-                          <p class="inline-para">But it can't be understate the importance of having a clear idea. I started this project without a clear vision of what I was solving for. It look took a user asking me..so what are you solving for and me being like...uh?It looks better...? If you're not solving for a problem, it's important to rethink why you're design something.</p>
+                          <p class="inline-para">Don't mean to be dramatic, but the importance of having a clear idea cannot be overstated. I started this project without a clear vision of what I was solving for. It look took a user asking me..so what are you solving for and me being like...uh?It looks better...? If you're not solving for a problem, it's important to rethink why you're design something.</p>
                       
                           <br><br>
 
 
                         <p>
                           <strong>Lesson #2:  </strong>
-                          <strong><em> Feature creep is real.</em></strong><br>
+                          <strong><em> Feature creep is real.</em></strong><br></p>
                           <div class="padding-1rem"></div>
+                          <p>
                             Listen to feedback early on and try to come up with a resolution then. When it came to the navigation bar, I didn’t make changes to it’s overall design early on. That was a silly decision on my part because the next round of usability tests.</p>
                           <br>
+                      
                         <p>
-                          <strong>Lesson #3:  </strong>
-                          <strong><em> Your first idea is not your best idea.</em></strong><br>
+                          <strong> Lesson #3:  </strong>
+                          <strong><em> Have a key differentiator</em></strong><br></p>
                           <div class="padding-1rem"></div>
-                            Iterations are inevitable. Step your game up if you can make got the time:Now I know that the more testing you do, the better the product you design will be. It’s alright to love an idea, but you have to be willing to part with it if it just ain’t working!</p>
-                            <br>
-                        <p>
-                          <strong> Lesson #4:  </strong>
-                          <strong><em> Have a key differentiator</em></strong><br>
-                          <div class="padding-1rem"></div>
-                            This one is a a bit like entrepreunership 101. Ties in strongly with lesson 2. My differentiator came to me in the testing stage which x. But I plunged forward since someyimes you don't have the time to coe up with a grand idea and if you do, you'll next start.
+                          <p>
+                            This one is a a bit like entrepreunership 101. Ties in strongly with lesson 2. My differentiator came to me in the testing stage which x. But I plunged forward since sometimes you don't have the time to coe up with a grand idea and if you do, you'll next start.
                         </p>
                       </div>
 
