@@ -1155,6 +1155,10 @@ nav ul li:hover::before {
   display: block;
 }
 
+
+.container-padding-min2 {
+  
+}
 .persona1-img {
   background-image: url("../images/spaceKit/sections/personas/quandra.png");
   background-position: bottom;
