@@ -1148,6 +1148,13 @@ nav ul li:hover::before {
   -moz-box-shadow: 0px 0px 5px 0px rgba(142,76,242,0.2);
 }
 
+.container-padding-4 {
+  margin: 0 auto;
+  margin-top: 70px;
+  max-width: 620px;
+  display: block;
+}
+
 .persona1-img {
   background-image: url("../images/spaceKit/sections/personas/quandra.png");
   background-position: bottom;
