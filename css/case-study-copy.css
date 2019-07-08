@@ -216,10 +216,10 @@ header {
   background-color: #F2F2F2;
 }
 
-img {
+/* img {
   height: auto;
   max-width: 100%;
-}
+} */
 
 .single-img {
   padding-top: 2.4rem;
@@ -1961,8 +1961,8 @@ h4.key-insights {
 
   .container-padding-min2 {
     margin: 0 auto;
-    margin-top: 3rem;
-    max-width: 100%;
+    margin-top: 2rem;
+    max-width: 620px;
     padding: 0 10%;
   }
 
@@ -2327,7 +2327,8 @@ h5.comp {
   .info-arch2 {
     margin-top: 8rem;
   }
-  
+
+
 
   .container-10 {
     margin: 0 auto;
@@ -2929,7 +2930,7 @@ h5.comp {
 
   .container-padding-min2 {
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 8rem;
     max-width: 620px;
     padding: 0;

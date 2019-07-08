@@ -1,0 +1,518 @@
+.hero {
+  background-image: url('./images/homepage/hero/bkgd.png');
+  background-color: #865FF4;
+  width: 100%;
+  height: 100vh;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.logo-smogo {
+  height:auto;
+  max-width: 100px
+}
+
+.content {
+  width: 1440px;
+  /* height: 550px; */
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.layer__space img {
+  position: absolute;
+  top: -45px;
+  left: -200px;
+}
+
+
+
+.layer__earth_5 img
+{
+  position: absolute;
+  -webkit-animation: stretch;
+          animation: stretch;
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.layer__space img {
+  position: absolute;
+  top: -45px;
+  left: -100px;
+}
+
+.layer__sun img {
+  position: absolute;
+  -webkit-animation: spin;
+          animation: spin;
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+.layer__earth_1 img {
+  position: absolute;
+  -webkit-animation: spin;
+          animation: spin;
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+.layer__earth_2 img {
+  position: absolute;
+  -webkit-animation: spin3;
+          animation: spin3;
+  -webkit-animation-duration: 250s;
+          animation-duration: 250s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+.layer__earth_3 img {
+  position: absolute;
+  -webkit-animation: spin;
+          animation: spin;
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+
+.layer__earth_4 img {
+  position: absolute;
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear; 
+}
+
+
+
+.layer__earth_7 img {
+  position: absolute;
+  -webkit-animation: spin;
+          animation: spin;
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+          animation-timing-function: ease-out; 
+            animation-delay: 0;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-fill-mode: none;
+            animation-play-state: running;
+}
+
+
+.layer__earth_8 img, .layer__earth_13 img  {
+            position: absolute;
+            animation-name: bounce2;
+            animation-duration: 10s; 
+            animation-timing-function: ease-out; 
+            animation-delay: 0;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-fill-mode: none;
+            animation-play-state: running;
+}
+
+.hero {
+            /* position: absolute; */
+            /* animation-name: bounce; */
+            animation-duration: 60s; 
+            animation-timing-function: ease-out; 
+            animation-delay: 0;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-fill-mode: none;
+            animation-play-state: running;
+}
+
+.layer__earth_8 img {
+  top: 80px;
+  left: -140px;
+}
+
+
+.layer__earth_9 img {
+  top: 350px;
+  left: 30vw;
+}
+
+.layer__earth_9 img {
+  position: absolute;
+  -webkit-animation: stretch;
+          animation: stretch;
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+          animation-timing-function: ease-out; 
+            animation-delay: 0;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-fill-mode: none;
+            animation-play-state: running;
+}
+
+
+.layer__earth_10 img {
+  /* animation: pulse 5s ease-out infinite; */
+            animation-delay: 0;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-fill-mode: none;
+            animation-play-state: running;
+
+            animation-timing-function: ease-out; 
+}
+
+
+.layer__earth_12 img
+{
+  position: absolute;
+  -webkit-animation: spin2;
+          animation: spin2;
+  -webkit-animation-duration: 160s;
+          animation-duration: 160s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.hero {
+  /* position: absolute; */
+  /* -webkit-animation: bounce; */
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+
+
+.layer__earth_10 img {
+  -webkit-animation: bounce;
+            animation-delay: 0;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-fill-mode: none;
+            animation-play-state: running;
+}
+
+
+
+
+.layer__sun img {
+  top: 75px;
+  left: 52px;
+}
+.layer__earth_1 img {
+  top: 318px;
+  left: 100vw;
+}
+.layer__earth_2 img {
+  margin-top: -290px;
+  left: -250px;
+}
+.layer__earth_3 img {
+  top: 85vh;
+  left: -60px;
+}
+.layer__earth_4 img {
+  margin-top: -230px;
+  margin-left: 850px;
+}
+.layer__earth_5 img {
+  top: 100px;
+  left: 1000px;
+}
+
+.layer__earth_6 {
+  /* top: 127px; */
+  /* left: 939px; */
+  z-index:5;
+  margin:auto;
+}
+
+
+
+.layer__earth_7 img {
+  top: 75vh;
+  margin-left: -20px;
+}
+
+
+.layer__earth_11 {
+  margin-top: -150px;
+  margin-left: -100px;
+}
+
+.layer__earth_12 img {
+  top: 80vh;
+  left: 20vw;
+}
+
+
+.layer__earth_13 {
+  top: 600px;
+  left: 1056px;
+}
+
+.layer__earth_14 {
+  top: 500px;
+  left: 900px;
+}
+
+.layer__earth_15 {
+  top: 300px;
+  left: 700px; 
+}
+
+
+
+/* .layer__earth_10 img {
+  top: 100px;
+  left: 0px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes bounce2 {
+  0%{
+    transform: translate3d(0, 0, 0);
+
+    
+  }
+  100%{
+    transform: translate3d(50px, 0px, 0px);
+    
+  }
+}
+
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes spin3 {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+@-webkit-keyframes bounce {
+  0%{
+    transform: translate3d(0, 0, 0);
+
+    
+  }
+  100%{
+    transform: translate3d(0px, 250px, 50px);
+    
+  }
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.8);
+    border-radius: 100%;
+  }
+  100% {
+    transform: scale(1.1);
+}
+}
+
+
+@keyframes stretch2 {
+  0% {
+    transform: scale(1);
+    border-radius: 100%;
+  }
+  100% {
+    transform: scale(1.2);
+}
+}
+
+.layer__earth_11 img {
+
+  position: absolute;
+  -webkit-animation: stretch2;
+          animation: stretch2;
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+          animation-timing-function: ease-out; 
+            animation-delay: 0;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-fill-mode: none;
+            animation-play-state: running;
+
+          
+  top: 100px;
+  left: 40px;
+  /* width: 200%; */
+  overflow: hidden;
+  margin-top: -250px;
+  margin-left: -300px;
+
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(.8);
+    border-radius: 100%;
+  }
+  100% {
+    transform: scale(1.1);
+  }
+
+}
+
+
+@keyframes slidein {
+  /* from {
+    margin-left:100%;
+    width:300%
+  }
+  
+  to {
+    margin-left:0%;
+    width:100%;
+  } */
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+  .layer__earth_3, .layer__earth_4, .layer__earth_12 {
+    display: none;
+  }
+}

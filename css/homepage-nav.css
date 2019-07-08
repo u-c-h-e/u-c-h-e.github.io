@@ -219,7 +219,8 @@ h2 {
   font-family: 'Muli', sans-serif;
   font-weight: 800;
   line-height: 1.15;
-  color: rgb(214, 214, 214);
+  /* color: rgb(214, 214, 214); */
+  color: #8186a7;
   text-align: center;
 }
 
@@ -655,10 +656,11 @@ section#contact div.return-top {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    min-height: 800px;
+    min-height: 700px;
     background-position: center;
     background-size: cover;
     height: 100vh;
+    height: 700px;
     width: 100%;
   }
 
@@ -709,7 +711,7 @@ section#contact div.return-top {
     /* float: right; */
   }
 .hero-copy-container {
-    padding-top: 27vh;
+    /* padding-top: 27vh; */
   }
 }
 
@@ -717,6 +719,9 @@ section#contact div.return-top {
 
 
 @media only screen and (min-width: 700px) {
+  .hero-copy-container {
+    padding-top: 27vh;
+  }
 
   .button-style-4 {
     display: block;
@@ -1021,9 +1026,6 @@ section#contact div.return-top {
 }
 }
 
-
-
-
 #persona3-card-top {
   box-shadow: none;
   float: left;
@@ -1033,6 +1035,8 @@ section#contact div.return-top {
 .mini-label-left {
   text-align: left;
   color: rgb(170, 168, 170);
+  color: #767476;
+  padding-bottom: 1rem;
 }
 
 h4.persona-header2 {
@@ -1087,8 +1091,63 @@ footer {
 
 
 
+@media only screen and (min-width: 1420px) {
+  .white {
+    font-size: 1.4rem;
+    font-weight: 800; 
+  }
 
-@media only screen and (min-width: 1440px) {
+  .button-container-2 {
+    background-color: #8F47EC;
+    padding: 1.4rem;
+}
+  .contact-me {
+    background-image: url("../images/homepage/work/contact/contact-background.png");
+    color: #4a4a4a;
+    padding: 5rem 0;
+    height: 690px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .case-study-image {
+    float: left;
+  }
+
+  .hero-copy-container {
+    /* padding-top: 50%; */
+    padding-top: 28vh;
+    /* transform: translateY(50%); */
+  }
+
+  .hero-copy-container2 {
+    /* padding-top: 50%; */
+    padding-top: 13vh;
+    /* transform: translateY(50%); */
+  }
+
+
+
+  .intro-desktop {
+    /* padding: 0 5% ; */
+    display: block;
+    margin: auto;
+
+  }
+  .intro-mobile {
+    /* padding: 0 5% ; */
+    display: none;
+  }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1480px) {
   .white {
     font-size: 1.4rem;
     font-weight: 800; 
