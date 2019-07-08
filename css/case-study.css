@@ -652,8 +652,8 @@ a {
 .gallery-caption {
   font-family: "Muli", sans-serif;
   font-size: 1.4rem;
-  font-style: italic;
-  font-weight: 800;
+  font-style: normal;
+  font-weight: 700;
   line-height: 140%;
   /* margin-top: 1rem; */
   padding-bottom: 2.4rem;
@@ -1222,7 +1222,7 @@ nav ul li:hover::before {
 }
 
 .persona3-img {
-  background-image: url("../images/spaceKit/sections/vis-des/vis-des-logo.png");
+  /* background-image: url("./images/spaceKit/sections/vis-des/vis-des-logo.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -1397,7 +1397,7 @@ nav ul li:hover::before {
   }
 
   .persona3-img {
-    background-image: url("../images/spaceKit/sections/vis-des/vis-des-logo.png");
+    /* background-image: url("../images/spaceKit/sections/vis-des/vis-des-logo.png"); */
     background-size: cover;
   }
 

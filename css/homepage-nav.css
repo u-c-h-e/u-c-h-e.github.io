@@ -128,7 +128,7 @@ li:nth-child(1) {
     background-color: #ffffff;
 }
 .hero {
-  background-image: url("../images/homepage/hero/hero-bkgd.png");
+  /* background-image: url("../images/homepage/hero/hero-bkgd.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -504,7 +504,7 @@ section#contact div.return-top {
   display: block;
 }
   .hero {
-    background-image: url("../images/homepage/hero/hero-bkgd2.png");
+    /* background-image: url("../images/homepage/hero/hero-bkgd2.png"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -652,7 +652,7 @@ section#contact div.return-top {
     display: none;
   }
   .hero {
-    background-image: url("../images/homepage/hero/hero-bkgd.png");
+    /* background-image: url("../images/homepage/hero/hero-bkgd.png"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -881,7 +881,7 @@ section#contact div.return-top {
     }
 
     .hero {
-      background-image: url("../images/homepage/hero/hero-bkgd.png");
+      /* background-image: url("../images/homepage/hero/hero-bkgd.png"); */
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
