@@ -3564,7 +3564,7 @@ h5.comp {
     position: relative;
   }
   .magnifier {
-    margin-left: -40px;
+    margin-left: -300px;
     width: 275px; 
     height: 275px;
     position: absolute;
