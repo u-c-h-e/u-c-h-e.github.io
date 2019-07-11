@@ -4578,7 +4578,8 @@ footer {
   display: inline;
   margin-left: 400px;
   max-height: 193px;
-  /* margin: auto; */
+  margin-left: -108px;
+  margin-top: 30px;
 }
 
 .tooltip-dotted {
