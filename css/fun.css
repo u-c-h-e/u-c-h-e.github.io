@@ -1,24 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
-/* 
-body 
-{
-  margin:0;
-  padding:0;
-  font-family: 'Ubuntu', sans-serif;
-  background:#03396c;
+
+
+.i-amphtml-layout-size-defined .i-amphtml-fill-content {
+  margin-bottom: 2rem;
 }
-  img
-{
-  width:100%;
-  height:100%;
-} */
-
-.portfolio2 {
-    /* padding: 4rem 0 0 0; */
-    
-}
-
-
 
 
 .the-img {
@@ -33,6 +17,10 @@ body
     width: 100%;
     display: inline-block;
     
+}
+
+body {
+  box-shadow: none;
 }
 .containerg
 {
@@ -49,6 +37,12 @@ body
   /* background:#fff; */
   overflow:hidden;
   break-inside:avoid;
+}
+.columns {
+  margin: auto;
+  display: block;
+  max-width: 1440px;
+  margin-left: 5%
 }
 
 .containerg .box h2
@@ -68,7 +62,7 @@ body
 {
   .containerg
   {
-    columns:2;
+    /* columns:2; */
   }
 }
 /* @media (max-width:600px)
@@ -82,10 +76,49 @@ body
 {
   .containerg
   {
-    columns:1;
+    /* columns:1; */
   }
 }
 
 .right-container, .the-img {
     box-shadow: none;
 }
+
+
+/* main {
+box-shadow: none;
+
+} */
+
+@media only screen and (min-width: 0) {
+ 
+  .columns {
+    margin-left: 0%;
+  
+  }
+}
+
+@media only screen and (min-width: 768px) {
+ 
+    .column1 {
+        float: left;
+        width: 46%;
+        /* padding-top: 30%; */
+        /* padding-right: 60px; */
+      }
+    
+      .column1-v2 {
+        float: left;
+        width: 46%;
+        /* padding: 10% 0 0 0; */
+        margin-left: 2%
+      }
+
+      .columns {
+        margin-left: 5.5%;
+      
+      }
+    }
+  
+
+   
