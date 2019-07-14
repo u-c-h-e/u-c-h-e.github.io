@@ -1,5 +1,6 @@
 
 jQuery(document).ready(function($){
+	
 	var nativeWidth = 0;
 	var nativeHeight = 0;
 
@@ -178,3 +179,6 @@ $(function(){  // $(document).ready shorthand
 
   
   )})
+
+
+
