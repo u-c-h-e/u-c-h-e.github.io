@@ -4164,13 +4164,14 @@ h5.comp-name {
 }
 
 .sec-bkgd {
-  background-image: url(../images/homepage/test2.svg);
+  background-image: url(../images/homepage/test2.png);
   background-attachment: fixed;
   background-color: #f6f9ff;
   max-width: 780px;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-backface-visibility: hidden;
 }
 
 
