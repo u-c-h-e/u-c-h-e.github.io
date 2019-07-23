@@ -1022,9 +1022,12 @@ section#contact div.return-top {
 }
 
 .persona-card3 {
-  margin-top:6rem;
+  margin-top:0rem;
 }
 }
+
+
+
 
 #persona3-card-top {
   box-shadow: none;
@@ -1088,6 +1091,12 @@ footer {
   color: #000000;
 }
 
+
+@media only screen and (min-width: 1295px) {
+  .persona-card3 {
+    margin-top:3rem;
+  }
+}
 
 
 
