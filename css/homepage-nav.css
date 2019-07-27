@@ -179,7 +179,10 @@ li:nth-child(1) {
   float: none;
 }
 
-
+.call {
+  padding: 0 10%;
+  text-align: left;
+}
 
 .contact-title2 {
   font-family: 'PT Sans', sans-serif;
