@@ -2320,6 +2320,14 @@ h5.comp {
     color: #666567;
   }
 
+  h4.persona-header3 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    color: #666567;
+    padding: 0 5%;
+  }
+
   .persona-copy1 {
     display: none;
     margin: 0;
@@ -3193,6 +3201,13 @@ h5.comp {
   h4.persona-header2 {
     text-align: left;
   }
+
+  h4.persona-header3 {
+    text-align: left;
+    padding: 0;
+  }
+
+  
   .persona-header {
     padding-bottom: 20px;
     width: 300px;
