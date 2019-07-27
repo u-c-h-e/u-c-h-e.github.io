@@ -4487,6 +4487,11 @@ section#contact div.return-top {
 
 
 @media only screen and (min-width: 0px) {
+  .mobile-only
+  {
+    display: block;
+    padding-top: 1rem;
+  }
   .sec-bkgd {
     background-image: url(../images/homepage/test3.png);
     background-attachment: inherit;
@@ -4840,7 +4845,11 @@ footer {
 
 @media only screen and (min-width: 768px) {
 
-
+  .mobile-only
+  {
+    display: none;
+    padding-top: 1rem;
+  }
 
 
   .tooltip-mobile {
