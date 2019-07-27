@@ -945,7 +945,7 @@ small {
 
 
 /******Cards*********/
-.card-container {
+.card-container, .card-container {
   max-width: 100%;
   display: inline-block;
 }
@@ -3014,6 +3014,14 @@ h5.comp {
       margin: auto;
     }
 
+    .card-container9 {
+      padding: 0 5%;
+      /* width: 380px; */
+      max-width: 100%;
+      display: block;
+      margin: auto;
+    }
+
     .card-container2 {
       padding: 0 0 0 0%;
       /* width: 380px; */
@@ -3236,6 +3244,13 @@ h5.comp {
 
   .card-container {
     padding: 0 0 0 5%;
+    width: 300px;
+    max-width: 100%;
+    display: inline-block;
+  }
+
+  .card-container9 {
+    padding: 0 5%;
     width: 300px;
     max-width: 100%;
     display: inline-block;
@@ -3568,6 +3583,13 @@ h5.comp {
 
 
   .card-container {
+    padding: 0;
+    width: 300px;
+    max-width: 100%;
+    display: inline-block;
+  }
+
+  .card-container9 {
     padding: 0;
     width: 300px;
     max-width: 100%;
