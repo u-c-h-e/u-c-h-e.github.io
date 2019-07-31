@@ -4493,7 +4493,7 @@ section#contact div.return-top {
     padding-top: 1rem;
   }
   .sec-bkgd {
-    background-image: url(../images/homepage/test3.png);
+    background-image: url(../images/homepage/test2.png);
     /* background-attachment: inherit; */
     background-color: #f6f9ff;
     max-width: 780px;
@@ -4625,8 +4625,8 @@ section#contact div.return-top {
 @media only screen and (min-width: 901px) {
 
   .sec-bkgd {
-    background-image: url(../images/homepage/test2.png);
-    /* background-attachment: fixed; */
+    background-image: url(../images/homepage/test3.png);
+    background-attachment: fixed;
     background-color: #f6f9ff;
     max-width: 780px;
     margin: auto;

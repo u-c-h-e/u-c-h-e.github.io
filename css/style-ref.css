@@ -9,7 +9,7 @@
 	  margin: 8% 0;
   }
   
-  .testimonial-carousel {
+  /* .testimonial-carousel {
 	background-image: url(../images/homepage/test2.svg);
 	background-color: rgb(247, 239, 255);
 	background-color: #fef8ff;
@@ -18,15 +18,15 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	overflow: hidden;
-	/* height: 300px; */
 	max-width: 780px;
 	position: relative;
 	padding: 20px 0px;
 	margin: auto;
 	display: flex;
 	background-attachment: fixed;
-	
-  }
+  } */
+
+  
   .testimonial-carousel .icon-container {
 	position: relative;
 	padding: 0 5px;
@@ -39,12 +39,23 @@
   }
 
   @media (min-width: 0) {
+
+	.testimonial-carousel {
+		background-image: url(../images/homepage/test2.png);
+		/* background-attachment: fixed; */
+		background-color: #f6f9ff;
+		max-width: 780px;
+		margin: auto;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
 	.testimonial-carousel .icon-container {
 	  max-width: 50px;
 	  padding: 0 10px;
 	}
 
-	.testimonial-carousel {
+	/* .testimonial-carousel {
 		background-image: url(../images/homepage/test3.svg);
 		background-color: rgb(247, 239, 255);
 		background-color: #fef8ff;
@@ -53,15 +64,14 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		overflow: hidden;
-		/* height: 300px; */
 		max-width: 780px;
 		position: relative;
 		padding: 20px 0px;
 		margin: auto;
 		display: flex;
-		background-attachment: inherit;
+		background-attachment: inherit; 
 		
-	  }
+	  }*/
   }
 
 
@@ -74,7 +84,7 @@
 	  padding: 0 10px;
 	}
 
-	.testimonial-carousel {
+	/* .testimonial-carousel {
 		background-image: url(../images/homepage/test2.svg);
 		background-color: rgb(247, 239, 255);
 		background-color: #fef8ff;
@@ -83,15 +93,13 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		overflow: hidden;
-		/* height: 300px; */
 		max-width: 780px;
 		position: relative;
 		padding: 20px 0px;
 		margin: auto;
 		display: flex;
 		background-attachment: fixed;
-		
-	  }
+	  } */
   }
   .testimonial-carousel .icon-container span.lnr {
 	color: #dadada;
@@ -104,7 +112,7 @@
 	  font-size: 1.6em;
 	}
 
-	.testimonial-carousel {
+	/* .testimonial-carousel {
 		background-image: url(../images/homepage/test2.svg);
 		background-color: rgb(247, 239, 255);
 		background-color: #fef8ff;
@@ -113,15 +121,13 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		overflow: hidden;
-		/* height: 300px; */
 		max-width: 780px;
 		position: relative;
 		padding: 20px 0px;
 		margin: auto;
 		display: flex;
 		background-attachment: fixed;
-		
-	  }
+	  } */
   }
   .testimonial-carousel .icon-container span.lnr:hover {
 	color: #fff;
@@ -243,3 +249,19 @@
   .client-position a:hover{
 	  color: #5ed9e7;
   }
+
+
+
+
+  @media only screen and (min-width: 901px) {
+
+	.testimonial-carousel {
+	  background-image: url('../images/homepage/test3.png');
+	  background-attachment: fixed;
+	  background-color: #f6f9ff;
+	  max-width: 780px;
+	  margin: auto;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+}
