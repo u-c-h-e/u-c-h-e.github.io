@@ -23,7 +23,7 @@
   @media (min-width: 0) {
 
 	.testimonial-carousel {
-		background-image: url(../images/homepage/test2.png);
+		background-image: url('../images/homepage/test2.png');
 		/* background-attachment: fixed; */
 		background-color: #f6f9ff;
 		max-width: 780px;
@@ -45,29 +45,24 @@
 	.testimonial-carousel .icon-container {
 	  max-width: 50px;
 	  padding: 0 10px;
+	  font-size: 1.6em;
 	}
 
-
-  }
   .testimonial-carousel .icon-container span.lnr {
 	color: #dadada;
 	font-size: 1.6em;
 	cursor: pointer;
 	transition: color 0.3s linear;
   }
-  @media (min-width: 768px) {
-	.testimonial-carousel .icon-container span.lnr {
-	  font-size: 1.6em;
-	}
 
 	
-  }
   .testimonial-carousel .icon-container span.lnr:hover {
 	color: #fff;
   }
   .testimonial-carousel p {
 	font-size: 1em;
-  }
+  }}
+
   @media (min-width: 768px) {
 	.testimonial-carousel p {
 	  /* font-size: 1.4em; */
@@ -189,12 +184,12 @@
   @media only screen and (min-width: 910px) {
 
 	.testimonial-carousel {
-	  background-image: url('../images/homepage/test3.png');
-	  background-attachment: fixed;
-	  background-color: #f6f9ff;
-	  max-width: 780px;
-	  margin: auto;
-	  background-repeat: no-repeat;
-	  background-size: cover;
+		background-image: url('../images/homepage/test3.png');
+		background-attachment: fixed;
+		background-color: #f6f9ff;
+		max-width: 780px;
+		margin: auto;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
