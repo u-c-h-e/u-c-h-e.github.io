@@ -8,25 +8,7 @@
   blockquote{
 	  margin: 8% 0;
   }
-  
-  /* .testimonial-carousel {
-	background-image: url(../images/homepage/test2.svg);
-	background-color: rgb(247, 239, 255);
-	background-color: #fef8ff;
-	background-color: #f8f9ff;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	overflow: hidden;
-	max-width: 780px;
-	position: relative;
-	padding: 20px 0px;
-	margin: auto;
-	display: flex;
-	background-attachment: fixed;
-  } */
 
-  
   .testimonial-carousel .icon-container {
 	position: relative;
 	padding: 0 5px;
@@ -53,26 +35,7 @@
 	.testimonial-carousel .icon-container {
 	  max-width: 50px;
 	  padding: 0 10px;
-	}
-
-	/* .testimonial-carousel {
-		background-image: url(../images/homepage/test3.svg);
-		background-color: rgb(247, 239, 255);
-		background-color: #fef8ff;
-		background-color: #f8f9ff;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-		max-width: 780px;
-		position: relative;
-		padding: 20px 0px;
-		margin: auto;
-		display: flex;
-		background-attachment: inherit; 
-		
-	  }*/
-  }
+  }}
 
 
 
@@ -84,22 +47,7 @@
 	  padding: 0 10px;
 	}
 
-	/* .testimonial-carousel {
-		background-image: url(../images/homepage/test2.svg);
-		background-color: rgb(247, 239, 255);
-		background-color: #fef8ff;
-		background-color: #f8f9ff;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-		max-width: 780px;
-		position: relative;
-		padding: 20px 0px;
-		margin: auto;
-		display: flex;
-		background-attachment: fixed;
-	  } */
+
   }
   .testimonial-carousel .icon-container span.lnr {
 	color: #dadada;
@@ -112,22 +60,7 @@
 	  font-size: 1.6em;
 	}
 
-	/* .testimonial-carousel {
-		background-image: url(../images/homepage/test2.svg);
-		background-color: rgb(247, 239, 255);
-		background-color: #fef8ff;
-		background-color: #f8f9ff;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-		max-width: 780px;
-		position: relative;
-		padding: 20px 0px;
-		margin: auto;
-		display: flex;
-		background-attachment: fixed;
-	  } */
+	
   }
   .testimonial-carousel .icon-container span.lnr:hover {
 	color: #fff;
@@ -253,7 +186,7 @@
 
 
 
-  @media only screen and (min-width: 901px) {
+  @media only screen and (min-width: 910px) {
 
 	.testimonial-carousel {
 	  background-image: url('../images/homepage/test3.png');
