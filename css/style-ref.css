@@ -181,7 +181,7 @@
 
 
 
-  @media only screen and (min-width: 910px) {
+  @media only screen and (min-width: 1026px) {
 
 	.testimonial-carousel {
 		background-image: url('../images/homepage/test3.png');
@@ -191,5 +191,6 @@
 		margin: auto;
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: 0; 
 	}
 }
