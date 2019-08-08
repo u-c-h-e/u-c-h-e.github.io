@@ -320,7 +320,9 @@ h6 {
   margin: auto;
 }
 
-h3.portfolio {
+
+
+h3.portfolio2 {
   font-size: 2.8432rem;
   font-family: 'Black', serif;
   color: #666567;
@@ -441,11 +443,27 @@ section#contact div.return-top {
 
 
 @media only screen and (min-width: 0px) {
+  h3.portfolio {
+    font-size: 3.2rem;
+    font-family: 'Black', serif;
+    color: #666567;
+    text-align: center;
+    /* padding-top: 1rem; */
+    margin: auto;
+    line-height: 120%;
+    text-transform: initial;
+    max-width: 400px;
+    font-weight: 600;
+  }
+
+  .wht-bkgd {
+    /* margin-top: -5% */
+  }
   .content-label {
     font-family: 'Muli', san-serif;
     font-size: 5rem;
     font-weight: 800;
-    padding-top: 5.5rem;
+    padding-top: 0rem;
     padding-bottom: 2.5rem;
     text-transform: lowercase;
   }
@@ -623,6 +641,13 @@ section#contact div.return-top {
 }
 
 
+@media only screen and (min-width: 375px) {
+.user-personas {
+  margin: -5%  5% 0px 5%;
+}
+}
+
+
 @media only screen and (min-width: 400px) {
   .content-label {
     font-family: 'Muli', san-serif;
@@ -677,6 +702,7 @@ section#contact div.return-top {
 }
 
 @media only screen and (min-width: 430px) {
+  
   #case-study-second-mobile {
     background-image: url("../images/homepage/work/branding.png");
     background-position: center;
@@ -699,6 +725,10 @@ section#contact div.return-top {
   }}
 
 @media only screen and (min-width: 500px) {
+
+  .user-personas {
+    margin-top: 0%
+  }
   .contact-me {
     background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
@@ -747,6 +777,19 @@ section#contact div.return-top {
 
 
 @media only screen and (min-width: 600px) {
+  h3.portfolio {
+    font-size: 3.790rem;
+    font-family: 'Black', serif;
+    color: #666567;
+    text-align: center;
+    /* padding-top: 1rem; */
+    margin: auto;
+    line-height: 120%;
+    text-transform: initial;
+    max-width: 400px;
+    font-weight: 600;
+  }
+
   .card-container6-mobile {
     max-width: 100%;
     display: block;
@@ -1119,9 +1162,9 @@ h4.persona-header2 {
   padding-right: 8%;
 }
 
-.user-personas {
-  margin: 0 5%;
-}
+/* .user-personas {
+  margin: -10% 5% 0 5%;
+} */
 
 .contact-subheader, .contact-text {
   color: #ffffff;
