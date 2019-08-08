@@ -222,6 +222,13 @@
     padding-top: 14rem;
     margin-bottom: 2rem;
     color: rgb(202, 193, 255);
+      font-family: 'Muli', san-serif;
+      font-weight: 800;
+      
+      text-transform: lowercase;
+      text-decoration-style: dotted;
+      text-decoration-line: underline;
+      text-decoration-color: #8e62cc;
 }
 .contain-8 {
     max-width: 620px;
