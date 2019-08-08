@@ -175,6 +175,36 @@ padding: 20px 0;
 
 /* Typography */
 
+@font-face {
+  font-family: "Black";
+  src: url("../css/black/Black-Display-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Black";
+  src: url("../css/black/Black-Display-Bold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+	font-family: "Black";
+	src: url("../css/black/Black-Display-ExtraBold.ttf") format('truetype');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Black";
+	src: url("../css/black/Black-Display-Heavy.ttf") format('truetype');
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "Black";
+	src: url("../css/black/Black-Text-Bold.ttf") format('truetype');
+	font-weight: 400;
+} 
+
 body {
   background-color: #ffffff;
   font-family: 'Muli', sans-serif;
@@ -195,8 +225,8 @@ p {
 h1 {
   margin: 2rem 0rem;
   font-size: 6.734rem;
-  font-family: 'Playfair Display', serif;
-  font-weight: 600;
+  font-family: 'Black', serif;
+  font-weight: 700;
   line-height: 1.15;
   text-align: center;
   color: #ffffff;
@@ -213,7 +243,8 @@ h2 {
 
 h4 {
   font-size: 1.777em;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Black', serif;
+  font-weight: 700;
   line-height: 110%;
 }
 
@@ -267,7 +298,8 @@ h6 {
 
 h3.portfolio {
   font-size: 3.790rem;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Black', serif;
+  font-weight: 700;
   color: #666567;
   text-align: center;
   padding-top: 1rem;
@@ -478,8 +510,8 @@ section#contact div.return-top {
   h1 {
     margin: 1.5rem 0rem;
     font-size: 4.8rem;
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
+    font-family: 'Black', serif;
+    font-weight: 700;
     line-height: 1.15;
     text-align: center;
     color: #ffffff;
@@ -579,8 +611,8 @@ section#contact div.return-top {
   h1 {
     margin: 2rem 0rem;
     font-size: 6.034rem;
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
+    font-family: 'Black', serif;
+    font-weight: 700;
     line-height: 1.15;
     text-align: center;
     color: #ffffff;
@@ -680,8 +712,8 @@ section#contact div.return-top {
     h1 {
       margin: 2rem 0rem;
       font-size: 6.734rem;
-      font-family: 'Playfair Display', serif;
-      font-weight: 800;
+      font-family: 'Black', serif;
+      font-weight: 700;
       line-height: 1.15;
       text-align: center;
       color: #ffffff;
