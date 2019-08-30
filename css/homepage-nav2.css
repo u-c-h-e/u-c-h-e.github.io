@@ -501,7 +501,7 @@ section#contact div.return-top {
   }
 
   #case-study-first-mobile {
-    background-image: url("../images/homepage/work/spaceKit-image-mobile.png");
+    background-image: url("../images/homepage/work/spaceKit-image-mobile2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -513,7 +513,7 @@ section#contact div.return-top {
   }
 
   #case-study-second-mobile {
-    background-image: url("../images/homepage/work/branding.png");
+    background-image: url("../images/homepage/work/branding2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -526,7 +526,7 @@ section#contact div.return-top {
   }
 
   #case-study-third-mobile {
-    background-image: url("../images/homepage/work/spaceKit-placeholder.png");
+    background-image: url("../images/homepage/work/homemaker.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -537,6 +537,24 @@ section#contact div.return-top {
     margin-bottom: .5%;
     margin-top: 6rem;
   }
+  
+
+
+  #case-study-fourth-mobile {
+    background-image: url("../images/homepage/work/rise.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 37.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: .5%;
+    margin-top: 6rem;
+    /* margin-left: 5% */
+    /* margin: 0 5%; */
+  }
+  
 
   .card-container6 {
     display: none;
@@ -648,6 +666,16 @@ section#contact div.return-top {
 }
 
 
+@media only screen and (min-width: 300px) and (min-height: 900px) {
+  .hero-copy-container {
+    padding-top: 23rem;
+}
+    .hero-copy-container2 {
+    padding-top: 3rem;
+    
+}}
+
+
 @media only screen and (min-width: 400px) {
   .content-label {
     font-family: 'Muli', san-serif;
@@ -701,10 +729,28 @@ section#contact div.return-top {
   }
 }
 
+@media only screen and (min-width: 400px) and (min-height: 900px) {
+  .hero-copy-container {
+    padding-top: 23rem;
+}
+    .hero-copy-container2 {
+    padding-top: 3rem;
+    
+}}
+
+@media only screen and (min-width: 415px){
+  .hero-copy-container2 {
+    padding-top: 12vh;
+    margin: 0 auto;
+    display: block;
+  }
+
+}
+
 @media only screen and (min-width: 430px) {
   
   #case-study-second-mobile {
-    background-image: url("../images/homepage/work/branding.png");
+    background-image: url("../images/homepage/work/branding2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -715,14 +761,46 @@ section#contact div.return-top {
     margin-bottom: .5%;
     margin-top: 6rem;
 }
+
+
+#case-study-fourth-mobile {
+  background-image: url("../images/homepage/work/rise.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 37.4rem;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: .5%;
+  /* margin-left: 5% */
+  /* margin: 0 5%; */
+}
 }
 
-@media only screen and (min-width: 415px) {
-  .hero-copy-container2 {
-    padding-top: 12vh;
-    margin: 0 auto;
-    display: block;
-  }}
+
+
+@media only screen and (min-width: 430px) and (min-height: 900px) {
+  .hero-copy-container {
+    padding-top: 30rem;
+}
+    .hero-copy-container2 {
+    padding-top: 3rem;
+    
+}}
+
+
+
+
+
+@media only screen and (min-width: 415px) and (min-height: 900px) {
+  .hero-copy-container {
+    padding-top: 20rem;
+}
+    .hero-copy-container2 {
+    padding-top: 3rem;
+}}
+
 
 @media only screen and (min-width: 500px) {
 
@@ -775,6 +853,15 @@ section#contact div.return-top {
   }
 }
 
+
+@media only screen and (min-width: 500px) and (min-height: 900px) {
+  .hero-copy-container {
+    padding-top: 20rem;
+}
+    .hero-copy-container2 {
+    padding-top: 3rem;
+    
+}}
 
 @media only screen and (min-width: 600px) {
   h3.portfolio {
@@ -843,7 +930,7 @@ section#contact div.return-top {
   }
 
   #case-study-first-mobile {
-    background-image: url("../images/homepage/work/spaceKit-image-mobile.png");
+    background-image: url("../images/homepage/work/spaceKit-image-mobile2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -869,7 +956,7 @@ section#contact div.return-top {
   
 
   #case-study-first {
-    background-image: url("../images/homepage/work/spaceKit-image.png");
+    background-image: url("../images/homepage/work/spaceKit-image2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -882,7 +969,7 @@ section#contact div.return-top {
   }
 
     #case-study-second {
-      background-image: url("../images/homepage/work/branding.png");
+      background-image: url("../images/homepage/work/branding2.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
@@ -894,7 +981,7 @@ section#contact div.return-top {
   }
 
   #case-study-second-mobile {
-    background-image: url("../images/homepage/work/branding.png");
+    background-image: url("../images/homepage/work/branding2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -908,7 +995,7 @@ section#contact div.return-top {
   }
 
   #case-study-third-mobile {
-    background-image: url("../images/homepage/work/spaceKit-placeholder.png");
+    background-image: url("../images/homepage/work/homemaker.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -921,12 +1008,24 @@ section#contact div.return-top {
     /* margin: 0 5%; */
   }
 
-  #case-study-second-mobile, #case-study-third-mobile {
+  #case-study-second-mobile, #case-study-third-mobile, #case-study-fourth-mobile {
     margin-top: 0rem;
   }
 
 
-
+  #case-study-fourth-mobile {
+    background-image: url("../images/homepage/work/rise.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 37.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: .5%;
+    /* margin-left: 5% */
+    /* margin: 0 5%; */
+  }
 
   .card-container6 {
     max-width: 40%;
@@ -953,9 +1052,17 @@ section#contact div.return-top {
 }
 
   @media only screen and (min-width: 768px) {
+    .hero-copy-container2 {
+      padding-top: 5vh;
+      margin: 0 auto;
+      display: block;
+    }
+    .hero-copy-container {
+      padding-top: 18vh;
+  }
 
     #case-study-first {
-      background-image: url("../images/homepage/work/spaceKit-image.png");
+      background-image: url("../images/homepage/work/spaceKit-image2.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
@@ -968,7 +1075,7 @@ section#contact div.return-top {
     }
 
     #case-study-second {
-      background-image: url("../images/homepage/work/branding.png");
+      background-image: url("../images/homepage/work/branding2.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
@@ -1047,6 +1154,8 @@ section#contact div.return-top {
     }
   }
 
+  
+
 @media only screen and (min-width: 1024px) {
   .white {
     font-size: 1.4rem;
@@ -1119,24 +1228,29 @@ section#contact div.return-top {
     /* padding: 0 5% ; */
     display: none;
   }
-
-
 }
 
-@media only screen and (min-width: 1199px) {
-.contact-me {
-  background-image: url("../images/homepage/work/contact/contact-background.png");
-  color: #4a4a4a;
-  padding: 5rem 0;
-  height: 680px;
-  background-repeat: no-repeat;
-  background-size: cover;
+@media only screen and (min-width: 1024px) and (min-height: 900px) {
+  .hero-copy-container {
+    padding-top: 27rem;
 }
+    .hero-copy-container2 {
+    padding-top: 3rem;
+    
+}}
 
-.persona-card3 {
-  margin-top:0rem;
+
+
+
+
+@media only screen and (min-width: 1199px) and (min-height: 900px) {
+  .hero-copy-container {
+    padding-top: 28rem;
 }
-}
+    .hero-copy-container2 {
+    padding-top: 3rem;
+    
+}}
 
 
 
@@ -1211,6 +1325,17 @@ footer {
 }
 
 
+@media only screen and (min-width: 1295px) and (min-height: 900px) {
+  .hero-copy-container {
+    padding-top: 30rem;
+}
+    .hero-copy-container2 {
+    padding-top: 3rem;
+    
+}}
+
+
+
 
 @media only screen and (min-width: 1420px) {
   .white {
@@ -1258,13 +1383,19 @@ footer {
     /* padding: 0 5% ; */
     display: none;
   }
-
-
 }
 
 
 
 
+@media only screen and (min-width: 1420px) and (min-height: 900px) {
+  .hero-copy-container {
+    padding-top: 30rem;
+}
+    .hero-copy-container2 {
+    padding-top: 3rem;
+    
+}}
 
 
 
@@ -1288,18 +1419,6 @@ footer {
   }
   .case-study-image {
     float: left;
-  }
-
-  .hero-copy-container {
-    /* padding-top: 50%; */
-    /* padding-top: 16vh; */
-    /* transform: translateY(50%); */
-  }
-
-  .hero-copy-container2 {
-    /* padding-top: 50%; */
-    /* padding-top: 6vh; */
-    /* transform: translateY(50%); */
   }
 
 

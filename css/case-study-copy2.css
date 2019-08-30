@@ -1431,6 +1431,14 @@ nav ul li:hover::before {
 }
 
 
+/* @media screen and (min-height: 900px) {
+  .hero-copy-container2 {
+    padding-top: 0rem;
+    margin: 0 auto;
+    display: block;
+  }
+
+} */
 
 
 
