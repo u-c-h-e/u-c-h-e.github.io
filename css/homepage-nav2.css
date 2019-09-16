@@ -1091,14 +1091,31 @@ section#contact div.return-top {
     
 }}
 
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 733px) {
+  .hero-copy-container {
+    padding-top: 23rem;
+}
     .hero-copy-container2 {
-      padding-top: 5vh;
-      margin: 0 auto;
-      display: block;
-    }
+    padding-top: 3rem;
+    
+}}
+
+@media only screen and (min-width: 768px) and (min-height: 900px) {
+  .hero-copy-container {
+    padding-top: 25rem;
+}
+    .hero-copy-container2 {
+    padding-top: 3rem;
+    
+}}
+
+  @media only screen and (min-width: 768px) {
     .hero-copy-container {
-      padding-top: 18vh;
+      padding-top: 20rem;
+  }
+      .hero-copy-container2 {
+      padding-top: 3rem;
+      
   }
 
     #case-study-first {
@@ -1182,14 +1199,7 @@ section#contact div.return-top {
   
   }
 
-  @media only screen and (min-width: 768px) and (min-height: 900px) {
-    .hero-copy-container {
-      padding-top: 25rem;
-  }
-      .hero-copy-container2 {
-      padding-top: 3rem;
-      
-  }}
+
 
 
   @media only screen and (min-width: 925px) {
