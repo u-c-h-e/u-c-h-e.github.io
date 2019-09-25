@@ -153,6 +153,7 @@ li:nth-child(1) {
 
 .contact-all {
   padding-top: 20%;
+  padding-bottom: 10%;
   max-width: 600px;
   margin: auto;
 }
@@ -1546,3 +1547,5 @@ footer {
     width: 100%
   }
 }
+
+
