@@ -3893,7 +3893,7 @@ h5.comp {
     width: 900; 
     margin: auto; 
     position: relative;
-    background-color: #edefff;
+    /* background-color: #edefff; */
   }
   .magnifier {
     margin-left: -40px;
@@ -4375,6 +4375,46 @@ h5.comp {
   margin-top: 34px;
 }
  
+.quote-green {
+  background-image: url("../images/spaceKit/sections/testing/quote-green.png");
+  background-repeat:no-repeat;
+  /* background-color: blue; */
+  width: 70px;
+  height: 70px;
+  background-size:contain;
+  left: 50%;
+  margin: auto;
+  margin-top: 34px;
+}
+
+.quote-yellow {
+  background-image: url("../images/spaceKit/sections/testing/quote-yellow.png");
+  background-repeat:no-repeat;
+  /* background-color: blue; */
+  width: 70px;
+  height: 70px;
+  background-size:contain;
+  left: 50%;
+  margin: auto;
+  margin-top: 34px;
+}
+
+.quote-red {
+  background-image: url("../images/spaceKit/sections/testing/quote-red.png");
+  background-repeat:no-repeat;
+  /* background-color: blue; */
+  width: 70px;
+  height: 70px;
+  background-size:contain;
+  left: 50%;
+  margin: auto;
+  margin-top: 34px;
+}
+
+
+
+
+
 h5.comp-name {
   /* margin: auto; */
   text-align: center;
