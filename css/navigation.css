@@ -109,7 +109,7 @@ a {
 }
 .cd-auto-hide-header {
   position: fixed;
-  z-index: 10;
+  z-index: 8;
   top: 0;
   left: 0;
   width: 100%;
@@ -277,7 +277,7 @@ a {
 }
 .cd-primary-nav > ul {
   position: absolute;
-  z-index: 10;
+  z-index: 8;
   top: 60px;
   left: 0;
   width: 100%;
@@ -363,7 +363,7 @@ a {
 -------------------------------- */
 .cd-secondary-nav {
   position: relative;
-  z-index: 9;
+  z-index: 7;
   clear: both;
   width: 100%;
   height: 50px;
@@ -383,7 +383,7 @@ a {
   /* gradient on the right - to indicate it's possible to scroll */
   content: "";
   position: absolute;
-  z-index: 9;
+  z-index: 7;
   top: 0;
   right: 0;
   height: 100%;

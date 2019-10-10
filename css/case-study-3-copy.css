@@ -769,12 +769,11 @@ h1 {
     display: none;
   } */
 
-
-
 }
+
+
 @media screen and (max-width: 800px) {
   
-
   div.image-1 {
     padding-left: 0px;
   }
