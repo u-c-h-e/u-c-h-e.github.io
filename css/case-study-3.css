@@ -665,6 +665,14 @@ h1.main-text {
     padding: 100px 0px 100px 0px;
     z-index: -1;
   }
+
+  section {
+    max-width: 1440px;
+  }
+
+  .stretch {
+    
+  }
   
 
   section div.image-container {
