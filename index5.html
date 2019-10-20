@@ -33,10 +33,25 @@
 		  a.appendChild(r);
 		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 	</script>
+
+
+	<style>
+
+		body { 
+			background: rgb(255, 255, 255); 
+			-webkit-transition: all 2s ease; 
+			transition: all 2s ease; 
+		}
+		/* .loaded { background: red; } */
+	</style>
+
+	<script>function loaded (el) { el.classList.add('loaded') }</script>
   </head>
 
 
-<body>
+<body onload="document.body.classList.add('loaded')">
+
+	
 <!-- <div class="container-all"> -->
 		<div class='flex-container'>
 				<div class='left'>
@@ -409,62 +424,10 @@
 											</blockquote>
 											</div>
 										</div>
-										<!-- <div class="testimonial-item second">
-											<blockquote>
-												<p class="testimonial-quote">Just a wee note to say 'WOW!' and thank you to you, and colleagues. Our old flat is sparkling and looks absolutely fantastic, I still can't believe how clean the oven is! Thanks so much again for all your hard work yesterday.</p>
-												
-												<div class="infor-client">
-														<span class="icon-client"><img src="assets/images/icon-testimonial.png" alt=""></span>
-														<span class="client-name">ROBERT SMITH</span>
-														<span class="client-position">Ceo of <a href="#">Geckoos.com</a></span>
-													</div>
-											</blockquote>
-										</div> -->
-										<!-- <div class="testimonial-item third">
-											<blockquote>
-												<p class="testimonial-quote">As mentioned I was very satisfied with the quality of the cleaning. The lady was very cheerful and enthusiastic. I will definitely consider using Quality Cleaning Services again.</p>
-												<p class="testimonial-author"><cite>— W S Khan, Lothian Road, Edinburgh</cite></p>
-											</blockquote>
-										</div> -->
-									
-									<!-- End .testimonial-items -->
-
-									<!-- <div class="icon-container">
-										<span class="lnr lnr-arrow-right-circle"></span>
-									</div> -->
 								</div>
 							</div>
 							</article>
 							</section>
-							
-							<!-- <div class="next-button-container"><button id="button">Next >></button></div> -->
-							
-							<!-- <div class="next-button-container"><button id="button">Next >></button></div> -->
-			
-					<!-- <section class="contact-me" id="contact">
-						<div class="box1">
-						  <article class="contact-all">
-							<div class="contact-copy1">
-							  <h1 class="contact-title1"><b>let's create memorable user experiences.</b></h1>
-							  <h5 class="contact-text">
-								Crafting thoughtful solutions around problems and ideas is the name of my game. Let's put my background in user experience design, marketing operations and community management to work and create amazing products together.</h5>
-			
-							</div>
-			
-							<div class="contact-btns3">
-							  <div class="button-container3">
-								<a class="button-style-1" href="contact.html">get in touch</a>
-							</div>
-							</div>
-			
-							<div class="return-top">
-								<a class="return-link" href="#top">Return to top</a>
-								<a class="return-link-2" href="#top">&#9662;</a>
-			
-							</div>
-						  </article>
-						</div>
-					</section> -->
 			
 					<section class="wht-bkgd">
 						<div class="contact-me" id="contact">
