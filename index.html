@@ -43,22 +43,24 @@
       }
 
       .staticrypt-page {
-        width: 360px;
-        padding: 8% 0 0;
-        margin: auto;
-        box-sizing: border-box;
+        width: 375px;
+        height: 400px;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        margin-top: -200px;
+        margin-left: -200px;
       }
 
       .staticrypt-form {
         position: relative;
         z-index: 1;
-        background: #ffffff;
+        background: rgba(255, 255, 255, 0.144);
         max-width: 360px;
         margin: 0 auto 100px;
         padding: 45px;
         text-align: center;
-        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2),
-          0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
       }
 
       .staticrypt-form input {
@@ -75,25 +77,29 @@
       .staticrypt-form .staticrypt-decrypt-button {
         text-transform: uppercase;
         outline: 0;
-        background: #4caf50;
+        background: #8f47ec;
         width: 100%;
         border: 0;
         padding: 15px;
         color: #ffffff;
         font-size: 14px;
+        font-weight: 600;
         cursor: pointer;
       }
 
       .staticrypt-form .staticrypt-decrypt-button:hover,
       .staticrypt-form .staticrypt-decrypt-button:active,
       .staticrypt-form .staticrypt-decrypt-button:focus {
-        background: #43a047;
+        background: #3b027c;
       }
 
       .staticrypt-html {
         height: 100%;
       }
 
+      @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+      @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+      /* @import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); */
       .staticrypt-body {
         margin-bottom: 1em;
         background: #76b852; /* fallback for old browsers */
@@ -101,7 +107,10 @@
         background: -moz-linear-gradient(right, #76b852, #8dc26f);
         background: -o-linear-gradient(right, #76b852, #8dc26f);
         background: linear-gradient(to left, #76b852, #8dc26f);
-        font-family: "Arial", sans-serif;
+        background-image: url("https://media0.giphy.com/media/h4aUqWa5RZVVpBuZCJ/giphy.gif?cid=790b7611ac9cb22eb4cad213438f4cf563b989f7d996eebb&rid=giphy.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: "Work Sans", sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
@@ -111,8 +120,14 @@
         margin-bottom: 1em;
       }
 
+      p {
+        color: #fff;
+      }
+
       .staticrypt-title {
         font-size: 1.5em;
+        font-weight: 500;
+        color: #fff;
       }
 
       .staticrypt-footer {
@@ -6969,7 +6984,7 @@
             ).toString();
 
           if (decryptedHMAC !== encryptedHMAC) {
-            alert("Bad passphrase!");
+            alert("Uh-oh! Looks like that doesn't match. Mind trying again?");
             return;
           }
 
