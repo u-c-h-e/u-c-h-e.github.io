@@ -415,20 +415,20 @@ section#contact div.return-top {
   margin: 3rem auto 3rem auto;
 }
 
-.bounce {
+/* .bounce {
   z-index: 1;
   animation-timing-function: ease;
   transition-duration: 4s;
   -moz-animation: bounce 4s infinite;
   -webkit-animation: bounce 4s infinite;
   animation: bounce 4s infinite;
-}
+} */
 
 .contact-btns3 {
   margin-top: 2rem;
 }
 
-@keyframes bounce {
+/* @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
@@ -438,7 +438,7 @@ section#contact div.return-top {
   60% {
     transform: translateY(-5px);
   }
-}
+} */
 
 
 
