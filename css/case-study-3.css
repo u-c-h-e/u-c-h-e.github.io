@@ -497,6 +497,10 @@ h1.main-text {
   padding: 0 0 30px 0;
 } */
 
+.padder {
+  margin-bottom: 8rem;
+}
+
 .text2 {
   /* margin: auto; */
   /* width: 100%;
@@ -633,13 +637,13 @@ h1.main-text {
     /* max-width: 868px; */
     min-width: 0px;
     padding: 100px 0px 0px 0px;
-    z-index: -1;
+    z-index: 1;
   }
 
   .new-text-container4 {
     width: 100%;
     padding: 100px 0px 100px 0px;
-    z-index: -1;
+    z-index: 1;
   }
 
   section {
@@ -1956,7 +1960,7 @@ h1.main-text {
     max-width: 868px;
     min-width: 0px;
     padding: 108px 0px 0px 0px;
-    z-index: -1;
+    z-index: 1;
   }
 
   .new-text-container4 {
@@ -1964,7 +1968,7 @@ h1.main-text {
     max-width: 868px;
     min-width: 0px;
     padding: 60px 0px 0px 0px;
-    z-index: -1;
+    z-index: 1;
   }
 }
 
@@ -2183,7 +2187,7 @@ p.quote {
 
 .plus-padding {
   display: inline-table;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .key-sections2 {
