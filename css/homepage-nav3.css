@@ -443,19 +443,19 @@ section#contact div.return-top {
   animation: none;
 }
 
-.bounce1 {
+/* .bounce {
   z-index: 1;
   animation-timing-function: ease;
   transition-duration: 4s;
   -moz-animation: bounce 4s infinite;
   -webkit-animation: bounce 4s infinite;
-  animation: bounce 4s infinite;
-}
+  animation: bounce 4s infinite; 
+}*/
 .contact-btns3 {
   margin-top: 2rem;
 }
 
-@keyframes bounce1 {
+@keyframes bounce {
   0%,
   20%,
   50%,
@@ -1323,7 +1323,7 @@ h4.persona-header2 {
 .contact-subheader,
 .contact-text {
   color: #ffffff;
-  font-family: "WorkSans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   /* text-transform: lowercase; */
 }
 
@@ -1333,7 +1333,7 @@ h4.persona-header2 {
   font-weight: 400;
 }
 #contact {
-  padding: 0 20%;
+  padding: 0 10%;
 }
 
 .button-container3 {

@@ -10,7 +10,9 @@ html {
   width: 100%;
 }
 
-li,a,p {
+li,
+a,
+p {
   text-decoration: none;
   list-style: none;
   color: #4a4a4a;
@@ -22,7 +24,7 @@ li,a,p {
 }
 
 .logo-container {
-    padding-top: 15vh;
+  padding-top: 15vh;
 }
 
 .flex-container {
@@ -60,7 +62,7 @@ li:nth-child(1) {
 }
 
 .nav-links-padding {
-    padding: 80% 0;
+  padding: 80% 0;
 }
 
 .mail {
@@ -95,7 +97,6 @@ li:nth-child(1) {
 .wrapper {
   width: 90%;
   margin: 0 auto;
-  
 }
 
 .wrapper {
@@ -110,7 +111,7 @@ li:nth-child(1) {
 .section {
   background-size: cover;
   background-position: top center;
-  background-attachment: fixed; 
+  background-attachment: fixed;
 }
 
 .section span {
@@ -118,14 +119,14 @@ li:nth-child(1) {
 }
 
 .right-container {
-    margin-left: 274px;
-    background-color: #ffffff
+  margin-left: 274px;
+  background-color: #ffffff;
 }
 
 .container-all {
-    max-width: 1440px;
-    margin: auto;
-    background-color: #ffffff;
+  max-width: 1440px;
+  margin: auto;
+  background-color: #ffffff;
 }
 .hero {
   /* background-image: url("../images/homepage/hero/hero-bkgd.png"); */
@@ -173,7 +174,6 @@ li:nth-child(1) {
   transform: scale(1, -1);
 }
 
-
 .vertical-center {
   display: inline-block;
   vertical-align: middle;
@@ -186,7 +186,7 @@ li:nth-child(1) {
 }
 
 .contact-title2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 10rem;
   margin-bottom: -5rem;
   margin-top: 0rem;
@@ -196,16 +196,14 @@ li:nth-child(1) {
 
 /* Typography */
 
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:600|Muli:800');
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:600|Muli:800");
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
 @font-face {
   font-family: "Black";
   src: url("../css/black/Black-Display-Medium.ttf");
   font-weight: 500;
 }
-
 
 @font-face {
   font-family: "Black";
@@ -214,29 +212,26 @@ li:nth-child(1) {
 }
 
 @font-face {
-	font-family: "Black";
-	src: url("../css/black/Black-Display-ExtraBold.ttf") format('truetype');
-	font-weight: 700;
+  font-family: "Black";
+  src: url("../css/black/Black-Display-ExtraBold.ttf") format("truetype");
+  font-weight: 700;
 }
 
 @font-face {
-	font-family: "Black";
-	src: url("../css/black/Black-Display-Heavy.ttf") format('truetype');
-	font-weight: 800;
+  font-family: "Black";
+  src: url("../css/black/Black-Display-Heavy.ttf") format("truetype");
+  font-weight: 800;
 }
 
 @font-face {
-	font-family: "Black";
-	src: url("../css/black/Black-Text-Bold.ttf") format('truetype');
-	font-weight: 400;
-} 
-
-
-
+  font-family: "Black";
+  src: url("../css/black/Black-Text-Bold.ttf") format("truetype");
+  font-weight: 400;
+}
 
 body {
   background-color: #ffffff;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   line-height: 1.45;
   color: #4a4a4a;
   margin: auto;
@@ -254,7 +249,7 @@ p {
 h1 {
   padding: 0rem 0rem;
   font-size: 6.734rem;
-  font-family: 'Black', serif;
+  font-family: "Black", serif;
   font-weight: 600;
   line-height: 1.15;
   text-align: center;
@@ -262,7 +257,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Muli', san-serif;
+  font-family: "Muli", san-serif;
   font-weight: 800;
   padding-top: 4.5rem;
   padding-bottom: 2.5rem;
@@ -274,7 +269,7 @@ h2 {
 
 h4 {
   font-size: 1.777em;
-  font-family: 'Black', serif;
+  font-family: "Black", serif;
   line-height: 110%;
   font-weight: 600;
 }
@@ -284,18 +279,17 @@ h4.case-study {
   padding-top: 60px;
 }
 
-
 h4.hero-mini-copy {
-  font-family: 'Muli', san-serif;
+  font-family: "Muli", san-serif;
   font-size: 2.843rem;
-  color: #FFD2D8;
+  color: #ffd2d8;
   margin: 0;
   font-weight: 800;
   text-align: center;
-} 
+}
 
 h5.menu-links {
-  font-family: 'Muli', san-serif;
+  font-family: "Muli", san-serif;
   font-size: 18px;
   margin: 0;
   font-weight: 800;
@@ -306,12 +300,11 @@ h5.menu-links {
 }
 
 h6 {
-  font-family: 'Muli', san-serif;
+  font-family: "Muli", san-serif;
   font-size: 1.4rem;
   font-weight: 800;
   text-align: center;
 }
-
 
 .content-label-small {
   padding-top: 5.5rem;
@@ -321,11 +314,9 @@ h6 {
   margin: auto;
 }
 
-
-
 h3.portfolio2 {
   font-size: 2.8432rem;
-  font-family: 'Black', serif;
+  font-family: "Black", serif;
   color: #666567;
   text-align: center;
   padding-top: 1rem;
@@ -334,7 +325,6 @@ h3.portfolio2 {
   text-transform: initial;
   max-width: 400px;
   font-weight: 600;
-
 }
 
 .main-header {
@@ -359,7 +349,7 @@ h3.portfolio2 {
 }
 
 .line {
-  border-top: 2px solid #5DE1F5;
+  border-top: 2px solid #5de1f5;
   width: 111px;
   margin: 0 auto;
   margin-top: 1.4rem;
@@ -376,30 +366,29 @@ li.-flex {
 }
 
 .button-container-2 {
-  background-color: #8F47EC;
-  padding: 1.4rem ;
+  background-color: #8f47ec;
+  padding: 1.4rem;
   font-weight: 800;
 }
 
 .button-container-3 {
-  background-color: #8F47EC;
-  padding: 1.4rem ;
+  background-color: #8f47ec;
+  padding: 1.4rem;
 }
 
 .white {
   font-size: 1.4rem;
-  font-weight: 800; 
+  font-weight: 800;
 }
 
 .menu-get-in-touch {
-  font-weight: 800; 
+  font-weight: 800;
   font-size: 1.8rem;
 }
 
 .navigation {
   box-shadow: 0 14px 20px rgba(183, 103, 69, 0.1);
 }
-
 
 .contact-me {
   margin-top: 8rem;
@@ -414,7 +403,9 @@ section#contact div.return-top {
   padding: 0;
   margin: 3rem auto 3rem auto;
 }
-
+.contact-btns3 {
+  margin-top: 2rem;
+}
 /* .bounce {
   z-index: 1;
   animation-timing-function: ease;
@@ -423,10 +414,6 @@ section#contact div.return-top {
   -webkit-animation: bounce 4s infinite;
   animation: bounce 4s infinite;
 } */
-
-.contact-btns3 {
-  margin-top: 2rem;
-}
 
 /* @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -440,13 +427,10 @@ section#contact div.return-top {
   }
 } */
 
-
-
-
 @media only screen and (min-width: 0px) {
   h3.portfolio {
     font-size: 3.2rem;
-    font-family: 'Black', serif;
+    font-family: "Black", serif;
     color: #666567;
     text-align: center;
     /* padding-top: 1rem; */
@@ -461,31 +445,30 @@ section#contact div.return-top {
     /* margin-top: -5% */
   }
   .content-label {
-    font-family: 'Muli', san-serif;
+    font-family: "Muli", san-serif;
     font-size: 5rem;
     font-weight: 800;
     padding-top: 0rem;
     padding-bottom: 0rem;
     text-transform: lowercase;
   }
-  
+
   .white {
     font-size: 1.8rem;
-    font-weight: 800; 
+    font-weight: 800;
   }
   .button-container-2 {
-    background-color: #8F47EC;
+    background-color: #8f47ec;
     padding: 0rem;
     font-weight: 800;
     font-size: 1.8rem;
-}
+  }
   .button-style-4 {
     display: block;
     margin: auto;
-    margin-top:2rem;
+    margin-top: 2rem;
     margin-bottom: 0rem;
   }
-
 
   .button-style-5 {
     background-color: rgb(233, 233, 233);
@@ -510,22 +493,19 @@ section#contact div.return-top {
   }
 
   .button-style-5 {
-    margin-top:2rem;
+    margin-top: 2rem;
     margin-bottom: 0rem;
   }
 
-
-
-
   .contact-me {
-  height: 100%;
-  margin-left: 0;
+    height: 100%;
+    margin-left: 0;
   }
 
   .contact-title1 {
-  color: #ffffff;
-  margin-bottom: 4rem;
-  font-size: 3.8rem;
+    color: #ffffff;
+    margin-bottom: 4rem;
+    font-size: 3.8rem;
   }
 
   .persona-card3 {
@@ -541,7 +521,7 @@ section#contact div.return-top {
     max-width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: .5%;
+    margin-bottom: 0.5%;
   }
 
   #case-study-second-mobile {
@@ -553,7 +533,7 @@ section#contact div.return-top {
     max-width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: .5%;
+    margin-bottom: 0.5%;
     margin-top: 4rem;
   }
 
@@ -566,11 +546,9 @@ section#contact div.return-top {
     max-width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: .5%;
+    margin-bottom: 0.5%;
     margin-top: 6rem;
   }
-  
-
 
   #case-study-fourth-mobile {
     background-image: url("../images/homepage/work/rise.png");
@@ -581,12 +559,11 @@ section#contact div.return-top {
     max-width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: .5%;
+    margin-bottom: 0.5%;
     margin-top: 6rem;
     /* margin-left: 5% */
     /* margin: 0 5%; */
   }
-  
 
   .card-container6 {
     display: none;
@@ -595,7 +572,6 @@ section#contact div.return-top {
   .card-container7 {
     display: none;
   }
-
 
   .card-container6-mobile {
     max-width: 100%;
@@ -615,13 +591,13 @@ section#contact div.return-top {
     padding-left: 2.55%;
     padding-right: 2.5%;
     padding-top: 25vh;
-}
+  }
 
-.hero-copy-container2 {
-  padding-top: 11vh;
-  margin: 0 auto;
-  display: block;
-}
+  .hero-copy-container2 {
+    padding-top: 11vh;
+    margin: 0 auto;
+    display: block;
+  }
   .hero {
     /* background-image: url("../images/homepage/hero/hero-bkgd2.png"); */
     background-position: center;
@@ -641,7 +617,7 @@ section#contact div.return-top {
 
   .right-container {
     margin-left: 0px;
-    background-color: #ffffff
+    background-color: #ffffff;
   }
 
   .container-all {
@@ -653,22 +629,22 @@ section#contact div.return-top {
   h1 {
     padding: 0rem 0rem;
     font-size: 4.8rem;
-    font-family: 'Black', serif;
+    font-family: "Black", serif;
     font-weight: 700;
     line-height: 1.15;
     text-align: center;
     color: #ffffff;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
   }
 
   h4.hero-mini-copy {
-    font-family: 'Muli', san-serif;
+    font-family: "Muli", san-serif;
     font-size: 1.8rem;
-    color: #FFD2D8;
+    color: #ffd2d8;
     margin: 0;
     font-weight: 800;
     text-align: center;
-  } 
+  }
 
   h2.content-label {
     font-size: 5rem;
@@ -687,30 +663,26 @@ section#contact div.return-top {
     display: block;
     margin: auto;
   }
-
 }
-
 
 @media only screen and (min-width: 375px) {
-.user-personas {
-  margin: -5%  5% 0px 5%;
+  .user-personas {
+    margin: -5% 5% 0px 5%;
+  }
 }
-}
-
 
 @media only screen and (min-width: 300px) and (min-height: 900px) {
   .hero-copy-container {
     padding-top: 23rem;
-}
-    .hero-copy-container2 {
+  }
+  .hero-copy-container2 {
     padding-top: 3rem;
-    
-}}
-
+  }
+}
 
 @media only screen and (min-width: 400px) {
   .content-label {
-    font-family: 'Muli', san-serif;
+    font-family: "Muli", san-serif;
     font-weight: 800;
     padding-top: 0rem;
     padding-bottom: 0rem;
@@ -745,7 +717,6 @@ section#contact div.return-top {
     padding: 0;
     margin: 3rem auto 0 auto;
   }
-  
 
   .persona-card3 {
     margin-top: 0rem;
@@ -764,23 +735,21 @@ section#contact div.return-top {
 @media only screen and (min-width: 400px) and (min-height: 900px) {
   .hero-copy-container {
     padding-top: 23rem;
-}
-    .hero-copy-container2 {
+  }
+  .hero-copy-container2 {
     padding-top: 3rem;
-    
-}}
+  }
+}
 
-@media only screen and (min-width: 415px){
+@media only screen and (min-width: 415px) {
   .hero-copy-container2 {
     padding-top: 6vh;
     margin: 0 auto;
     display: block;
   }
-
 }
 
 @media only screen and (min-width: 430px) {
-  
   #case-study-second-mobile {
     background-image: url("../images/homepage/work/branding2.png");
     background-position: center;
@@ -790,54 +759,46 @@ section#contact div.return-top {
     max-width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: .5%;
+    margin-bottom: 0.5%;
     margin-top: 6rem;
+  }
+
+  #case-study-fourth-mobile {
+    background-image: url("../images/homepage/work/rise.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 37.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    /* margin-left: 5% */
+    /* margin: 0 5%; */
+  }
 }
-
-
-#case-study-fourth-mobile {
-  background-image: url("../images/homepage/work/rise.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  min-height: 37.4rem;
-  max-width: 100%;
-  overflow: hidden;
-  position: relative;
-  margin-bottom: .5%;
-  /* margin-left: 5% */
-  /* margin: 0 5%; */
-}
-}
-
-
 
 @media only screen and (min-width: 430px) and (min-height: 900px) {
   .hero-copy-container {
     padding-top: 30rem;
-}
-    .hero-copy-container2 {
+  }
+  .hero-copy-container2 {
     padding-top: 3rem;
-    
-}}
-
-
-
-
+  }
+}
 
 @media only screen and (min-width: 415px) and (min-height: 900px) {
   .hero-copy-container {
     padding-top: 20rem;
-}
-    .hero-copy-container2 {
+  }
+  .hero-copy-container2 {
     padding-top: 3rem;
-}}
-
+  }
+}
 
 @media only screen and (min-width: 500px) {
-
   .user-personas {
-    margin-top: 0%
+    margin-top: 0%;
   }
   .contact-me {
     background-image: url("../images/homepage/work/contact/contact-background.png");
@@ -876,29 +837,28 @@ section#contact div.return-top {
   h1 {
     padding: 0rem 0rem;
     font-size: 6.034rem;
-    font-family: 'Black', serif;
+    font-family: "Black", serif;
     font-weight: 800;
     line-height: 1.15;
     text-align: center;
     color: #ffffff;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
   }
 }
-
 
 @media only screen and (min-width: 500px) and (min-height: 900px) {
   .hero-copy-container {
     padding-top: 20rem;
-}
-    .hero-copy-container2 {
+  }
+  .hero-copy-container2 {
     padding-top: 3rem;
-    
-}}
+  }
+}
 
 @media only screen and (min-width: 600px) {
   h3.portfolio {
-    font-size: 3.790rem;
-    font-family: 'Black', serif;
+    font-size: 3.79rem;
+    font-family: "Black", serif;
     color: #666567;
     text-align: center;
     /* padding-top: 1rem; */
@@ -923,7 +883,7 @@ section#contact div.return-top {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .contact-title1 {
     color: #ffffff;
     margin-bottom: 4rem;
@@ -941,13 +901,10 @@ section#contact div.return-top {
   .second-case {
     /* float: right; */
   }
-.hero-copy-container {
+  .hero-copy-container {
     /* padding-top: 27vh; */
   }
 }
-
-
-
 
 @media only screen and (min-width: 700px) {
   .hero-copy-container {
@@ -957,7 +914,7 @@ section#contact div.return-top {
   .button-style-4 {
     display: block;
     margin: 0;
-    margin-top:2rem;
+    margin-top: 2rem;
     margin-bottom: 0rem;
   }
 
@@ -970,7 +927,7 @@ section#contact div.return-top {
     max-width: 50%;
     overflow: hidden;
     position: relative;
-    margin-bottom: .5%;
+    margin-bottom: 0.5%;
     /* margin-left: 5% */
     /* margin: 0 5%; */
   }
@@ -983,9 +940,7 @@ section#contact div.return-top {
   .card-container7 {
     margin-left: 0%;
     margin-right: 5%;
-    
   }
-  
 
   #case-study-first {
     background-image: url("../images/homepage/work/spaceKit-image2.png");
@@ -996,20 +951,20 @@ section#contact div.return-top {
     max-width: 50%;
     overflow: hidden;
     position: relative;
-    margin-bottom: .5%;
-    margin-left: 5%
+    margin-bottom: 0.5%;
+    margin-left: 5%;
   }
 
-    #case-study-second {
-      background-image: url("../images/homepage/work/branding2.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      min-height: 33.4rem;
-      max-width: 100%;
-      overflow: hidden;
-      position: relative;
-      margin-bottom: .5%;
+  #case-study-second {
+    background-image: url("../images/homepage/work/branding2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 33.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
   }
 
   #case-study-second-mobile {
@@ -1021,7 +976,7 @@ section#contact div.return-top {
     max-width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: .5%;
+    margin-bottom: 0.5%;
     /* margin-left: 5% */
     /* margin: 0 5%; */
   }
@@ -1035,15 +990,16 @@ section#contact div.return-top {
     max-width: 50%;
     overflow: hidden;
     position: relative;
-    margin-bottom: .5%;
+    margin-bottom: 0.5%;
     /* margin-left: 5% */
     /* margin: 0 5%; */
   }
 
-  #case-study-second-mobile, #case-study-third-mobile, #case-study-fourth-mobile {
+  #case-study-second-mobile,
+  #case-study-third-mobile,
+  #case-study-fourth-mobile {
     margin-top: 0rem;
   }
-
 
   #case-study-fourth-mobile {
     background-image: url("../images/homepage/work/rise.png");
@@ -1054,7 +1010,7 @@ section#contact div.return-top {
     max-width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: .5%;
+    margin-bottom: 0.5%;
     /* margin-left: 5% */
     /* margin: 0 5%; */
   }
@@ -1065,7 +1021,6 @@ section#contact div.return-top {
     float: right;
   }
 
-  
   .card-container6-mobile {
     display: none;
   }
@@ -1077,7 +1032,6 @@ section#contact div.return-top {
     margin-top: 9rem;
   }
 
-  
   .card-container7-mobile {
     display: none;
   }
@@ -1086,146 +1040,138 @@ section#contact div.return-top {
 @media only screen and (min-width: 700px) and (min-height: 900px) {
   .hero-copy-container {
     padding-top: 22rem;
-}
-    .hero-copy-container2 {
+  }
+  .hero-copy-container2 {
     padding-top: 3rem;
-    
-}}
+  }
+}
 
 @media only screen and (min-width: 733px) {
   .hero-copy-container {
     padding-top: 23rem;
-}
-    .hero-copy-container2 {
+  }
+  .hero-copy-container2 {
     padding-top: 3rem;
-    
-}}
+  }
+}
 
 @media only screen and (min-width: 768px) and (min-height: 900px) {
   .hero-copy-container {
     padding-top: 25rem;
-}
-    .hero-copy-container2 {
+  }
+  .hero-copy-container2 {
     padding-top: 3rem;
-    
-}}
-
-  @media only screen and (min-width: 768px) {
-    .hero-copy-container {
-      padding-top: 20rem;
   }
-      .hero-copy-container2 {
-      padding-top: 3rem;
-      
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-copy-container {
+    padding-top: 20rem;
   }
-
-    #case-study-first {
-      background-image: url("../images/homepage/work/spaceKit-image2.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      min-height: 33.4rem;
-      max-width: 50%;
-      overflow: hidden;
-      position: relative;
-      margin-bottom: .5%;
-      margin-left: 5%
-    }
-
-    #case-study-second {
-      background-image: url("../images/homepage/work/branding2.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      min-height: 33.4rem;
-      max-width: 50%;
-      overflow: hidden;
-      position: relative;
-      margin-bottom: .5%;
-      margin-left: 5%
-    }
-    .card-container6 {
-      max-width: 40%;
-      display: inline-block;
-      float: right;
-      margin-top: 6.5%;
-    }
-
-    .card-container7 {
-      max-width: 50%;
-      display: inline-block;
-      float: left;
-    }
-
-    .hero {
-      /* background-image: url("../images/homepage/hero/hero-bkgd.png"); */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      min-height: 800px;
-      /* max-height: 910px; */
-      top: 0;
-      background-position: center;
-      background-size: cover;
-      height: 100vh;
-    }
-
-    .hero-copy-container {
-      /* padding-top: 50%; */
-      padding-top: 33vh;
-      /* transform: translateY(50%); */
-    }
-
-    h1 {
-      padding: 0rem 0rem;
-      font-size: 6.734rem;
-      font-family: 'Black', serif;
-      font-weight: 700;
-      line-height: 1.15;
-      text-align: center;
-      color: #ffffff;
-      letter-spacing: .8px;
-    }
-
-    .intro-desktop {
-      /* padding: 0 5% ; */
-      display: block;
-      margin: auto;
-  
-    }
-    .intro-mobile {
-      /* padding: 0 5% ; */
-      display: none;
-    }
-  
+  .hero-copy-container2 {
+    padding-top: 3rem;
   }
 
-
-
-
-  @media only screen and (min-width: 925px) {
-    .contact-me {
-      background-image: url("../images/homepage/work/contact/contact-background.png");
-      color: #4a4a4a;
-      padding: 5rem 0;
-      height: 690px;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+  #case-study-first {
+    background-image: url("../images/homepage/work/spaceKit-image2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 33.4rem;
+    max-width: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    margin-left: 5%;
   }
 
-  
+  #case-study-second {
+    background-image: url("../images/homepage/work/branding2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 33.4rem;
+    max-width: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    margin-left: 5%;
+  }
+  .card-container6 {
+    max-width: 40%;
+    display: inline-block;
+    float: right;
+    margin-top: 6.5%;
+  }
+
+  .card-container7 {
+    max-width: 50%;
+    display: inline-block;
+    float: left;
+  }
+
+  .hero {
+    /* background-image: url("../images/homepage/hero/hero-bkgd.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 800px;
+    /* max-height: 910px; */
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .hero-copy-container {
+    /* padding-top: 50%; */
+    padding-top: 33vh;
+    /* transform: translateY(50%); */
+  }
+
+  h1 {
+    padding: 0rem 0rem;
+    font-size: 6.734rem;
+    font-family: "Black", serif;
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 0.8px;
+  }
+
+  .intro-desktop {
+    /* padding: 0 5% ; */
+    display: block;
+    margin: auto;
+  }
+  .intro-mobile {
+    /* padding: 0 5% ; */
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 925px) {
+  .contact-me {
+    background-image: url("../images/homepage/work/contact/contact-background.png");
+    color: #4a4a4a;
+    padding: 5rem 0;
+    height: 690px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 
 @media only screen and (min-width: 1024px) {
   .white {
     font-size: 1.4rem;
-    font-weight: 800; 
+    font-weight: 800;
   }
 
   .button-container-2 {
-    background-color: #8F47EC;
+    background-color: #8f47ec;
     padding: 1.4rem;
-}
+  }
   .contact-me {
     background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
@@ -1262,17 +1208,15 @@ section#contact div.return-top {
     font-style: normal;
     /* font-weight: 800; */
     text-transform: lowercase;
-
   }
   .right-container {
     margin-left: 274px;
-    background-color: #ffffff
+    background-color: #ffffff;
   }
 
   .flex-container {
     display: block;
   }
-
 
   .cd-auto-hide-header {
     display: none;
@@ -1282,7 +1226,6 @@ section#contact div.return-top {
     /* padding: 0 5% ; */
     display: block;
     margin: auto;
-
   }
   .intro-mobile {
     /* padding: 0 5% ; */
@@ -1293,33 +1236,25 @@ section#contact div.return-top {
 @media only screen and (min-width: 1024px) and (min-height: 900px) {
   .hero-copy-container {
     padding-top: 27rem;
-}
-    .hero-copy-container2 {
+  }
+  .hero-copy-container2 {
     padding-top: 3rem;
-    
-}}
-
-
-
-
+  }
+}
 
 @media only screen and (min-width: 1199px) and (min-height: 900px) {
   .hero-copy-container {
     padding-top: 28rem;
-}
-    .hero-copy-container2 {
+  }
+  .hero-copy-container2 {
     padding-top: 3rem;
-    
-}}
-
-
-
+  }
+}
 
 #persona3-card-top {
   box-shadow: none;
   float: left;
 }
-
 
 .mini-label-left {
   text-align: left;
@@ -1340,9 +1275,10 @@ h4.persona-header2 {
   margin: -10% 5% 0 5%;
 } */
 
-.contact-subheader, .contact-text {
+.contact-subheader,
+.contact-text {
   color: #ffffff;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   /* text-transform: lowercase; */
 }
 
@@ -1352,7 +1288,7 @@ h4.persona-header2 {
   font-weight: 400;
 }
 #contact {
-  padding: 0 20% ;
+  padding: 0 20%;
 }
 
 .button-container3 {
@@ -1360,7 +1296,7 @@ h4.persona-header2 {
 }
 
 .primary-bkgd {
-  background-color: rgb(108, 106, 255); 
+  background-color: rgb(108, 106, 255);
   min-height: 500px;
 }
 
@@ -1368,7 +1304,7 @@ h4.persona-header2 {
 
 footer {
   background-color: rgb(104, 193, 223);
-  background-color: #DBE9FF;
+  background-color: #dbe9ff;
   text-align: center;
   padding: 10px;
 }
@@ -1377,36 +1313,31 @@ footer {
   color: #000000;
 }
 
-
 @media only screen and (min-width: 1295px) {
   .persona-card3 {
-    margin-top:3rem;
+    margin-top: 3rem;
   }
 }
-
 
 @media only screen and (min-width: 1295px) and (min-height: 900px) {
   .hero-copy-container {
     padding-top: 30rem;
-}
-    .hero-copy-container2 {
+  }
+  .hero-copy-container2 {
     padding-top: 3rem;
-    
-}}
-
-
-
+  }
+}
 
 @media only screen and (min-width: 1420px) {
   .white {
     font-size: 1.4rem;
-    font-weight: 800; 
+    font-weight: 800;
   }
 
   .button-container-2 {
-    background-color: #8F47EC;
+    background-color: #8f47ec;
     padding: 1.4rem;
-}
+  }
   .contact-me {
     background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
@@ -1431,13 +1362,10 @@ footer {
     /* transform: translateY(50%); */
   }
 
-
-
   .intro-desktop {
     /* padding: 0 5% ; */
     display: block;
     margin: auto;
-
   }
   .intro-mobile {
     /* padding: 0 5% ; */
@@ -1445,30 +1373,25 @@ footer {
   }
 }
 
-
-
-
 @media only screen and (min-width: 1420px) and (min-height: 900px) {
   .hero-copy-container {
     padding-top: 30rem;
-}
-    .hero-copy-container2 {
+  }
+  .hero-copy-container2 {
     padding-top: 3rem;
-    
-}}
-
-
+  }
+}
 
 @media only screen and (min-width: 1480px) {
   .white {
     font-size: 1.4rem;
-    font-weight: 800; 
+    font-weight: 800;
   }
 
   .button-container-2 {
-    background-color: #8F47EC;
+    background-color: #8f47ec;
     padding: 1.4rem;
-}
+  }
   .contact-me {
     background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
@@ -1481,45 +1404,21 @@ footer {
     float: left;
   }
 
-
-
   .intro-desktop {
     /* padding: 0 5% ; */
     display: block;
     margin: auto;
-
   }
   .intro-mobile {
     /* padding: 0 5% ; */
     display: none;
   }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 568px) {
   h1 {
     width: 100%;
-    font-size: 3.0em
+    font-size: 3em;
   }
   .nav {
     min-width: 100%;
@@ -1527,13 +1426,13 @@ footer {
     padding: 0;
   }
   .nav > li {
-    flex: 1
+    flex: 1;
   }
   .nav > li > a {
-    font-size: 1.0em
+    font-size: 1em;
   }
   h2 {
-    font-size: 1.2em
+    font-size: 1.2em;
   }
   main {
     /*go to a more vertical layout*/
@@ -1544,8 +1443,6 @@ footer {
     border-bottom: 1px solid #ccc;
   }
   main > section > p {
-    width: 100%
+    width: 100%;
   }
 }
-
-

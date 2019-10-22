@@ -14,7 +14,7 @@ body {
   margin: auto;
   /* display: block; */
   background-color: #F7F7F7;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   max-width: 1440px;
   margin: auto;
   display: grid;
@@ -245,14 +245,14 @@ br {
 
 body {
 /*   background-color: white; */
-  font-family: 'Muli', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   line-height: 1.45;
   color: #4a4a4a;
 }
 
 p {
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.6rem;
   font-style: normal;
   line-height: 180%;
@@ -273,7 +273,7 @@ h1 {
 
 h2 {
   font-size: 5rem;
-  font-family: 'Muli', san-serif;
+  font-family: 'Work Sans', san-serif;
   font-weight: 800;
   line-height: 1.15;
   color: rgb(214, 214, 214);
@@ -322,7 +322,7 @@ html:not([amp4ads]) body {
 
 
 .content-label {
-  font-family: 'Muli', san-serif;
+  font-family: 'Work Sans', san-serif;
   font-weight: 800;
   padding-top: 8rem;
   padding-bottom: 4rem;
@@ -335,7 +335,7 @@ html:not([amp4ads]) body {
 }
 
 .content-label2 {
-  font-family: 'Muli', san-serif;
+  font-family: 'Work Sans', san-serif;
   font-weight: 800;
   padding-top: 4.5rem;
   padding-bottom: 2.5rem;
@@ -373,7 +373,7 @@ h4.case-study {
 
 
 h5 {
-  font-family: 'Muli', san-serif;
+  font-family: 'Work Sans', san-serif;
   font-weight: 800;
   font-size: 18px;
 }
@@ -387,7 +387,7 @@ h5.testing {
 }
 
 h6 {
-  font-family: 'Muli', san-serif;
+  font-family: 'Work Sans', san-serif;
   font-size: 1.4rem;
   font-weight: 800;
   text-align: center;
@@ -468,7 +468,7 @@ a {
   
   h2 {
     /* font-size: 3rem; */
-    font-family: 'Muli', san-serif;
+    font-family: 'Work Sans', san-serif;
     font-weight: 800;
     line-height: 1.15;
     color: rgb(214, 214, 214);
@@ -493,7 +493,7 @@ a {
   }
   
   h5 {
-    font-family: 'Muli', san-serif;
+    font-family: 'Work Sans', san-serif;
     font-size: 18px;
     font-weight: 800;
   }
@@ -507,7 +507,7 @@ a {
   }
   
   h6 {
-    font-family: 'Muli', san-serif;
+    font-family: 'Work Sans', san-serif;
     font-size: 1.4rem;
     font-weight: 800;
     text-align: center;
@@ -527,7 +527,7 @@ a {
   
   h2 {
     /* font-size: 3rem; */
-    font-family: 'Muli', san-serif;
+    font-family: 'Work Sans', san-serif;
     font-weight: 800;
     line-height: 1.15;
     color: rgb(214, 214, 214);
@@ -552,7 +552,7 @@ a {
   }
   
   h5 {
-    font-family: 'Muli', san-serif;
+    font-family: 'Work Sans', san-serif;
     font-size: 18px;
     font-weight: 800;
   }
@@ -566,14 +566,14 @@ a {
   }
   
   h6 {
-    font-family: 'Muli', san-serif;
+    font-family: 'Work Sans', san-serif;
     font-size: 1.4rem;
     font-weight: 800;
     text-align: center;
   }
 
   p {
-    font-family: Muli, sans-serif;
+    font-family: Work Sans, sans-serif;
     font-size: 1.6rem;
     font-style: normal;
     line-height: 170%;
@@ -638,7 +638,7 @@ a {
 
 /*********Gallery*******/
 .caption {
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-style: italic;
   font-size: 1.4rem;
   font-weight: 800;
@@ -650,7 +650,7 @@ a {
 }
 
 .gallery-caption {
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.4rem;
   font-style: italic;
   font-weight: 800;
@@ -664,7 +664,7 @@ a {
 
 
 .gallery-caption2 {
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 700;
@@ -674,7 +674,7 @@ a {
 }
 
 .gallery-caption3 {
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 700;
@@ -734,7 +734,7 @@ small {
   box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
   color: #453475;
   display: inline-block;
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 800;
@@ -773,7 +773,7 @@ small {
   border: 1px solid #8F47EC;
   color: #8F47EC;
   display: inline-block;
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 800;
@@ -812,7 +812,7 @@ small {
   border: 1px solid #8F47EC;
   color: #8F47EC;
   display: inline-block;
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 800;
@@ -856,7 +856,7 @@ small {
   box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
   color: #FFFFFF;
   display: inline-block;
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 800;
@@ -878,7 +878,7 @@ small {
   box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
   color: #4a4a4a;
   display: inline-block;
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 800;
@@ -957,7 +957,7 @@ small {
 
 .main-nav li {
   color: #4a4a4a;
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 800;
@@ -970,7 +970,7 @@ small {
 
 nav ul li {
   color: #4a4a4a;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
@@ -1372,7 +1372,7 @@ nav ul li:hover::before {
 
 #persona1-quote {
   color: #5D6A50;
-  font-family: "Muli", serif;
+  font-family: "Work Sans", serif;
   font-size: 1.8rem;
   font-style: italic;
   font-weight: 400;
@@ -1563,7 +1563,7 @@ footer div h4 {
     width: 0%;
   }
   .gallery-caption4 {
-    font-family: "Muli", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 700;
@@ -1575,7 +1575,7 @@ footer div h4 {
   }
 
   .gallery-caption5 {
-    font-family: "Muli", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 1.4rem;
     font-style: italic;
     font-weight: 800;
@@ -2393,7 +2393,7 @@ h5.comp {
 
   .summary {
     text-align: center;
-    font-family: 'Muli', san-serif;
+    font-family: 'Work Sans', san-serif;
     font-weight: 800;
   }
 
@@ -4215,7 +4215,7 @@ h1 {
 
 h2 {
   font-size: 5rem;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 800;
   line-height: 1.15;
   color:#8186a7;
@@ -4435,7 +4435,7 @@ color: #ffffff;
 
 @media only screen and (min-width: 860px) {
   .gallery-caption4 {
-    font-family: "Muli", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 700;
@@ -4461,7 +4461,7 @@ color: #ffffff;
 
 @media only screen and (min-width: 945px) {
   .gallery-caption4 {
-    font-family: "Muli", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 700;
@@ -4491,7 +4491,7 @@ color: #ffffff;
 
 .contact-subheader, .contact-text {
   color: #ffffff;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   /* text-transform: lowercase; */
 }
@@ -4645,7 +4645,7 @@ footer {
 
 
 .inline-para {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   max-width: 620px;
   display: inline;
 }
