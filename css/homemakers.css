@@ -14,7 +14,7 @@ body {
   background-color: #ffffff;
   color: #221204;
   display: grid;
-  font-family: "Muli", sans-serif;
+  /* font-family: "Muli", sans-serif; */
   font-family: WorkSans;
   /* font-size: 25px; */
   /* line-height: 1.5; */
@@ -222,7 +222,9 @@ ol {
   /* background-color: #006bb7; */
   /* background-color: #005dd0; */
   background-color: #009bf1;
+  background-color: #0f92ff;
   /* background-color: #b139be; */
+  background-color: #ca0fb1;
 }
 
 /* div.text-image {
@@ -244,7 +246,7 @@ ol {
   box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
   color: #ffffff;
   display: inline-block;
-  font-family: "Muli", sans-serif;
+  /* font-family: "Muli", sans-serif; */
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 800;
@@ -404,6 +406,21 @@ div.image-3 {
   z-index: -1;
 }
 
+.competitive-logos-1 {
+  background-image: url("../images/homemakers/sections/process/tody.jpg");
+  border-radius: 22px;
+}
+
+.competitive-logos-2 {
+  background-image: url("../images/homemakers/sections/process/ourhome.jpg");
+  border-radius: 22px;
+}
+
+.competitive-logos-3 {
+  background-image: url("../images/homemakers/sections/process/wunderlist.jpg");
+  border-radius: 22px;
+}
+
 .hero-image {
   padding-top: 80px;
   width: 100%;
@@ -414,6 +431,17 @@ div.image-3 {
   /* background-size: contain; */
   background-repeat: no-repeat;
 }
+
+/* .hero-image2 {
+  padding-top: 80px;
+  width: 100%;
+  background-color: #009bf1;
+  background-image: url("https://media1.tenor.com/images/9b3b9cb886bb01eb979d2bd1f06abf7e/tenor.gif");
+  background-size: cover;
+  background-position: left;
+  opacity: 0.4;
+  background-repeat: no-repeat;
+} */
 
 .hero-image1 {
   padding-top: 80px;
@@ -429,12 +457,13 @@ div.image-3 {
 
 .ref-bkgd {
   background-color: #b139be;
-  background-color: #009bf1;
+  background-color: #0f92ff;
+  background-color: #ca0fb1;
+  /* background-color: #009bf1; */
 }
 
 .hero-image2 {
   width: 100%;
-
   background-image: url("https://i.giphy.com/media/tYQoVhuLAZhKw/giphy.gif");
   background-size: cover;
   background-position: bottom;
@@ -663,6 +692,14 @@ h1.main-text {
 
   .stretch {
     display: block;
+    /* background-image: url("https://i.giphy.com/media/tYQoVhuLAZhKw/giphy.gif"); */
+    width: 100%;
+    background-color: #009bf1;
+    background-image: url("https://media1.tenor.com/images/9b3b9cb886bb01eb979d2bd1f06abf7e/  tenor.gif");
+    background-size: cover;
+    /* background-position: left; */
+    /* background-size: contain; */
+    /* opacity: 0.4; */
   }
 
   section div.image-container {
@@ -776,7 +813,7 @@ h1.main-text {
 
   #persona1-quote {
     color: #5d6a50;
-    font-family: "Muli", serif;
+    /* font-family: "Muli", serif; */
     font-size: 1.8rem;
     font-style: italic;
     font-weight: 400;
@@ -1158,6 +1195,10 @@ h1.main-text {
   .popup {
     width: 70%;
   }
+
+  .hider {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -1342,7 +1383,7 @@ h1.main-text {
     border-radius: 100%;
     box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85),
       0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-    background: url("https://github.com/u-c-h-e/u-c-h-e.github.io/blob/master/images/spaceKit/sections/final-product/final-screens-small.png?raw=true")
+    background: url("https://raw.githubusercontent.com/uxdesignuo/img/master/hm-final-screens-big2.png")
       no-repeat right top;
     display: none;
     z-index: 0.1;
@@ -1793,6 +1834,17 @@ h1.main-text {
     max-width: 160px;
     align-content: center;
     justify-content: center;
+    margin-bottom: 20rem;
+  }
+
+  div.nope {
+    height: 150px;
+    margin: auto;
+    margin: 0 auto;
+    max-width: 160px;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 0;
   }
 
   div.side-menu2 {
@@ -1950,7 +2002,7 @@ h1.main-text {
     width: 100%;
     max-width: 868px;
     min-width: 0px;
-    padding: 108px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
     z-index: -1;
   }
 

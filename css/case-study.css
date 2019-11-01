@@ -341,9 +341,9 @@ html:not([amp4ads]) body {
   padding-top: 8rem;
   padding-bottom: 4rem;
   text-transform: lowercase;
-  text-decoration-style: dotted;
+  /* text-decoration-style: dotted;
   text-decoration-line: underline;
-  text-decoration-color: #f4ecff;
+  text-decoration-color: #f4ecff; */
   max-width: 500px;
   margin: auto;
 }
@@ -354,9 +354,9 @@ html:not([amp4ads]) body {
   padding-top: 4.5rem;
   padding-bottom: 2.5rem;
   text-transform: lowercase;
-  text-decoration-style: dotted;
+  /* text-decoration-style: dotted;
   text-decoration-line: underline;
-  text-decoration-color: #f4ecff;
+  text-decoration-color: #f4ecff; */
 }
 
 .content-label-small {
@@ -4002,7 +4002,7 @@ h5.comp {
   }
 
   .button-container-2:hover {
-    background-color: #4a4a4a;
+    /* background-color: #4a4a4a; */
     transition-duration: 0.4s;
   }
   .container-full-2 {

@@ -457,7 +457,7 @@ a {
 }
 
 #three-column-container {
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 /* a:hover {
@@ -3565,28 +3565,36 @@ h4.key-insights {
   .overview-column-1a {
     display: block;
     width: 280px;
-    background-color: #FBFBFB;
+    background-color: #f9f9fa;
+    /* background-color: #FBFBFB; */
     margin-left: auto;
     margin-right: auto;
+    border-radius: 22px;
+    /* margin-top: 2rem; */
   }
 
   .overview-column-1b {
     display:none;
+    
   }
 
   .overview-column-2 {
     display: block;
     width: 280px;
-    background-color: #FBFBFB;
+    background-color: #f9f9fa;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 22px;
+    margin-top: 4rem;
   }
   .overview-column-3 {
     display: block;
     width: 280px;
-    background-color: #FBFBFB;
+    background-color: #f9f9fa;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 22px;
+    margin-top: 4rem;
   }
 }
 
