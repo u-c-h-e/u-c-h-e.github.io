@@ -977,7 +977,7 @@ section#contact div.return-top {
   }
 
   .cd-auto-hide-header {
-    display: none;
+    /* display: none; */
   }
 
   .intro-desktop {

@@ -158,13 +158,6 @@ li:nth-child(1) {
   background-size: cover;
 }
 
-.contact-all {
-  padding-top: 20%;
-  padding-bottom: 10%;
-  max-width: 600px;
-  margin: auto;
-}
-
 .return-link {
   color: #ffffff;
   font-size: 1.6rem;
@@ -482,6 +475,21 @@ section#contact div.return-top {
 }
 
 @media only screen and (min-width: 0px) {
+  /* .contact-me {
+    margin: 8rem 0 0rem;
+  } */
+
+  .contact-all {
+    padding-top: 14%;
+    padding-bottom: 10%;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .padding1 {
+    margin: 10rem 0;
+  }
+
   h3.portfolio {
     font-size: 3.2rem;
     font-family: "Black", serif;
@@ -933,7 +941,7 @@ section#contact div.return-top {
     background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
     padding: 5rem 0;
-    height: 760px;
+    /* height: 760px; */
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -961,6 +969,14 @@ section#contact div.return-top {
 }
 
 @media only screen and (min-width: 700px) {
+  /* .contact-me {
+    margin: 12rem 0 0;
+  } */
+
+  .padding1 {
+    margin: 9rem 0 11rem !important;
+  }
+
   .hero-copy-container {
     padding-top: 18vh;
   }
@@ -1087,7 +1103,7 @@ section#contact div.return-top {
   }
 
   .top {
-    margin-top: 10% !important;
+    margin-top: 4.5rem !important;
   }
 
   .card-container7-mobile {
@@ -1159,7 +1175,7 @@ section#contact div.return-top {
     max-width: 40%;
     display: inline-block;
     float: right;
-    margin-top: 11%;
+    margin-top: 7.5%;
   }
 
   .card-container7 {
@@ -1209,6 +1225,19 @@ section#contact div.return-top {
   }
 }
 
+@media only screen and (min-width: 850px) {
+  .cs-padding-first {
+    margin-top: 4rem;
+  }
+  .cs-padding {
+    margin-top: 8rem;
+  }
+
+  .cs-padding-last {
+    margin-top: 10rem;
+  }
+}
+
 @media only screen and (min-width: 925px) {
   .contact-me {
     background-image: url("../images/homepage/work/contact/contact-background.png");
@@ -1221,6 +1250,13 @@ section#contact div.return-top {
 }
 
 @media only screen and (min-width: 1024px) {
+  .contact-all {
+    padding-top: 11rem;
+    padding-bottom: 10%;
+    max-width: 600px;
+    margin: auto;
+  }
+
   .white {
     font-size: 1.4rem;
     font-weight: 800;
@@ -1282,7 +1318,7 @@ section#contact div.return-top {
   }
 
   .cd-auto-hide-header {
-    display: none;
+    /* display: none; */
   }
 
   .intro-desktop {
@@ -1418,6 +1454,7 @@ footer {
   .hero-copy-container {
     /* padding-top: 50%; */
     padding-top: 28vh;
+    padding-top: 22vh;
     /* transform: translateY(50%); */
   }
 
