@@ -4,7 +4,6 @@ Primary style
 
 -------------------------------- */
 
-
 .cd-primary-nav > ul {
   top: 44px;
   margin: 0;
@@ -84,14 +83,14 @@ body {
   font-size: 1.6rem;
   font-family: "WorkSans", sans-serif;
   color: #4a4a4a;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
   margin: auto;
-  box-shadow: 0px 0px 10px 0px rgba(142,76,242,0.2);
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(142,76,242,0.2);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(142,76,242,0.2);
+  box-shadow: 0px 0px 10px 0px rgba(142, 76, 242, 0.2);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(142, 76, 242, 0.2);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(142, 76, 242, 0.2);
 }
 
 a {
@@ -126,17 +125,14 @@ a {
   transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
-
 @media only screen and (min-width: 1024px) {
   .cd-auto-hide-header {
-
-
     /*position is the key here to change the width and positioning*/
     /* position:sticky; */
     /* top: -1px; */
     width: 100%;
     /* margin-top:-10%; */
-    display:block;
+    display: block;
     float: right;
     height: 80px;
     max-width: 1440px;
@@ -144,13 +140,10 @@ a {
     right: 0;
   }
 
-  .container-full{
+  .container-full {
     margin-top: 0;
   }
-  
 }
-
-
 
 .cd-auto-hide-header::after {
   clear: both;
@@ -180,6 +173,7 @@ a {
 
 .cd-auto-hide-header .logo {
   left: 5%;
+  left: 107px;
 }
 .cd-auto-hide-header .logo a,
 .cd-auto-hide-header .logo img {
@@ -214,7 +208,7 @@ a {
   position: relative;
   height: 2px;
   width: 22px;
-  background-color:  #4a4a4a;
+  background-color: #4a4a4a;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -274,6 +268,7 @@ a {
   float: right;
   height: 100%;
   padding-right: 5%;
+  padding-right: 107px;
 }
 .cd-primary-nav > ul {
   position: absolute;
@@ -297,11 +292,10 @@ a {
 }
 
 @media only screen and (min-width: 1024px) {
-
   .cd-primary-nav > ul a:hover,
   .cd-primary-nav > ul a.active {
-    color: #8F47EC;
-}
+    color: #8f47ec;
+  }
   .cd-primary-nav {
     /* vertically align its content */
     display: table;
@@ -340,7 +334,6 @@ a {
   }
 }
 
-
 .nav-open .cd-primary-nav ul,
 .cd-primary-nav ul:target {
   /* 
@@ -377,7 +370,6 @@ a {
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
-  
 }
 .cd-secondary-nav::after {
   /* gradient on the right - to indicate it's possible to scroll */
@@ -410,7 +402,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   padding: 0 5% 0 5%;
-  margin:auto;
+  margin: auto;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -437,12 +429,11 @@ a {
   color: #4a4a4a;
   line-height: 50px;
   padding: 0 1em;
-  font-weight:600;
+  font-weight: 600;
 }
 
-
 .cd-secondary-nav a.active {
-  background: red;;
+  background: red;
 }
 
 #top-menu li.active a {
@@ -451,12 +442,11 @@ a {
 }
 
 .cd-secondary-nav a:hover,
-  .cd-secondary-nav a.active {
-    color: #8F47EC;
-    font-weight: 800;
+.cd-secondary-nav a.active {
+  color: #8f47ec;
+  font-weight: 800;
 }
 @media only screen and (min-width: 810px) {
-  
   .cd-secondary-nav {
     height: 40px;
     overflow: visible;
@@ -479,10 +469,10 @@ a {
     line-height: 40px;
   }
   .cd-secondary-nav a.active {
-    box-shadow: inset 0 -3px #8F47EC;
+    box-shadow: inset 0 -3px #8f47ec;
   }
   .cd-secondary-nav a:hover {
-    box-shadow: inset 0 -3px #8F47EC;;
+    box-shadow: inset 0 -3px #8f47ec;
     cursor: pointer;
   }
 }
@@ -495,7 +485,6 @@ a {
 .cd-secondary-nav.fixed {
   position: fixed;
   top: 60px;
-  
 }
 .cd-secondary-nav.slide-up {
   -webkit-transform: translateY(-60px);
@@ -508,14 +497,12 @@ a {
     margin: auto;
     top: 79px;
     /* fixes a bug where nav and subnab move with a slight delay */
-    
   }
   .cd-secondary-nav.slide-up {
     -webkit-transform: translateY(-80px);
     -ms-transform: translateY(-80px);
     transform: translateY(-80px);
     max-width: 1440px;
-
   }
 }
 
@@ -584,8 +571,6 @@ Main content
   }
 }
 
-
-
 /* -------------------------------- 
 
 Intro Section
@@ -619,10 +604,3 @@ Intro Section
     margin-top: 80px;
   }
 }
-
-
-
-
-
-
-

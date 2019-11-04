@@ -173,6 +173,7 @@ a {
 
 .cd-auto-hide-header .logo {
   left: 5%;
+  left: 107px;
 }
 .cd-auto-hide-header .logo a,
 .cd-auto-hide-header .logo img {
@@ -293,20 +294,11 @@ a {
   color: #8f47ec;
 }
 
-a:hover,
-a.active {
-  color: #8f47ec;
-}
-
-ul a:hover,
-ul a.active {
-  color: #8f47ec;
-}
-
 @media only screen and (min-width: 1024px) {
   .cd-primary-nav {
     /* vertically align its content */
     display: table;
+    padding-right: 107px;
   }
   .cd-primary-nav > ul {
     /* vertically align inside parent element */
@@ -329,6 +321,7 @@ ul a.active {
     display: inline-block;
     float: left;
     margin-right: 1.5em;
+    /* margin-right: 21px; */
   }
   .cd-primary-nav > ul li:last-of-type {
     margin-right: 0;

@@ -665,7 +665,7 @@ h1.main-text {
   section div.image-container {
     padding: 20px 0px 0px 0px;
     width: 100%;
-    /* max-width: 720px; */
+    max-width: 720px;
   }
 
   .menu-content {
@@ -935,6 +935,8 @@ h1.main-text {
     position: relative;
     padding: 6rem 0 0 0;
     margin: auto;
+    /* max-width: 780px; */
+    /* margin: auto; */
   }
 
   .row2 {
@@ -1368,7 +1370,7 @@ h1.main-text {
   }
 
   .persona1-card-top {
-    width: 340px;
+    /* width: 340px; */
     display: block;
     grid-template-areas:
       "persona1-img"
@@ -1583,6 +1585,8 @@ h1.main-text {
 
   .row4 {
     width: 100%;
+    margin: auto;
+    max-width: 780px;
     position: relative;
     padding: 0rem 0 0 0;
   }
@@ -1997,8 +2001,9 @@ h1.main-text {
 
   section div.image-container {
     padding: 20px 0px 0px 0px;
-    width: 100%;
-    max-width: 100%;
+    /* width: 100%; */
+    max-width: 780px;
+    margin: auto;
   }
 
   .nada {
@@ -2065,7 +2070,7 @@ h1.main-text {
   div.image-container {
     padding: 20px 0px 0px 0px;
     width: 100%;
-    min-width: 868px;
+    /* min-width: 868px; */
   }
 
   section div.text2 {
@@ -2074,7 +2079,7 @@ h1.main-text {
     max-width: 475px;
   }
 
-  popup {
+  .popup {
     margin: 100px auto 150px auto;
     padding: 5%;
     background: #fff;
@@ -2083,6 +2088,7 @@ h1.main-text {
     position: relative;
     z-index: 10;
     max-width: 690px;
+    /* margin: auto; */
     /* transition: all 2s ease-in-out; */
   }
 }
@@ -2173,7 +2179,7 @@ p.quote {
 }
 
 .center {
-  margin: 4rem 0 0 0;
+  margin: 4rem 0 3rem 0;
 }
 
 .bottom {
@@ -2197,7 +2203,7 @@ p.quote {
 }
 
 .plus-padding {
-  display: inline-table;
+  /* display: inline-table; */
   /* padding-bottom: 2rem; */
 }
 

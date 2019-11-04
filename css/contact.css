@@ -1,220 +1,184 @@
 .contact-container {
-    padding: 0 0 1 rem 0;
-    max-width: 620px;
-    margin: auto;
-    margin-bottom: 5rem;
-    background-color: #fff
-  }
+  padding: 0 0 1 rem 0;
+  max-width: 620px;
+  margin: auto;
+  margin-bottom: 5rem;
+  background-color: #fff;
+}
 
-  .wip-container {
-    padding: 0 0 1 rem 0;
-    max-width: 620px;
-    margin: auto;
-    margin-bottom: 5rem;
-  }
+.wip-container {
+  padding: 0 0 1 rem 0;
+  max-width: 620px;
+  margin: auto;
+  margin-bottom: 5rem;
+}
 
-  .center {
-    text-align: center;
-    font-family: 'Muli', sans-serif;
-    font-weight: 600;
-    padding: 0 5% 0 5%;
-  }
-  
-  .linebreak{
-    height: 5px;
-    background-color: #8F47EC;
-    width: 60vw;
-    margin-left: .3rem;
-  }
-  
-  .contact-header {
-    font-family: 'Muli', sans-serif;
-    font-weight: 800;
-    padding-top: 10rem;
-    margin-bottom: 2rem;
-    color: rgb(202, 193, 255);
-    }
+.center {
+  text-align: center;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  padding: 0 5% 0 5%;
+}
 
-    .wip-header {
-      margin-top: 0px;
-        padding-top: 10rem;
-        margin-bottom: 2rem;
-        color: rgb(112, 97, 199);
-        }
+.linebreak {
+  height: 5px;
+  background-color: #8f47ec;
+  width: 60vw;
+  margin-left: 0.3rem;
+}
 
-  .tooltip {
-    color: rgb(163, 255, 249);
-    position: relative;
-    border-bottom: 1.5px dotted #15b9d6;
-  }
+.contact-header {
+  font-family: "Muli", sans-serif;
+  font-weight: 800;
+  padding-top: 10rem;
+  margin-bottom: 2rem;
+  color: rgb(202, 193, 255);
+}
 
-  .white-center {
-    font-family: 'Black', serif;
-    font-weight: 600;
-    text-align: center;
-    color: #fff;
-    line-height: 130%;
-    max-width: 620px;
-    margin: auto;
-    padding: 0 5%;
-    /* font-size: 3.790rem; */
-  }
+.wip-header {
+  margin-top: 0px;
+  padding-top: 10rem;
+  margin-bottom: 2rem;
+  color: rgb(112, 97, 199);
+}
 
-  .inline-para {
-    font-family: 'Muli', sans-serif;
-    font-weight: 700;
-  }
-  .main-header-white-center {
-      max-width: 620px;
-  }
+.tooltip {
+  color: rgb(163, 255, 249);
+  position: relative;
+  border-bottom: 1.5px dotted #15b9d6;
+}
 
+.white-center {
+  font-family: "Black", serif;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  line-height: 130%;
+  max-width: 620px;
+  margin: auto;
+  padding: 0 5%;
+  /* font-size: 3.790rem; */
+}
 
-  .wip-hero {
-      
-  }
-  
-  .inline-para {
-      max-width: 620px;
-      color: #ffffff;
-      text-align: center;
-  }
+.inline-para {
+  /* font-family: "Muli", sans-serif; */
+  font-weight: 700;
+}
+.main-header-white-center {
+  max-width: 620px;
+}
 
-  
-  .contact-container p {
-    font-size: 2.5rem;
-    padding-top: 2rem;
-  }
-  
-  .contact-container a {
-    text-decoration: none;
-    color: #191A1B;
-    cursor: pointer;
-  }
-  
-  @font-face {
-    font-family: "Black";
-    src: url("../css/black/Black-Display-Medium.ttf");
-    font-weight: 500;
-  }
-  
-  @font-face {
-    font-family: "Black";
-    src: url("../css/black/Black-Display-Bold.ttf");
-    font-weight: 600;
-  }
-  
-  @font-face {
-    font-family: "Black";
-    src: url("../css/black/Black-Display-ExtraBold.ttf") format('truetype');
-    font-weight: 700;
-  }
-  
-  @font-face {
-    font-family: "Black";
-    src: url("../css/black/Black-Display-Heavy.ttf") format('truetype');
-    font-weight: 800;
-  }
-  
-  @font-face {
-    font-family: "Black";
-    src: url("../css/black/Black-Text-Bold.ttf") format('truetype');
-    font-weight: 400;
-  } 
+.wip-hero {
+}
 
+.inline-para {
+  max-width: 620px;
+  color: #ffffff;
+  text-align: center;
+}
 
-  /* Form Style inputs */
+.contact-container p {
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
 
-  
-  .form {
-      margin-top: 3rem;
-      /* margin-bottom: 8rem; */
-  }
-  
-  .contact-form input {
-    font-family: "Muli", sans-serif;
-    font-size: 1.5rem;
-    padding: 5px 20px 5px 0;
-    margin: 8px 0 30px 0;
-    display: block;
-    border: none;
-    border-bottom: solid 1px #8F47EC;
-    /* border-radius: 4px; */
-    width: 100%;
-  }
+.contact-container a {
+  text-decoration: none;
+  color: #191a1b;
+  cursor: pointer;
+}
 
-  .contact-bkgd {
-      height: 100%;
-      background-image: url("../images/contact/contact-page-header.svg")
-  }
+/* Form Style inputs */
 
-  .wip-hero {
-      display: block;
-    height: 100%;
-    /* background-attachment: fixed; */
-    background-image: url("../images/components/construction.png");
+.form {
+  margin-top: 3rem;
+  /* margin-bottom: 8rem; */
+}
+
+.contact-form input {
+  /* font-family: "Muli", sans-serif; */
+  font-size: 1.5rem;
+  padding: 5px 20px 5px 0;
+  margin: 8px 0 30px 0;
+  display: block;
+  border: none;
+  border-bottom: solid 1px #8f47ec;
+  /* border-radius: 4px; */
+  width: 100%;
+}
+
+.contact-bkgd {
+  height: 100%;
+  background-image: url("../images/contact/contact-page-header.svg");
+}
+
+.wip-hero {
+  display: block;
+  height: 100%;
+  /* background-attachment: fixed; */
+  background-image: url("../images/components/construction.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
 }
 
-  
-  .main-header-white {
-    max-width: 620px;
-  }
-  
-  input[type=message], select, textarea {
-    width: 100%;
-    min-height: 300px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: block;
-    border: 1px solid #8F47EC;
-    font-size: 1.5rem;
-  }
+.main-header-white {
+  max-width: 620px;
+}
 
+input[type="message"],
+select,
+textarea {
+  width: 100%;
+  min-height: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #8f47ec;
+  font-size: 1.5rem;
+}
 
-  input[type=submit], select {
-    padding: 5px 25px;
-    /* margin: 8px 0; */
-    
-    border: 1px solid #8F47EC;
-    cursor: pointer;
-    background-color: transparent;
-    font-size: 1.5rem;
-    font-weight: 400;
-    transition: all 0.4s;
-    max-width: 120px;
-    margin: auto;
-    margin-top: 20px;
-  
-  }
-  
-  input[type=submit] {
-    color: #fff;
-    background-color: #8F47EC;
-    text-decoration: none;
-    /* font-family: "Muli ExtraBold", san-serif; */
-    font-weight: 800;
-    padding: 1.4rem 0;
-    border-radius: 0px;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #000;
-  }
+input[type="submit"],
+select {
+  padding: 5px 25px;
+  /* margin: 8px 0; */
 
+  border: 1px solid #8f47ec;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-weight: 400;
+  transition: all 0.4s;
+  max-width: 120px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  color: #fff;
+  background-color: #8f47ec;
+  text-decoration: none;
+  /* font-family: "Muli ExtraBold", san-serif; */
+  font-weight: 800;
+  padding: 1.4rem 0;
+  border-radius: 0px;
+}
+
+input[type="submit"]:hover {
+  background-color: #000;
+}
 
 @media only screen and (min-width: 0px) {
   .contact-bkgd {
     height: 100%;
-    background-image: url("../images/contact-page/contact-page-header2.svg")
-}
+    background-image: url("../images/contact-page/contact-page-header2.svg");
+  }
 
-  .contact-form{
+  .contact-form {
     margin: auto;
     padding: 4rem 5% 4rem 5%;
-    font-family: "Muli", sans-serif;
+    /* font-family: "Muli", sans-serif; */
     font-size: 1.8rem;
     width: 100%;
     max-width: 400px;
@@ -223,26 +187,26 @@
     padding-top: 14rem;
     margin-bottom: 2rem;
     color: rgb(202, 193, 255);
-      font-family: 'Muli', san-serif;
-      font-weight: 800;
-      
-      text-transform: lowercase;
-      text-decoration-style: dotted;
-      text-decoration-line: underline;
-      text-decoration-color: #8e62cc;
-}
-.contain-8 {
+    /* font-family: "Muli", san-serif; */
+    font-weight: 800;
+
+    text-transform: lowercase;
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+    text-decoration-color: #8e62cc;
+  }
+  .contain-8 {
     max-width: 620px;
     margin: auto;
-    padding: 0 5%
-}
+    padding: 0 5%;
+  }
 }
 
 @media only screen and (min-width: 640px) {
-  .contact-form{
+  .contact-form {
     margin: auto;
     padding: 4rem 0 4rem 0;
-    font-family: "Muli", sans-serif;
+    /* font-family: "Muli", sans-serif; */
     font-size: 1.8rem;
     width: 100%;
     max-width: 400px;
@@ -251,39 +215,32 @@
   .contain-8 {
     max-width: 620px;
     margin: auto;
-    padding: 0 0%
+    padding: 0 0%;
   }
-    .wip-header {
-        padding-top: 12rem;
-        margin-bottom: 2rem;
-        color: rgb(112, 97, 199);
-    }
-
-    .contact-bkgd {
-      height: 100%;
-      background-image: url("../images/contact/contact-page-header.svg")
+  .wip-header {
+    padding-top: 12rem;
+    margin-bottom: 2rem;
+    color: rgb(112, 97, 199);
   }
 
+  .contact-bkgd {
+    height: 100%;
+    background-image: url("../images/contact/contact-page-header.svg");
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-    .contact-header {
-      padding-top: 10rem;
-      margin-bottom: 2rem;
-      color: rgb(202, 193, 255);
+  .contact-header {
+    padding-top: 10rem;
+    margin-bottom: 2rem;
+    color: rgb(202, 193, 255);
   }
   .wip-header {
     padding-top: 10rem;
     margin-bottom: 2rem;
     color: rgb(112, 97, 199);
+  }
 }
-} 
-  
-
-
-
-
-
 
 .tooltip3 {
   position: relative;
@@ -298,7 +255,7 @@
   background-color: #fff;
   text-align: left;
   border-radius: 6px;
-  border: 1px solid #dabaff; 
+  border: 1px solid #dabaff;
   /* Position the tooltip */
   left: -25px;
   margin: -26px 25px 25px 25px;
@@ -309,12 +266,10 @@
   position: absolute;
   width: 100%;
   transform: translateY(10px);
-  transition: all .25s ease-out;
+  transition: all 0.25s ease-out;
   height: 141px;
   max-width: 300px;
 }
-
-
 
 .tooltip3:hover .tooltiptext3 {
   visibility: visible;
@@ -323,7 +278,7 @@
 .tooltip3 {
   color: #fff;
   font-weight: 700;
-  font-family: 'Muli', sans-serif;
+  /* font-family: "Muli", sans-serif; */
   /* border-bottom: 1px dotted rgb(208, 173, 255); */
 }
 
@@ -332,6 +287,9 @@
   border-bottom: 1px dotted rgb(208, 173, 255);
   display: inline;
   font-weight: 200;
-  font-family: 'Muli', sans-serif;
+  /* font-family: "Muli", sans-serif; */
 }
 
+.right-container {
+  margin-left: 0px;
+}

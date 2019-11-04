@@ -3585,7 +3585,7 @@ h4.key-insights {
     margin-left: auto;
     margin-right: auto;
     border-radius: 22px;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
   }
   .overview-column-3 {
     display: block;
