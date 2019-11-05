@@ -359,12 +359,12 @@ section div.padding-bottom2 {
 }
 
 .mini-label-white {
-  color: #e2e2f5;
+  color: #f5e2f2;
   text-align: left;
 }
 
 .mini-label-white-center {
-  color: #cecee6;
+  color: #f5e2f2;
   text-align: center;
 }
 
@@ -2097,7 +2097,7 @@ h1.main-text {
   div.image-container {
     padding: 20px 0px 0px 0px;
     width: 100%;
-    min-width: 868px;
+    /* min-width: 868px; */
   }
 
   section div.text2 {
@@ -2205,7 +2205,7 @@ p.quote {
 }
 
 .center {
-  margin: 4rem 0 0 0;
+  /* margin: 4rem 0 0 0; */
 }
 
 .bottom {

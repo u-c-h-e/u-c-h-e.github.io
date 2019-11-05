@@ -73,11 +73,10 @@ p {
   background-size: cover;
 }
 
-.contact-all {
-  padding-top: 20%;
-  max-width: 600px;
-  margin: auto;
-}
+/* padding-top: 11rem;
+    padding-bottom: 10%;
+    max-width: 600px;
+    margin: auto; */
 
 .return-link {
   color: #ffffff;
