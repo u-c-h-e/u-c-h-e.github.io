@@ -200,6 +200,7 @@ section div.new-text-container,
 
 .cd-primary-nav > ul a {
   color: #000;
+  font-family: "WorkSans";
 }
 
 /* [Object] Modal
@@ -317,13 +318,13 @@ section div.new-text-container,
 }
 
 @media screen and (min-width: 1024px) {
-  .row {
+  /* .row {
     width: 100%;
     position: relative;
     padding: 0rem 0 0 0;
     max-width: 780px;
     margin: auto;
-  }
+  } */
 
   .cd-primary-nav > ul li:last-of-type {
     margin-right: 0;
@@ -413,4 +414,173 @@ p img {
 .shorter {
   max-width: 620px;
   /* margin: 0; */
+}
+
+.lil-top {
+  padding-top: 2px;
+}
+
+@media only screen and (min-width: 0px) {
+  .cd-auto-hide-header .logo {
+    left: 5%;
+    /* left: 107px; */
+  }
+
+  .the-img {
+    padding: 2.5rem 0 0 0;
+    margin-top: 6rem;
+    background-image: url(../images/fun/shapes-2.svg);
+    background-attachment: local;
+    background-position: 0% 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .the-img {
+    padding: 2.5rem 0 0 0;
+    margin-top: 8rem;
+    background-image: url(../images/fun/shapes-2.svg);
+    background-attachment: local;
+    background-position: 0% 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+.pad-top {
+  margin-top: 3rem;
+}
+
+.last {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .more-top {
+    padding: 3rem 0 0 0;
+  }
+
+  .cd-auto-hide-header .logo {
+    left: 5%;
+    left: 107px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pad-top {
+    margin-top: 5rem;
+  }
+
+  .hero-image {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pad-top1 {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .pad-top1 {
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+  }
+
+  .lastest {
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+  }
+
+  .about-intro {
+    font-size: 4.4rem;
+  }
+
+  .column1 {
+    float: none;
+    width: 100%;
+    padding-top: 30%;
+    max-width: 620px;
+    margin: auto;
+    display: block;
+    /* padding-right: 60px; */
+  }
+}
+
+@media screen and (max-width: 758px) {
+  h1 {
+    font-size: 4.4rem;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+}
+
+@media screen and (min-width: 0px) {
+  .demographics {
+    background-color: #0a213e;
+    color: #fff;
+    padding: 2.4rem;
+    margin-bottom: 0rem;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 0px) {
+    .row4 {
+      width: 80%;
+      position: relative;
+      padding: 3rem 0 0 0;
+      margin: auto;
+      /* max-width: 780px; */
+      /* margin: auto; */
+    }
+
+    .row {
+      width: 80%;
+      position: relative;
+      padding: 3rem 0 0 0;
+      margin: auto;
+      /* max-width: 780px; */
+      /* margin: auto; */
+    }
+  }
+
+  @media screen and (min-width: 0px) {
+    .new-text-container4 {
+      width: 100%;
+      padding: 40px 0px 100px 0px;
+      z-index: -1;
+    }
+
+    .next {
+      padding: 100px 0px 100px 0px;
+      z-index: -1;
+    }
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .pad {
+    padding-bottom: 0rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .pad {
+    padding-bottom: 8rem;
+  }
+}
+
+.remove {
+  margin-top: -5%;
 }

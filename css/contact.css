@@ -1,9 +1,11 @@
 .contact-container {
-  padding: 0 0 1 rem 0;
+  padding: 0 0 1rem 0;
   max-width: 620px;
-  margin: auto;
-  margin-bottom: 5rem;
+  margin: 6rem auto;
+  margin-bottom: 12rem;
   background-color: #fff;
+  border: solid 1px #57638226;
+  background-image: url(/images/contact/contact-page-header.svg), 0.9;
 }
 
 .wip-container {
@@ -15,9 +17,9 @@
 
 .center {
   text-align: center;
-  font-family: "Muli", sans-serif;
-  font-weight: 600;
-  padding: 0 5% 0 5%;
+  /* font-family: "Muli", sans-serif; */
+  /* font-weight: 600; */
+  /* padding: 0 5% 0 5%; */
 }
 
 .linebreak {
@@ -28,7 +30,7 @@
 }
 
 .contact-header {
-  font-family: "Muli", sans-serif;
+  /* font-family: "Muli", sans-serif; */
   font-weight: 800;
   padding-top: 10rem;
   margin-bottom: 2rem;
@@ -43,9 +45,9 @@
 }
 
 .tooltip {
-  color: rgb(163, 255, 249);
+  color: rgb(112, 97, 199);
   position: relative;
-  border-bottom: 1.5px dotted #15b9d6;
+  border-bottom: 1.5px dotted rgb(112, 97, 199);
 }
 
 .white-center {
@@ -62,7 +64,7 @@
 
 .inline-para {
   /* font-family: "Muli", sans-serif; */
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 .main-header-white-center {
   max-width: 620px;
@@ -73,7 +75,7 @@
 
 .inline-para {
   max-width: 620px;
-  color: #ffffff;
+  color: #4a4a4a;
   text-align: center;
 }
 
@@ -102,7 +104,7 @@
   margin: 8px 0 30px 0;
   display: block;
   border: none;
-  border-bottom: solid 1px #8f47ec;
+  border-bottom: solid 1px #576382;
   /* border-radius: 4px; */
   width: 100%;
 }
@@ -135,7 +137,7 @@ textarea {
   padding: 12px 20px;
   margin: 8px 0;
   display: block;
-  border: 1px solid #8f47ec;
+  border: 1px solid #576382;
   font-size: 1.5rem;
 }
 
@@ -156,13 +158,13 @@ select {
 }
 
 input[type="submit"] {
-  color: #fff;
-  background-color: #8f47ec;
+  /* color: #fff; */
+  /* background-color: #8f47ec; */
   text-decoration: none;
   /* font-family: "Muli ExtraBold", san-serif; */
   font-weight: 800;
   padding: 1.4rem 0;
-  border-radius: 0px;
+  border: 1.5px solid #576382;
 }
 
 input[type="submit"]:hover {
@@ -170,6 +172,30 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 0px) {
+  .tooltip3 .tooltiptext3 {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    border: 1px solid #dabaff;
+    /* Position the tooltip */
+    left: -25px;
+    /* left: 25vw; */
+    margin: -26px 25px 25px 25px;
+    margin: -64px 25px 25px 25px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    transform: translateY(10px);
+    transition: all 0.25s ease-out;
+    height: 141px;
+    max-width: 300px;
+  }
+
   .contact-bkgd {
     height: 100%;
     background-image: url("../images/contact-page/contact-page-header2.svg");
@@ -203,6 +229,29 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 640px) {
+  .tooltip3 .tooltiptext3 {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    border: 1px solid #dabaff;
+    /* Position the tooltip */
+    left: -54px;
+    /* left: 25vw; */
+    margin: -26px 25px 25px 25px;
+    margin: -10px 25px 25px 25px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    transform: translateY(10px);
+    transition: all 0.25s ease-out;
+    height: 141px;
+    max-width: 300px;
+  }
   .contact-form {
     margin: auto;
     padding: 4rem 0 4rem 0;
@@ -229,6 +278,32 @@ input[type="submit"]:hover {
   }
 }
 
+@media only screen and (min-width: 900px) {
+  .tooltip3 .tooltiptext3 {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    border: 1px solid #dabaff;
+    /* Position the tooltip */
+    left: -25px;
+    left: 45vw;
+    margin: -26px 25px 25px 25px;
+    margin: -10px 25px 25px 25px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    transform: translateY(10px);
+    transition: all 0.25s ease-out;
+    height: 141px;
+    max-width: 300px;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .contact-header {
     padding-top: 10rem;
@@ -240,6 +315,30 @@ input[type="submit"]:hover {
     margin-bottom: 2rem;
     color: rgb(112, 97, 199);
   }
+
+  .tooltip3 .tooltiptext3 {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    border: 1px solid #dabaff;
+    /* Position the tooltip */
+    left: -25px;
+    left: 400%;
+    margin: -26px 25px 25px 25px;
+    margin: -1px 25px 25px 25px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    transform: translateY(10px);
+    transition: all 0.25s ease-out;
+    height: 141px;
+    max-width: 300px;
+  }
 }
 
 .tooltip3 {
@@ -247,28 +346,6 @@ input[type="submit"]:hover {
   display: inline;
   /* border-bottom: 1px dotted #8F47EC; */
   width: 100%;
-}
-
-.tooltip3 .tooltiptext3 {
-  visibility: hidden;
-  min-width: 250px;
-  background-color: #fff;
-  text-align: left;
-  border-radius: 6px;
-  border: 1px solid #dabaff;
-  /* Position the tooltip */
-  left: -25px;
-  margin: -26px 25px 25px 25px;
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  pointer-events: none;
-  position: absolute;
-  width: 100%;
-  transform: translateY(10px);
-  transition: all 0.25s ease-out;
-  height: 141px;
-  max-width: 300px;
 }
 
 .tooltip3:hover .tooltiptext3 {

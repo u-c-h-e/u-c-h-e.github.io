@@ -1207,7 +1207,7 @@ h1.main-text {
   }
 
   section.new {
-    display: flex;
+    display: inline-flex;
   }
 
   .stretch {

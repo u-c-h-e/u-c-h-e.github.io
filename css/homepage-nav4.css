@@ -1341,6 +1341,13 @@ section#contact div.return-top {
     /* padding: 0 5% ; */
     display: none;
   }
+
+  .hero-copy-container {
+    padding-top: 20rem;
+  }
+  .hero-copy-container2 {
+    padding-top: 6rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (min-height: 900px) {
@@ -1348,7 +1355,16 @@ section#contact div.return-top {
     padding-top: 23rem;
   }
   .hero-copy-container2 {
-    padding-top: 3rem;
+    padding-top: 6rem;
+  }
+}
+
+@media only screen and (min-width: 1199px) {
+  .hero-copy-container {
+    /* padding-top: 16rem; */
+  }
+  .hero-copy-container2 {
+    padding-top: 6rem;
   }
 }
 
@@ -1429,11 +1445,16 @@ footer {
   .persona-card3 {
     margin-top: 3rem;
   }
+  .hero-copy-container {
+    padding-top: 27rem;
+    padding-top: 20rem;
+  }
 }
 
 @media only screen and (min-width: 1295px) and (min-height: 900px) {
   .hero-copy-container {
     padding-top: 27rem;
+    padding-top: 20rem;
   }
   .hero-copy-container2 {
     padding-top: 7rem;
