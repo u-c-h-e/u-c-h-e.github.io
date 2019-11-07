@@ -352,16 +352,6 @@ section div.new-text-container,
   text-align: center;
 } */
 
-.btn {
-  cursor: pointer;
-  /* background: #27ae60; */
-  display: inline-block;
-  padding: 0.5em 1em;
-  border-radius: 3px;
-  text-decoration: underline;
-  color: #576382;
-}
-
 .btn:hover,
 .btn:focus {
   /* background: #2ecc71; */
@@ -421,6 +411,15 @@ p img {
 }
 
 @media only screen and (min-width: 0px) {
+  .btn {
+    cursor: pointer;
+    /* background: #27ae60; */
+    display: inline-block;
+    padding: 0rem;
+    border-radius: 3px;
+    text-decoration: underline;
+    color: #576382;
+  }
   .demographics {
     background-color: #0a213e;
     color: #fff;
@@ -611,8 +610,15 @@ p img {
     max-width: 600px;
     margin: auto;
   }
+
+  .row-space {
+    padding: 0rem 0 0 0;
+  }
 }
 
+.mini-label-white {
+  text-transform: uppercase;
+}
 @media only screen and (min-width: 0px) {
   .contact-all {
     /* padding-top: 14%; */
@@ -631,4 +637,22 @@ p img {
 
 .center2 {
   margin: 4rem 0 -1rem 0;
+}
+
+@media screen and (min-width: 700px) {
+  .nada {
+    width: 100%;
+    max-width: 780px;
+    margin: auto;
+  }
+
+  .btn {
+    cursor: pointer;
+    /* background: #27ae60; */
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    text-decoration: underline;
+    color: #576382;
+  }
 }
