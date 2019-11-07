@@ -2559,3 +2559,7 @@ p img {
   float: left;
   margin: 0 1em 1em 0;
 }
+
+div.long {
+  margin-bottom: 18rem;
+}

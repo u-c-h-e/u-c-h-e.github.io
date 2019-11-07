@@ -381,6 +381,9 @@ p img {
   float: left;
   margin: 0 1em 1em 0;
 }
+block {
+  display: block;
+}
 
 .tbody-2 {
   display: block;
