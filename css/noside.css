@@ -109,17 +109,6 @@ section div.new-text-container,
   .new-text-container1 {
     margin: auto;
   }
-
-  @media screen and (min-width: 1050px) {
-    .text,
-    .left-no-padding {
-      margin: auto;
-      width: 100%;
-      padding-left: 0px;
-      /* margin-left: 107px; */
-      max-width: 620px;
-    }
-  }
 }
 
 .three-rem {
@@ -337,6 +326,27 @@ section div.new-text-container,
     display: inline-block;
     float: left;
     margin-right: 1.5em;
+  }
+
+  .text2 {
+    margin: auto;
+    /* width: 80%; */
+    width: 100%;
+    /* max-width: 545px; */
+    /* padding: 0 0 0 107px; */
+    /* padding: 100px 0 0 0px; */
+    padding: 100px 16% 0 107px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .text,
+  .left-no-padding {
+    margin: auto;
+    width: 100%;
+    padding-left: 0px;
+    /* margin-left: 107px; */
+    max-width: 620px;
   }
 
   .text2 {
