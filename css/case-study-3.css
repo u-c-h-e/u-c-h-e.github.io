@@ -159,6 +159,16 @@ ol {
   margin-left: 2rem;
   padding: 0.3rem;
   padding-left: 1rem;
+  /* color: #4a4a4a; */
+  /* font-size: 1.6rem; */
+  line-height: 2.6rem;
+}
+
+.list-black2 {
+  padding-top: 0.5rem;
+  margin-left: 3rem;
+  padding: 0.3rem;
+  padding-left: 1rem;
   color: #4a4a4a;
   /* font-size: 1.6rem; */
   line-height: 2.6rem;
@@ -444,11 +454,11 @@ h1 {
   color: #000000;
   letter-spacing: -2px;
   letter-spacing: 0.1px;
-  padding-bottom: 2rem;
 }
 
 h1.main-text {
   font-weight: 500;
+  /* padding-bottom: 2rem; */
 }
 
 @font-face {
@@ -1458,7 +1468,7 @@ h1.main-text {
     margin: 0;
     width: 100%;
     padding-left: 107px;
-    max-width: 720px;
+    max-width: 620px;
     /* margin-left: 107px; */
     /* max-width: 720px; */
   }
@@ -1651,7 +1661,7 @@ h1.main-text {
 }
 
 .extra-padding {
-  margin: 8rem 0 10rem 0;
+  margin: 8rem auto 10rem auto;
 }
 
 .short {
@@ -1659,6 +1669,10 @@ h1.main-text {
 }
 
 @media screen and (min-width: 1050px) {
+  .main-text {
+    padding-bottom: 7rem;
+  }
+
   .box {
     width: 70%;
   }
@@ -1799,7 +1813,7 @@ h1.main-text {
   }
 
   section div.text2 {
-    padding: 0 30px;
+    /* padding: 0 30px; */
   }
 
   div.side-menu {
@@ -1826,9 +1840,9 @@ h1.main-text {
 
   .hero-image {
     padding-top: 80px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    margin-top: 30px;
     width: 100%;
-    /* background-color: red; */
     background-image: url("../images/spaceKit/sections/overview/hero_image.png");
     background-size: cover;
     background-position: 65%;
@@ -1988,6 +2002,10 @@ h1.main-text {
 }
 
 @media screen and (min-width: 1200px) {
+  .main-text {
+    /* padding-bottom: 10rem; */
+  }
+
   .persona1-card-top {
     width: 380px;
     display: block;
@@ -2012,6 +2030,10 @@ h1.main-text {
 }
 
 @media screen and (min-width: 1300px) {
+  .main-text {
+    padding-bottom: 12rem;
+  }
+
   .text-problem {
     margin: auto;
     width: 100%;

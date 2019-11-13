@@ -173,7 +173,7 @@ a {
 
 .cd-auto-hide-header .logo {
   left: 5%;
-  left: 5%;
+  left: 10%;
 }
 .cd-auto-hide-header .logo a,
 .cd-auto-hide-header .logo img {
@@ -298,7 +298,7 @@ a {
   .cd-primary-nav {
     /* vertically align its content */
     display: table;
-    padding-right: 107px;
+    padding-right: 10%;
   }
   .cd-primary-nav > ul {
     /* vertically align inside parent element */

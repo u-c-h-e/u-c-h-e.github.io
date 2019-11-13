@@ -155,11 +155,6 @@ a {
   -ms-transform: translateY(-100%);
   transform: translateY(-100%);
 }
-@media only screen and (min-width: 1024px) {
-  .cd-auto-hide-header {
-    height: 80px;
-  }
-}
 
 .cd-auto-hide-header .logo,
 .cd-auto-hide-header .nav-trigger {
@@ -174,10 +169,6 @@ a {
 .cd-auto-hide-header .logo {
   left: 5%;
   left: 107px;
-}
-.cd-auto-hide-header .logo a,
-.cd-auto-hide-header .logo img {
-  display: block;
 }
 
 .cd-auto-hide-header .nav-trigger {
@@ -267,8 +258,8 @@ a {
   display: inline-block;
   float: right;
   height: 100%;
-  padding-right: 5%;
-  padding-right: 107px;
+  padding-right: 9%;
+  /* padding-right: 107px; */
 }
 .cd-primary-nav > ul {
   position: absolute;
@@ -289,6 +280,13 @@ a {
   color: #4a4a4a;
   font-size: 1.8rem;
   border-top: 1px solid #f2f2f2;
+}
+
+@media only screen and (min-width: 0px) {
+  .cd-auto-hide-header .logo img {
+    display: block;
+    max-width: 84%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -331,6 +329,15 @@ a {
     line-height: normal;
     padding: 0;
     border: none;
+  }
+
+  .cd-auto-hide-header {
+    height: 80px;
+  }
+
+  .cd-auto-hide-header .logo img {
+    display: block;
+    max-width: 100%;
   }
 }
 

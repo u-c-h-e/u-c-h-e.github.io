@@ -605,13 +605,11 @@ h1.main-text {
     border-bottom: 1px solid rgb(218, 218, 218, 0);
   }
 
-  .text2 {
+  /* .text2 {
     margin: auto;
     width: 80%;
-    /* max-width: 545px; */
-    /* padding: 0 0 0 107px; */
     padding: 80px 0 0 0px;
-  }
+  } */
 
   section div.new-text-container-problem {
     padding: 60px 0px 60px 0px;
@@ -635,21 +633,21 @@ h1.main-text {
     /* max-width: 720px; */
   }
 
-  .imgDetails {
+  /* .imgDetails {
     position: relative;
     float: left;
     float: none;
     height: 100px;
     width: 100%;
-  }
+  } */
 
-  .imgDetails h5 {
+  /* .imgDetails h5 {
     position: absolute;
     bottom: 0;
     line-height: 130%;
     color: #4a4a4a;
     padding-bottom: 2rem;
-  }
+  } */
 
   section div.new-text-container {
     margin: auto;
@@ -1600,9 +1598,9 @@ h1.main-text {
 }
 
 @media screen and (min-width: 988px) {
-  .imgDetails {
+  /* .imgDetails {
     height: 60px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1024px) {
@@ -1823,9 +1821,9 @@ h1.main-text {
     /* padding: 0 30px; */
   }
 
-  section div.text2 {
+  /* section div.text2 {
     padding: 0 30px;
-  }
+  } */
 
   div.side-menu {
     height: 150px;
@@ -1923,13 +1921,13 @@ h1.main-text {
     display: none;
   }
 
-  .imgDetails {
+  /* .imgDetails {
     position: relative;
     float: left;
     float: none;
     height: 150px;
     width: 100%;
-  }
+  } */
 
   .new-text-container3 {
     width: 100%;
@@ -2100,13 +2098,13 @@ h1.main-text {
     /* min-width: 868px; */
   }
 
-  section div.text2 {
+  /* section div.text2 {
     padding: 0;
     margin-left: 107px;
     max-width: 475px;
-  }
+  } */
 
-  popup {
+  .popup {
     margin: 100px auto 150px auto;
     padding: 5%;
     background: #fff;
