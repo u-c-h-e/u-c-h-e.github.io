@@ -319,20 +319,20 @@ section#contact div.return-top {
   margin: 3rem auto 3rem auto;
 }
 
-.bounce {
+/* .bounce {
   z-index: 1;
   animation-timing-function: ease;
   transition-duration: 4s;
   -moz-animation: bounce 4s infinite;
   -webkit-animation: bounce 4s infinite;
   animation: bounce 4s infinite;
-}
+} */
 
 .contact-btns3 {
   margin-top: 2rem;
 }
 
-@keyframes bounce {
+/* @keyframes bounce {
   0%,
   20%,
   50%,
@@ -346,7 +346,7 @@ section#contact div.return-top {
   60% {
     transform: translateY(-15px);
   }
-}
+} */
 
 @media only screen and (min-width: 0px) {
   .tooltip-mobile {
@@ -562,7 +562,7 @@ section#contact div.return-top {
     background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
     padding: 5rem 0;
-    height: 760px;
+    /* height: 760px; */
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -570,7 +570,7 @@ section#contact div.return-top {
   .contact-title1 {
     color: #ffffff;
     margin-bottom: 4rem;
-    font-size: 5.3rem;
+    font-size: 5.2rem;
   }
 
   .wht-bkgd {
@@ -860,7 +860,7 @@ h4.persona-header2 {
   font-weight: 400;
 }
 #contact {
-  padding: 0 20%;
+  padding: 0;
 }
 
 .button-container3 {

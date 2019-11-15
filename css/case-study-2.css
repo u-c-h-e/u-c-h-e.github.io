@@ -606,9 +606,11 @@ small {
 }
 
 .button-style-1 {
-  background-color: #FFD600;
-  box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
-  color: #453475;
+  background-color: #FFf;
+  border-style: solid;
+  border: 1.5px solid #576382;
+  /* box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4); */
+  color: #576382;
   display: inline-block;
    
   font-size: 1.4rem;
@@ -4119,6 +4121,7 @@ cursor: default;
 
 .return-link-2 {
   color: #ffffff;
+  margin-top: 3rem;
   display: block;
   -moz-transform: scale(1, -1);
   -webkit-transform: scale(1, -1);
@@ -4196,17 +4199,17 @@ section#contact div.return-top {
 }
 
 .bounce {
-  z-index: 1;
-  margin-top: 3rem;
   text-align: center;
+  /* z-index: 1;
+  margin-top: 3rem;
   animation-timing-function: ease;
   transition-duration: 4s;
   -moz-animation: bounce 4s infinite;
   -webkit-animation: bounce 4s infinite;
-  animation: bounce 4s infinite;
+  animation: bounce 4s infinite; */
 }
 
-@keyframes bounce {
+/* @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
@@ -4216,7 +4219,7 @@ section#contact div.return-top {
   60% {
     transform: translateY(-15px);
   }
-}
+} */
 
 .hideme
 {
@@ -4458,7 +4461,7 @@ color: #ffffff;
   background-image: url("../images/homepage/work/contact/contact-background.png");
   color: #4a4a4a;
   padding: 5rem 0;
-  height: 650px;
+  height: 690px;
   background-repeat: no-repeat;
   background-size: cover;
 }
