@@ -820,6 +820,11 @@ section#contact div.return-top {
     /* padding: 0 5% ; */
     display: none;
   }
+
+  .intro-tab {
+    /* padding: 0 5% ; */
+    display: none;
+  }
   .intro-mobile {
     /* padding: 0 5% ; */
     display: block;
