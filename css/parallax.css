@@ -448,7 +448,7 @@ body {
     background-image: url("./images/homepage/hero/bkgd.png");
     background-color: #865ff4;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     /* height: 100%; */
     background-position: center;
     background-size: cover;
