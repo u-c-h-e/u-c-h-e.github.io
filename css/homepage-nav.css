@@ -195,12 +195,9 @@ li:nth-child(1) {
 
 /* Typography */
 
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:600|Muli:800");
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
-
 body {
   background-color: #ffffff;
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   line-height: 1.45;
   color: #4a4a4a;
   margin: auto;
@@ -209,7 +206,7 @@ body {
 }
 
 p {
-  font-family: "Muli", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.6rem;
   font-style: normal;
   line-height: 180%;
@@ -237,7 +234,7 @@ h2 {
 
 h4 {
   font-size: 1.777em;
-  font-family: "Playfair Display", serif;
+  font-family: "Blacker Display", serif;
   line-height: 110%;
 }
 
@@ -890,7 +887,7 @@ section#contact div.return-top {
   h1 {
     padding: 0rem 0rem;
     font-size: 6.734rem;
-    font-family: "Playfair Display", serif;
+    font-family: "Blacker Display", serif;
     font-weight: 800;
     line-height: 1.15;
     text-align: center;

@@ -1646,10 +1646,10 @@ footer {
   }
 }
 
-body {
+/* body {
   opacity: 0;
   transition: opacity 3s ease;
-}
+} */
 
 .loaded {
   opacity: 1;

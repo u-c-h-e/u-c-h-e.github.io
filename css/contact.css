@@ -13,12 +13,14 @@
   max-width: 620px;
   margin: auto;
   margin-bottom: 5rem;
+  width: 80%;
 }
 
 .center {
   text-align: center;
+  font-size: 18px;
   /* font-family: "Muli", sans-serif; */
-  /* font-weight: 600; */
+  font-weight: 500;
   /* padding: 0 5% 0 5%; */
 }
 
@@ -41,7 +43,7 @@
   margin-top: 0px;
   padding-top: 10rem;
   margin-bottom: 2rem;
-  color: rgb(112, 97, 199);
+  color: #000;
 }
 
 .tooltip {
@@ -114,17 +116,6 @@
   background-image: url("../images/contact/contact-page-header.svg");
 }
 
-.wip-hero {
-  display: block;
-  height: 100%;
-  /* background-attachment: fixed; */
-  background-image: url("../images/components/construction.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-}
-
 .main-header-white {
   max-width: 620px;
 }
@@ -172,6 +163,18 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 0px) {
+  .wip-hero {
+    display: block;
+    height: 100%;
+    /* background-attachment: fixed; */
+    background-image: url("../images/components/construction.png");
+    /* background-position: center; */
+    background-position: 57% 95%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 1000px;
+  }
   .tooltip3 .tooltiptext3 {
     visibility: hidden;
     min-width: 250px;
@@ -228,7 +231,34 @@ input[type="submit"]:hover {
   }
 }
 
+@media only screen and (min-width: 400px) {
+  .wip-hero {
+    display: block;
+    height: 100%;
+    /* background-attachment: fixed; */
+    background-image: url("../images/components/construction.png");
+    /* background-position: center; */
+    background-position: 50% 95%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 1000px;
+  }
+}
+
 @media only screen and (min-width: 640px) {
+  .wip-hero {
+    display: block;
+    height: 100%;
+    /* background-attachment: fixed; */
+    background-image: url("../images/components/construction.png");
+    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 1000px;
+  }
   .tooltip3 .tooltiptext3 {
     visibility: hidden;
     min-width: 250px;
@@ -269,7 +299,7 @@ input[type="submit"]:hover {
   .wip-header {
     padding-top: 12rem;
     margin-bottom: 2rem;
-    color: rgb(112, 97, 199);
+    color: #000;
   }
 
   .contact-bkgd {
@@ -304,6 +334,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media only screen and (min-width: 500px) {
+  h1.wip-header {
+    font-size: 5.2rem;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .contact-header {
     padding-top: 10rem;
@@ -311,9 +347,10 @@ input[type="submit"]:hover {
     color: rgb(202, 193, 255);
   }
   .wip-header {
-    padding-top: 10rem;
+    padding-top: 18rem;
     margin-bottom: 2rem;
     color: rgb(112, 97, 199);
+    color: rgb(0, 0, 0);
   }
 
   .tooltip3 .tooltiptext3 {
