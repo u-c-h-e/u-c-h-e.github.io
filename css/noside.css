@@ -685,3 +685,24 @@ section.no-flex {
 .no-pad {
   padding-top: 0 !important;
 }
+
+.bounce {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  display: block;
+}
+
+.team {
+  color: #576382;
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  text-decoration-color: #576382;
+}
+
+.blue-star {
+  color: #15b9d6 !important;
+}

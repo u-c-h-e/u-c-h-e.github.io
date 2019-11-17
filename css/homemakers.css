@@ -2352,7 +2352,8 @@ p.quote {
 }
 
 .mini-label-header {
-  color: #8f47ec;
+  /* color: #8f47ec; */
+  color: #0e72c4;
 
   font-weight: 800;
   font-size: 1.6rem;

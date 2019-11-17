@@ -475,11 +475,27 @@ section#contact div.return-top {
 }
 
 @media only screen and (min-width: 0px) {
+  .white-hero {
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding: 0 10%;
+  }
   .max {
     display: block;
     height: 2.2rem;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
   /* .contact-me {
     margin: 8rem 0 0rem;
@@ -539,9 +555,9 @@ section#contact div.return-top {
   }
 
   .button-style-5 {
-    background-color: rgb(233, 233, 233);
-    box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
-    color: #4a4a4a;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 0px 14px -12px;
+    color: #737283;
     display: inline-block;
     font-family: "WorkSans", sans-serif;
     font-size: 1.4rem;
@@ -557,7 +573,7 @@ section#contact div.return-top {
     white-space: nowrap;
     -moz-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
-    margin: 3rem 0 8rem 0;
+    /* margin: 3rem 0 8rem 0; */
   }
 
   .contact-me {
@@ -723,6 +739,11 @@ section#contact div.return-top {
     /* padding: 0 5% ; */
     display: none;
   }
+
+  .intro-tab {
+    /* padding: 0 5% ; */
+    display: none;
+  }
   .intro-mobile {
     /* padding: 0 5% ; */
     display: block;
@@ -750,7 +771,8 @@ section#contact div.return-top {
     display: block;
     height: 2.2rem;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
 
   .content-label {
@@ -884,10 +906,15 @@ section#contact div.return-top {
   .hero-copy-container {
     padding-top: 18vh;
   }
-  .intro-desktop {
+  .intro-tab {
     /* padding: 0 5% ; */
     display: block;
     margin: auto;
+  }
+
+  .intro-desktop {
+    /* padding: 0 5% ; */
+    display: none;
   }
   .intro-mobile {
     /* padding: 0 5% ; */
@@ -1225,6 +1252,11 @@ section#contact div.return-top {
 
   .intro-desktop {
     /* padding: 0 5% ; */
+    display: none;
+  }
+
+  .intro-tab {
+    /* padding: 0 5% ; */
     display: block;
     margin: auto;
   }
@@ -1302,7 +1334,7 @@ section#contact div.return-top {
     background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
     padding: 5rem 0;
-    height: 690px;
+    height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1353,6 +1385,12 @@ section#contact div.return-top {
     display: block;
     margin: auto;
   }
+
+  .intro-tab {
+    /* padding: 0 5% ; */
+    display: none;
+  }
+
   .intro-mobile {
     /* padding: 0 5% ; */
     display: none;
@@ -1463,7 +1501,7 @@ footer {
   }
   .hero-copy-container {
     padding-top: 27rem;
-    padding-top: 20rem;
+    padding-top: 16rem;
   }
 }
 
@@ -1517,6 +1555,12 @@ footer {
     display: block;
     margin: auto;
   }
+
+  .intro-tab {
+    /* padding: 0 5% ; */
+    display: none;
+  }
+
   .intro-mobile {
     /* padding: 0 5% ; */
     display: none;

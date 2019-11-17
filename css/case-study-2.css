@@ -610,7 +610,7 @@ small {
   border-style: solid;
   border: 1.5px solid #576382;
   /* box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4); */
-  color: #576382;
+  color: #4a4a4a;
   display: inline-block;
    
   font-size: 1.4rem;
@@ -4593,7 +4593,7 @@ footer {
 }
 
 .tooltip-dotted {
-  border-bottom: 1.5px dotted #15b9d6;;
+  border-bottom: 1.5px solid #15b9d6;;
   /* color: rgb(21, 185, 214);; */
 }
 

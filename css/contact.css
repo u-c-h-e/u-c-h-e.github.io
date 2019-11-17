@@ -45,9 +45,9 @@
 }
 
 .tooltip {
-  color: rgb(112, 97, 199);
+  color: #4a4a4a;
   position: relative;
-  border-bottom: 1.5px dotted rgb(112, 97, 199);
+  border-bottom: 1.5px solid #15b9d6;
 }
 
 .white-center {

@@ -12,7 +12,7 @@ html:not([amp4ads]) body {
 body {
   background-color: #f7f7f7;
   background-color: #ffffff;
-  color: #221204;
+  /* color: #221204; */
   display: grid;
   font-family: "Muli", sans-serif;
   font-family: WorkSans;
@@ -644,6 +644,7 @@ h1.main-text {
     /* height: 80vh; */
     background-color: #fff;
     background-image: url(../images/spaceKit/sections/overview/hero_image_2.png);
+    background-image: none;
     background-size: cover;
     background-position: center;
     background-size: contain;

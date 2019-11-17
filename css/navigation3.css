@@ -129,7 +129,54 @@ a {
   transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
+.cd-auto-hide-header::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.cd-auto-hide-header.is-hidden {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+@media only screen and (min-width: 0px) {
+  .cd-auto-hide-header {
+    /* height: 80px; */
+  }
+
+  .cd-auto-hide-header .logo {
+    left: 10%;
+  }
+
+  .cd-auto-hide-header .logo img {
+    display: block;
+    max-width: 84%;
+  }
+}
+/* .cd-auto-hide-header {
+    width: 100%;
+    display: block;
+    float: right;
+    height: 80px;
+    max-width: 1440px;
+    margin: auto;
+    right: 0;
+  } */
+
+.container-full {
+  margin-top: 0;
+}
+
 @media only screen and (min-width: 1024px) {
+  .cd-auto-hide-header .logo img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .cd-auto-hide-header {
+    height: 80px;
+  }
   /* .cd-auto-hide-header {
     width: 100%;
     display: block;
@@ -143,21 +190,10 @@ a {
   .container-full {
     margin-top: 0;
   }
-}
 
-.cd-auto-hide-header::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-.cd-auto-hide-header.is-hidden {
-  -webkit-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  transform: translateY(-100%);
-}
-@media only screen and (min-width: 1024px) {
-  .cd-auto-hide-header {
-    height: 80px;
+  .cd-auto-hide-header .logo {
+    left: 5%;
+    left: 10.7rem;
   }
 }
 
@@ -171,10 +207,6 @@ a {
   transform: translateY(-50%);
 }
 
-.cd-auto-hide-header .logo {
-  left: 5%;
-  left: 10%;
-}
 .cd-auto-hide-header .logo a,
 .cd-auto-hide-header .logo img {
   display: block;
@@ -284,7 +316,7 @@ a {
   display: block;
   height: 50px;
   line-height: 50px;
-  padding-left: 5%;
+  padding-left: 10%;
   color: #4a4a4a;
   font-size: 1.8rem;
   border-top: 1px solid #f2f2f2;
@@ -298,7 +330,7 @@ a {
   .cd-primary-nav {
     /* vertically align its content */
     display: table;
-    padding-right: 10%;
+    padding-right: 10.7rem;
   }
   .cd-primary-nav > ul {
     /* vertically align inside parent element */
