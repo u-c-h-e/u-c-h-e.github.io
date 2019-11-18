@@ -44,6 +44,10 @@ body {
   }
 }
 
+.button {
+  color: #4a4a4a;
+}
+
 @media (max-width: 600px) {
   .containerg {
     /* columns:1; */
