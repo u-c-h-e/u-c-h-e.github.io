@@ -247,7 +247,7 @@ input[type="submit"]:hover {
     font-family: "Work Sans", sans-serif;
     font-size: 1.8rem;
     width: 100%;
-    max-width: 400px;
+    /* max-width: 400px; */
   }
   .contact-header {
     padding-top: 14rem;
