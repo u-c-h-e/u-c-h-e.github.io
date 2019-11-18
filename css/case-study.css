@@ -3003,7 +3003,7 @@ h5.comp {
     }
 
     .container-padding {
-      margin: 0 auto;
+      margin: auto;
       margin-top: 80px;
       max-width: 620px;
       display: block;

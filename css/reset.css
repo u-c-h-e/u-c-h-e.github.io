@@ -1,4 +1,4 @@
-/* html,
+html,
 body,
 div,
 span,
@@ -51,14 +51,14 @@ fieldset,
 form,
 label,
 legend,
-table,
+/* table, */
 caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
+/* tbody, */
+/* tfoot, */
+/* thead, */
+/* tr, */
+/* th, */
+/* td, */
 article,
 aside,
 canvas,
@@ -158,7 +158,7 @@ element {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-} */
+}
 
 input,
 label,

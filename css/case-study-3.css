@@ -271,7 +271,35 @@ ol {
   margin: 4rem 0 2rem 0;
 }
 
+.button-style-41 {
+  background-color: #8f47ec;
+  box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  display: inline-block;
+  font-family: "WorkSans", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 800;
+  /* height: 48px; */
+  width: 140px;
+  text-align: center;
+  padding-bottom: 1.3rem;
+  padding-top: 1.3rem;
+  text-transform: LOWERcase;
+  transition-duration: 0.5s;
+  white-space: nowrap;
+  -moz-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 14px -12px rgba(247, 16, 16, 0.4);
+  margin: 4rem 0 2rem 0;
+}
+
 .button-style-4:hover {
+  background-color: #4a4a4a;
+  color: #fff;
+  transition-duration: 0.4s;
+}
+
+.button-style-41:hover {
   background-color: #4a4a4a;
   color: #fff;
   transition-duration: 0.4s;
@@ -1118,6 +1146,16 @@ h1.main-text {
     padding-bottom: 1rem;
   }
 
+  .list-black {
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    /* color: #4a4a4a; */
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
   .middle {
     width: 50%;
   }
@@ -1169,6 +1207,16 @@ h1.main-text {
 }
 
 @media screen and (min-width: 0px) {
+  .list-black {
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    /* color: #4a4a4a; */
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+  }
+
   .pad4 {
     padding-top: 2rem;
   }
@@ -2586,3 +2634,13 @@ p img {
 div.long {
   margin-bottom: 18rem;
 }
+
+/* h6 {
+  display: block;
+  font-size: 0.67em;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+} */
