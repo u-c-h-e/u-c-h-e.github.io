@@ -176,7 +176,7 @@ textarea {
 
   /* Browsers have different default form fonts */
   font-size: 16px;
-  font-family: "Work Sans";
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Remove the stupid outer glow in Webkit */
