@@ -159,8 +159,39 @@ p {
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "Work Sans";
+  src: url("../css/WorkSans/WorkSans-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../css/WorkSans/WorkSans-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../css/WorkSans/WorkSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../css/WorkSans/WorkSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../css/WorkSans/WorkSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
 body {
   background-color: #ffffff;
+  font-family: "WorkSans", sans-serif;
   line-height: 1.45;
   color: #4a4a4a;
   margin: auto;

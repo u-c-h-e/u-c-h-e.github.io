@@ -632,9 +632,6 @@ Intro Section
   }
 }
 
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:600|WorkSans:800");
-@import url("https://fonts.googleapis.com/css?family=WorkSans&display=swap");
-
 @font-face {
   font-family: "Black";
   src: url("../css/black/Black-Display-Medium.ttf");
