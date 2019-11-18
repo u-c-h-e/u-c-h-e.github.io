@@ -392,7 +392,7 @@ section div.new-text-container,
 }
 
 p img {
-  max-width: 200px;
+  /* max-width: 200px; */
   height: auto;
   float: left;
   margin: 0 1em 1em 0;
