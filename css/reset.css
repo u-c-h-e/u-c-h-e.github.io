@@ -177,6 +177,7 @@ textarea {
   /* Browsers have different default form fonts */
   font-size: 16px;
   font-family: "Work Sans";
+  border-radius: 0;
 }
 
 /* Remove the stupid outer glow in Webkit */
@@ -199,6 +200,7 @@ textarea {
 button,
 input[type="reset"],
 input[type="button"],
+input[type="text"],
 input[type="submit"],
 input[type="checkbox"],
 input[type="radio"],
@@ -234,6 +236,16 @@ input[type="checkbox"],
 input[type="radio"] {
   width: 13px;
   height: 13px;
+}
+
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 /* File Uploads
