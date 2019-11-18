@@ -717,7 +717,7 @@ h1.main-text {
 
   .persona1-img {
     background-image: url("../images/rise/rise-persona.png");
-    /* background-position: bottom; */
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
     min-height: 40.4rem;
@@ -1106,6 +1106,18 @@ h1.main-text {
 }
 
 @media screen and (min-width: 580px) {
+  .persona1-img {
+    background-image: url("../images/rise/rise-persona.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 40.4rem;
+    min-height: 38.4rem;
+    /* min-height: 34.2rem; */
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
   .left2 {
     width: 100%;
   }

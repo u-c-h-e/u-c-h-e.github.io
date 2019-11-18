@@ -153,16 +153,15 @@ ol {
   padding-left: 1rem;
   color: white;
 }
-
+/* 
 .list-black {
   padding-top: 0.5rem;
   margin-left: 2rem;
   padding: 0.3rem;
   padding-left: 1rem;
   color: #4a4a4a;
-  /* font-size: 1.6rem; */
   line-height: 2.6rem;
-}
+} */
 
 .list:last-child {
   padding-bottom: 0;

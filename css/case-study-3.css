@@ -172,6 +172,7 @@ ol {
   color: #4a4a4a;
   /* font-size: 1.6rem; */
   line-height: 2.6rem;
+  list-style-type: initial;
 }
 
 .list:last-child,
@@ -1135,6 +1136,33 @@ h1.main-text {
   }
 }
 
+@media screen and (min-width: 0px) {
+  .list-black {
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    color: #4a4a4a;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+  }
+
+  .pad4 {
+    padding-top: 2rem;
+  }
+  .box {
+    width: 70%;
+  }
+  .popup {
+    width: 70%;
+    display: none;
+  }
+
+  .overlay:target {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 580px) {
   .left2 {
     width: 100%;
@@ -1204,33 +1232,6 @@ h1.main-text {
 
 .pads {
   padding: 8rem 0;
-}
-
-@media screen and (min-width: 0px) {
-  .list-black {
-    padding-top: 0.5rem;
-    margin-left: 2rem;
-    padding: 0.3rem;
-    padding-left: 1rem;
-    /* color: #4a4a4a; */
-    font-size: 1.8rem;
-    line-height: 2.6rem;
-  }
-
-  .pad4 {
-    padding-top: 2rem;
-  }
-  .box {
-    width: 70%;
-  }
-  .popup {
-    width: 70%;
-    display: none;
-  }
-
-  .overlay:target {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 700px) {
