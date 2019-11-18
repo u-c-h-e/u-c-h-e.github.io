@@ -10,6 +10,66 @@ html {
   /* display: block; */
 }
 
+@font-face {
+  font-family: "Black";
+  src: url("../css/black/Black-Display-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Black";
+  src: url("../css/black/Black-Display-Bold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Black";
+  src: url("../css/black/Black-Display-ExtraBold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Black";
+  src: url("../css/black/Black-Display-Heavy.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Black";
+  src: url("../css/black/Black-Text-Bold.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../css/WorkSans/WorkSans-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../css/WorkSans/WorkSans-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../css/WorkSans/WorkSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../css/WorkSans/WorkSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../css/WorkSans/WorkSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
 body {
   margin: auto;
   /* display: block; */

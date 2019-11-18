@@ -1194,12 +1194,21 @@ h1.main-text {
     width: 70%;
   }
 
-  .hider {
+  .mobile {
+    display: block;
+  }
+  .desk {
     display: none;
   }
 }
 
 @media screen and (min-width: 700px) {
+  .desk {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
   .padding-300 {
     padding-top: 0px;
   }
@@ -2408,18 +2417,6 @@ p.quote {
 }
 
 .progress {
-  background: linear-gradient(
-    to right,
-    rgb(93, 189, 245) var(--scroll),
-    transparent 0
-  );
-  background-repeat: no-repeat;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 5.5px;
-  z-index: 10;
-  max-width: 1440px;
 }
 
 .image-container {

@@ -1321,7 +1321,7 @@ h1.main-text {
     width: 900;
     margin: auto;
     /* position: relative; */
-    z-index: 0;
+    z-index: 5;
     /* background-color: #edefff; */
   }
   .magnifier {
@@ -2431,7 +2431,7 @@ p.quote {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 5.5px;
+  height: 7px;
   z-index: 10;
   max-width: 1440px;
 }

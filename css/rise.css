@@ -86,7 +86,7 @@ p.white,
 }
 
 h3.main-header-white {
-  color: white;
+  color: #fff;
   font-weight: 500;
   padding: 1.2rem 0 2rem 0;
   line-height: 3.8rem;
@@ -136,7 +136,7 @@ p {
 }
 
 .white-para {
-  color: #ffffff;
+  color: #fff;
   font-size: 1.6rem;
   /* line-height: 100%; */
 }
@@ -359,7 +359,7 @@ section div.padding-bottom2 {
 }
 
 .mini-label-white {
-  color: #f5e2f2;
+  color: #fff;
   text-align: left;
 }
 
@@ -432,17 +432,6 @@ div.image-3 {
   background-repeat: no-repeat;
 }
 
-/* .hero-image2 {
-    padding-top: 80px;
-    width: 100%;
-    background-color: #009bf1;
-    background-image: url("https://media1.tenor.com/images/9b3b9cb886bb01eb979d2bd1f06abf7e/tenor.gif");
-    background-size: cover;
-    background-position: left;
-    opacity: 0.4;
-    background-repeat: no-repeat;
-  } */
-
 .hero-image1 {
   padding-top: 80px;
   width: 100%;
@@ -458,13 +447,13 @@ div.image-3 {
 .ref-bkgd {
   background-color: #b139be;
   background-color: #0f92ff;
-  background-color: #ca0fb1;
-  /* background-color: #009bf1; */
+  background-color: #b0dbff;
+  background-color: #fa5253;
 }
 
 .hero-image2 {
   width: 100%;
-  background-image: url("https://i.giphy.com/media/tYQoVhuLAZhKw/giphy.gif");
+  background-image: url("../images/rise/rise-problem.jpg");
   background-size: cover;
   background-position: bottom;
   opacity: 0.7;
@@ -1366,7 +1355,7 @@ h1.main-text {
     border-radius: 100%;
     box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85),
       0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-    background: url("https://raw.githubusercontent.com/uxdesignuo/img/master/rise-final-screens.png")
+    background: url("https://raw.githubusercontent.com/uxdesignuo/img/master/rise-final-screens11.png")
       no-repeat right top;
     display: none;
     z-index: 0.1;
@@ -1385,7 +1374,7 @@ h1.main-text {
   }
 
   .pad-ref {
-    margin-top: 8rem;
+    margin-top: 0rem;
   }
 
   .pad {
@@ -2402,7 +2391,7 @@ p.quote {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 5.5px;
+  height: 7px;
   z-index: 10;
   max-width: 1440px;
 }
