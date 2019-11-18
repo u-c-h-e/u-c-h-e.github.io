@@ -1017,3 +1017,114 @@ footer {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+#toggle:checked ~ #expand {
+  height: 900px;
+}
+#toggle:checked ~ label::before {
+  content: " ";
+  display: inline-block;
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+
+  vertical-align: middle;
+  margin-right: 0.7rem;
+  transform: translateY(-2px);
+
+  transition: transform 0.2s ease-out;
+}
+
+.wrap-collabsible {
+  margin-bottom: 1.2rem 0;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.lbl-toggle {
+  display: block;
+  box-shadow: 0px 0px 13px -13px rgba(0, 0, 0, 0.4);
+  border: 1.5px solid #576382;
+  /* color: #8f47ec; */
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 800;
+  height: 48px;
+  width: 140px;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  padding-bottom: 1.2rem;
+  padding-top: 1.2rem;
+  text-transform: LOWERcase;
+  transition-duration: 0.5s;
+  white-space: nowrap;
+  -moz-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
+
+  /* padding: 1rem;
+    color: #A77B0E;
+    
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.25s ease-out; */
+}
+
+.lbl-toggle:hover {
+  background-color: #4a4a4a;
+  border-color: #4a4a4a;
+  color: #ffffff;
+  transition-duration: 0.5s;
+}
+
+.lbl-toggle::before {
+  content: " ";
+  display: inline-block;
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: 0.7rem;
+  margin-top: 0.3rem;
+  transform: translateY(-2px);
+
+  transition: transform 0.2s ease-out;
+}
+
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 1800px;
+}
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+  /* background: rgba(250, 224, 66, .2); */
+  /* border-bottom: 1px solid rgba(250, 224, 66, .45); */
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 0.5rem 1rem;
+  padding: 4rem 0 0 0;
+}

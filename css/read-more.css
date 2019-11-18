@@ -78,9 +78,7 @@ label:hover {
   overflow: hidden;
   transition: height 0.5s;
 }
-section {
-  /* padding: 0 20px; */
-}
+
 #toggle:checked ~ #expand {
   height: 900px;
 }
