@@ -4328,7 +4328,7 @@ h5.comp {
   h1 {
     margin: 2rem 0rem;
     font-size: 6.734rem;
-    font-family: "Playfair Display", serif;
+    font-family: "Black", serif;
     font-weight: 600;
     line-height: 1.15;
     text-align: center;
@@ -4339,7 +4339,8 @@ h5.comp {
     font-size: 5rem;
     font-weight: 800;
     line-height: 1.15;
-    color: #8186a7;
+    color: #000000;
+    font-family: "Black", serif;
     text-align: center;
   }
 

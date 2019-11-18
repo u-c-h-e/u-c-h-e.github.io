@@ -16,11 +16,11 @@
   width: 80%;
 }
 
-.center {
+.center1 {
   text-align: center;
-  font-size: 18px;
+  /* font-size: 18px; */
   /* font-family: "Muli", sans-serif; */
-  font-weight: 500;
+  /* font-weight: 500; */
   /* padding: 0 5% 0 5%; */
 }
 
@@ -75,10 +75,16 @@
 .wip-hero {
 }
 
+.font {
+  font-family: "Work Sans", serif;
+}
+
 .inline-para {
   max-width: 620px;
   color: #4a4a4a;
   text-align: center;
+  font-weight: 400;
+  font-family: "Work Sans", serif;
 }
 
 .contact-container p {
@@ -152,7 +158,7 @@ input[type="submit"] {
   /* color: #fff; */
   /* background-color: #8f47ec; */
   text-decoration: none;
-  /* font-family: "Muli ExtraBold", san-serif; */
+  font-family: "Work Sans", san-serif;
   font-weight: 800;
   padding: 1.4rem 0;
   border: 1.5px solid #576382;

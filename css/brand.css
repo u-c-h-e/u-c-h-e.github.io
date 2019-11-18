@@ -473,9 +473,9 @@ section#contact div.return-top {
     /* margin-top: -5% */
   }
   .content-label {
-    font-family: "Work Sans", serif;
+    font-family: "Black", serif;
     font-size: 5rem;
-    font-weight: 800;
+    font-weight: 600;
     padding-top: 0rem;
     padding-bottom: 0rem;
     text-transform: lowercase;
@@ -739,7 +739,7 @@ section#contact div.return-top {
     background-image: url("../images/homepage/work/contact/contact-background.png");
     color: #4a4a4a;
     padding: 5rem 0;
-    height: 780px;
+    /* height: 780 px; */
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1357,7 +1357,7 @@ h4.persona-header2 {
   font-weight: 400;
 }
 #contact {
-  padding: 0 20%;
+  padding: 0 10%;
 }
 
 .button-container3 {
