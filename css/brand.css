@@ -16,6 +16,7 @@ p {
   text-decoration: none;
   list-style: none;
   color: #4a4a4a;
+  font-family: "Work Sans", san-serif;
 }
 
 .logo-flex {
@@ -242,12 +243,6 @@ li:nth-child(1) {
   font-family: "Work Sans";
   src: url("../css/WorkSans/WorkSans-SemiBold.ttf") format("truetype");
   font-weight: 600;
-}
-
-@font-face {
-  font-family: "Work Sans";
-  src: url("../css/WorkSans/WorkSans-Bold.ttf") format("truetype");
-  font-weight: 700;
 }
 
 @font-face {
@@ -1392,6 +1387,7 @@ section#contact div.return-top {
 }
 
 .mini-label-left {
+  font-family: "Work Sans", san-serif;
   text-align: left;
   color: rgb(165, 169, 175);
   /* color: #767476; */
@@ -1582,4 +1578,8 @@ element.style {
     max-width: 600px;
     margin: auto;
   }
+}
+.black {
+  color: #000000;
+  font-family: "Work Sans", serif;
 }
