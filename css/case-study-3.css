@@ -946,6 +946,12 @@ h1.main-text {
 
   .pad {
     padding-bottom: 7rem;
+    padding-top: 2rem;
+  }
+
+  .pad-bottom {
+    /* padding-bottom: 7rem; */
+    padding-top: 2rem;
   }
 
   .pad-top {
