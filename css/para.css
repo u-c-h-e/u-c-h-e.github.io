@@ -23,7 +23,7 @@
 
   .line2 {
     border-top: 4px solid #5de1f5;
-    width: 280px;
+    width: 290px;
     /* margin: 0 auto; */
     /* margin-top: 1.4rem; */
     margin-bottom: 20px;
@@ -167,7 +167,7 @@ th.tabl-right {
 
   .line2 {
     border-top: 6px solid #5de1f5;
-    width: 347px;
+    width: 362px;
     /* margin: 0 auto; */
     margin-top: 1.4rem;
     margin-bottom: 20px;
@@ -187,7 +187,7 @@ th.tabl-right {
 
   .line2 {
     border-top: 6px solid #5de1f5;
-    width: 347px;
+    width: 362px;
     /* margin: 0 auto; */
     margin-top: 1.4rem;
     margin-bottom: 20px;
@@ -232,23 +232,11 @@ th.tabl-right {
   }
 }
 
-@media only screen and (min-width: 768px) {
-  div.hero-copy-container2 {
-    padding: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    max-width: 574px;
-  }
-}
-
 @media only screen and (min-width: 850px) {
   div.hero-copy-container2 {
     padding: 0;
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -260,5 +248,23 @@ th.tabl-right {
   div.hero-copy-container2 {
     top: 50%;
     left: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* div.hero-copy-container2 {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 574px;
+  } */
+
+  p.hero-p {
+    color: #ffffff;
+    font-size: 2.4rem;
+    line-height: 180%;
   }
 }
