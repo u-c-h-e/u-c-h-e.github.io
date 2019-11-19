@@ -601,6 +601,8 @@ section#contact div.return-top {
     overflow: hidden;
     position: relative;
     margin-bottom: 0.5%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   #case-study-second-mobile {
@@ -614,6 +616,8 @@ section#contact div.return-top {
     position: relative;
     margin-bottom: 0.5%;
     margin-top: 4rem;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   #case-study-third-mobile {
@@ -627,6 +631,8 @@ section#contact div.return-top {
     position: relative;
     margin-bottom: 0.5%;
     margin-top: 4rem;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   #case-study-fourth-mobile {
@@ -640,8 +646,8 @@ section#contact div.return-top {
     position: relative;
     margin-bottom: 0.5%;
     margin-top: 4rem;
-    /* margin-left: 5% */
-    /* margin: 0 5%; */
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .card-container6 {
@@ -657,6 +663,7 @@ section#contact div.return-top {
     display: block;
     float: none;
     padding: 0 5%;
+    margin-top: -3rem;
   }
 
   .card-container7-mobile {
@@ -884,6 +891,20 @@ section#contact div.return-top {
   .hero-copy-container2 {
     padding-top: 3rem;
   }
+
+  .card-container6-mobile {
+    max-width: 100%;
+    display: block;
+    float: none;
+    padding: 5% 5% 0 5%;
+    margin-top: -3rem;
+  }
+}
+
+@media only screen and (min-width: 460px) {
+  .card-container6-mobile {
+    margin-top: 0rem;
+  }
 }
 
 @media only screen and (min-width: 415px) and (min-height: 900px) {
@@ -960,6 +981,26 @@ section#contact div.return-top {
 }
 
 @media only screen and (min-width: 600px) {
+  #case-study-first-mobile {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #case-study-second-mobile {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #case-study-third-mobile {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #case-study-fourth-mobile {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
   .max {
     display: block;
     height: 2.2rem;
@@ -1018,6 +1059,25 @@ section#contact div.return-top {
 }
 
 @media only screen and (min-width: 700px) {
+  #case-study-first-mobile {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #case-study-second-mobile {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #case-study-third-mobile {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #case-study-fourth-mobile {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
   /* .contact-me {
     margin: 12rem 0 0;
   } */

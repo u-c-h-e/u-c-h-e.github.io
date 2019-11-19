@@ -224,7 +224,7 @@ th.tabl-right {
   div.hero-copy-container2 {
     padding: 0;
     position: absolute;
-    top: 52%;
+    /* top: 52%; */
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
