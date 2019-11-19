@@ -783,7 +783,7 @@ section#contact div.return-top {
   }
 
   .persona-card3 {
-    margin-top: 3rem;
+    margin-top: 0rem;
   }
 
   .intro-desktop {
@@ -1088,6 +1088,7 @@ section#contact div.return-top {
     max-width: 100%;
     display: block;
     float: none;
+    padding-top: 2rem;
   }
 
   .card-container7-mobile {
@@ -1420,7 +1421,7 @@ footer {
 
 @media only screen and (min-width: 1295px) {
   .persona-card3 {
-    margin-top: 3rem;
+    margin-top: 0rem;
   }
 
   .columns {
