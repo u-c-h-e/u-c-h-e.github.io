@@ -15,7 +15,7 @@ body {
   /* color: #221204; */
   display: grid;
   font-family: "Muli", sans-serif;
-  font-family: WorkSans;
+  font-family: "WorkSans";
   /* font-size: 25px; */
   /* line-height: 1.5; */
   grid-template-areas:
@@ -477,7 +477,7 @@ h1 {
   margin: 2rem 0rem;
   font-size: 4.8rem;
   /* font-size: 5.2rem; */
-  /* font-family: 'Work Sans'; */
+  /* font-family: 'WorkSans'; */
   font-family: "Black", serif;
   /* font-weight: 500; */
   line-height: 1.16;
@@ -633,7 +633,7 @@ h1.section-header {
     display: inline-block;
 
     font-size: 1.4rem;
-    font-family: "Work Sans";
+    font-family: "WorkSans";
     font-style: normal;
     font-weight: 800;
     height: 48px;

@@ -180,7 +180,7 @@ a {
   padding: 0 1em;
   font-size: 1.2rem;
   text-transform: uppercase;
-  font-family: "Work Sans";
+  font-family: "WorkSans";
   color: #4a4a4a;
   font-weight: bold;
   right: 0;
@@ -190,7 +190,7 @@ a {
   /* vertically align inside parent element */
   display: table-cell;
   vertical-align: middle;
-  font-family: "Work Sans", serif;
+  font-family: "WorkSans", serif;
 }
 .cd-auto-hide-header .nav-trigger em,
 .cd-auto-hide-header .nav-trigger em::after,
