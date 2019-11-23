@@ -526,7 +526,7 @@ p img {
   }
 
   .imgDetails1 h5 {
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
   }
 
   .cd-auto-hide-header .logo {
@@ -596,7 +596,7 @@ p img {
   }
 
   .hero-image {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
   }
 
   .imgDetails {
