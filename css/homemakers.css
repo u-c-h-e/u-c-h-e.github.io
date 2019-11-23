@@ -69,40 +69,6 @@ em {
   font-style: italic;
 }
 
-h3 {
-  max-width: 1024px;
-  margin: 0 auto;
-  font-size: 3.1rem;
-  font-weight: 600;
-  padding: 2rem 0 2rem 0;
-  line-height: 3.8rem;
-}
-
-h3.main-header-white,
-h5.white,
-p.white,
-.mini-label-white {
-  color: white;
-}
-
-h3.main-header-white {
-  color: white;
-  font-weight: 500;
-  padding: 1.2rem 0 2rem 0;
-  line-height: 3.8rem;
-  font-size: 3.1rem;
-}
-
-h3.center {
-  max-width: 1024px;
-  margin: 0 auto;
-  font-size: 3.1rem;
-  text-align: center;
-  padding: 6rem 0 1rem 0;
-  font-weight: 500;
-  color: #000000;
-}
-
 h4.persona-header3 {
   text-align: left;
   margin: auto;
@@ -321,11 +287,11 @@ section {
 
 section.center {
   margin-top: 7rem;
-  margin-bottom: 9rem;
+  margin-bottom: 10rem;
 }
 
-section div {
-  width: 50%;
+.line-header {
+  border-top: 4px solid #ca0fb1;
 }
 
 section div.button-container4 {
@@ -405,7 +371,11 @@ div.image-3 {
   z-index: -1;
 }
 
-.competitive-logos-1 {
+.button-style-3 {
+  background-color: #ca0fb1;
+}
+
+#ca0db1 .competitive-logos-1 {
   background-image: url("../images/homemakers/sections/process/tody.jpg");
   border-radius: 22px;
 }
@@ -478,23 +448,6 @@ h5 {
   width: 100%;
   background-color: red;
 } */
-
-h1 {
-  margin: 2rem 0rem;
-  font-size: 4.8rem;
-  /* font-family: 'Work Sans'; */
-  font-family: "Black", serif;
-  /* font-weight: 500; */
-  line-height: 1.16;
-  text-align: left;
-  color: #000000;
-  letter-spacing: -2px;
-  letter-spacing: 0.1px;
-}
-
-h1.main-text {
-  font-weight: 500;
-}
 
 @font-face {
   font-family: "Black";
@@ -841,10 +794,6 @@ h1.main-text {
     display: block;
   }
 
-  section div {
-    width: 100%;
-  }
-
   div.side-menu {
     height: 150px;
     margin: auto;
@@ -1156,11 +1105,6 @@ h1.main-text {
     width: 100%;
   }
 
-  h3,
-  h3.main-header-white {
-    font-size: 2.8rem;
-  }
-
   .pad {
     padding-bottom: 8rem;
   }
@@ -1259,11 +1203,6 @@ h1.main-text {
     padding-bottom: 0rem;
   }
 
-  .pad4 {
-    padding-top: 4rem;
-    padding-bottom: 0rem;
-  }
-
   .pad-top {
     /* padding-top: 15rem; */
   }
@@ -1348,11 +1287,6 @@ h1.main-text {
 }
 
 @media screen and (min-width: 800px) {
-  h3,
-  h3.main-header-white {
-    font-size: 3.1rem;
-  }
-
   section div.new-text-container-problem {
     padding: 60px 0px 60px 0px;
     width: 60%;
@@ -1409,7 +1343,7 @@ h1.main-text {
   }
 
   .pad-ref {
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
   }
 
   .pad {
@@ -2360,9 +2294,9 @@ p.quote {
 }
 
 .mini-label-header {
-  /* color: #8f47ec; */
-  color: #0e72c4;
-
+  /* color: #0e72c4; */
+  color: #ca0fb1;
+  color: #949494;
   font-weight: 800;
   font-size: 1.6rem;
 }

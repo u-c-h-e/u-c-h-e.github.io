@@ -75,6 +75,7 @@ h3 {
   font-size: 3.1rem;
   font-weight: 600;
   padding: 2rem 0 2rem 0;
+  padding: 0rem 0 2rem 0;
   line-height: 3.8rem;
 }
 
@@ -88,7 +89,7 @@ p.white,
 h3.main-header-white {
   color: white;
   font-weight: 500;
-  padding: 1.2rem 0 2rem 0;
+  /* padding: 1.2rem 0 2rem 0; */
   line-height: 3.8rem;
   font-size: 3.1rem;
 }
@@ -358,8 +359,8 @@ section {
 }
 
 section.center {
-  margin-top: 7rem;
-  margin-bottom: 9rem;
+  margin-top: 8rem;
+  margin-bottom: 10rem;
 }
 
 section div {
@@ -475,6 +476,7 @@ h5 {
 h1 {
   margin: 2rem 0rem;
   font-size: 4.8rem;
+  /* font-size: 5.2rem; */
   /* font-family: 'Work Sans'; */
   font-family: "Black", serif;
   /* font-weight: 500; */
@@ -486,8 +488,9 @@ h1 {
 }
 
 h1.main-text {
-  font-weight: 500;
-  /* padding-bottom: 2rem; */
+  font-weight: 600;
+  line-height: 1.21;
+  /* font-weight: 600; */
 }
 
 @font-face {
@@ -564,7 +567,98 @@ h1.main-text {
   margin: auto;
 }
 
+h1.section-header {
+  color: #000;
+  font-size: 4rem;
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto 0;
+  text-transform: lowercase;
+}
+
+.line-header {
+  border-top: 4px solid #8f47ec;
+  width: 31px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.button-style-3 {
+  background-color: #691db9;
+  box-shadow: 0px 0px 13px -13px rgba(0, 0, 0, 0.4);
+  /* border: 1px solid #8f47ec; */
+  color: #fff;
+  display: inline-block;
+
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 700;
+  height: 48px;
+  width: 140px;
+  text-align: center;
+  margin-bottom: 2rem;
+  /* padding-bottom: 1.3rem; */
+  padding-top: 0.8rem;
+  /* text-transform: LOWERcase; */
+  transition-duration: 0.5s;
+  white-space: nowrap;
+  -moz-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
+  /* margin: 4rem 0 7rem 5%; */
+}
+
+.button-style-3:hover {
+  background-color: #4a4a4a;
+  border-color: #4a4a4a;
+  color: #ffffff;
+  transition-duration: 0.5s;
+}
+
+.button-style-3:active {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
 @media screen and (min-width: 0px) {
+  .button-style-2 {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 0px 0px 13px -13px rgba(0, 0, 0, 0.4);
+    border: 1.6px solid #3f3b44;
+    cursor: pointer;
+    color: #3f3b44;
+    display: inline-block;
+
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 800;
+    height: 48px;
+    width: 140px;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.2rem;
+    padding-top: 1.4rem;
+    /* text-transform: LOWERcase; */
+    transition-duration: 0.5s;
+    white-space: nowrap;
+    margin: 4rem 0 auto 5%;
+    margin: 0.1rem 0 auto 0;
+  }
+
+  .button-style-2:hover {
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    color: #ffffff;
+    transition-duration: 0.5s;
+  }
+
+  .button-style-2:active {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
+  }
+
   .hero-image {
     padding-top: 80px;
     width: 100%;
@@ -997,24 +1091,6 @@ h1.main-text {
     padding: 6rem 0 6rem 0px;
   }
 
-  /* .column1 {
-    float: left;
-    width: 50%;
-    background-color: red;
-  }
-  
-  .column2 {
-    float: left;
-    width: 50%;
-    background-color: greenyellow;
-  }
-  
-  .column1, .column2 {
-    flex: 40%;
-    padding: 0px;
-    height: 300px; 
-  } */
-
   .left {
     width: 100%;
   }
@@ -1154,7 +1230,7 @@ h1.main-text {
   }
 
   .pad4 {
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
   }
   .box {
     width: 70%;
@@ -1170,6 +1246,10 @@ h1.main-text {
 }
 
 @media screen and (min-width: 580px) {
+  .button-style-2 {
+    margin: 0.1rem 0 auto 5%;
+  }
+
   .left2 {
     width: 100%;
   }
@@ -1260,7 +1340,7 @@ h1.main-text {
   }
 
   .pad4 {
-    padding-top: 4rem;
+    /* padding-top: 4rem; */
     padding-bottom: 0rem;
   }
 
@@ -1348,9 +1428,16 @@ h1.main-text {
 }
 
 @media screen and (min-width: 800px) {
-  h3,
+  h3 {
+    font-size: 3rem;
+    color: #000;
+    font-weight: 700;
+  }
+
   h3.main-header-white {
-    font-size: 3.1rem;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
   }
 
   section div.new-text-container-problem {
@@ -1755,7 +1842,7 @@ h1.main-text {
   }
 
   section div.new-text-container-problem {
-    padding: 60px 0px 60px 0px;
+    padding: 100px 0px;
     width: 50%;
     /* max-width: 720px; */
   }
@@ -2155,6 +2242,7 @@ h1.main-text {
     padding: 0;
     margin-left: 107px;
     max-width: 475px;
+    max-width: 480px;
   }
 
   .popup {
@@ -2406,6 +2494,7 @@ p.quote {
 
 .mini-label-header {
   color: #8f47ec;
+  color: #949494;
   font-weight: 800;
   font-size: 1.6rem;
 }
@@ -2599,13 +2688,12 @@ p.quote {
 } */
 
 .btn {
-  cursor: pointer;
-  /* background: #27ae60; */
+  /* cursor: pointer;
   display: inline-block;
   padding: 0.5em 1em;
   border-radius: 3px;
   text-decoration: underline;
-  color: #576382;
+  color: #576382; */
 }
 
 .btn:hover,
