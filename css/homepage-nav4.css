@@ -558,7 +558,7 @@ section#contact div.return-top {
     background-color: rgb(243, 243, 243);
     box-shadow: 0px 0px 14px -12px;
     color: #737283;
-    display: inline-block;
+    display: block;
     font-family: "WorkSans", sans-serif;
     font-size: 1.4rem;
     font-style: normal;
@@ -573,7 +573,9 @@ section#contact div.return-top {
     white-space: nowrap;
     -moz-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
-    /* margin: 3rem 0 8rem 0; */
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
   }
 
   .contact-me {
@@ -641,6 +643,21 @@ section#contact div.return-top {
     background-repeat: no-repeat;
     background-size: 100%;
     min-height: 37.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    margin-top: 4rem;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #case-study-sixth-mobile {
+    background-image: url("../images/homepage/work/findingemo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 35.4rem;
     max-width: 100%;
     overflow: hidden;
     position: relative;
@@ -882,6 +899,33 @@ section#contact div.return-top {
     /* margin-left: 5% */
     /* margin: 0 5%; */
   }
+
+  #case-study-fifth-mobile {
+    background-image: url("../images/homepage/work/findingemo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 37.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    /* margin-left: 5% */
+    /* margin: 0 5%; */
+  }
+
+  #case-study-sixth-mobile {
+    background-image: url("../images/homepage/work/findingemo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 35.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    margin-top: 6rem;
+  }
 }
 
 @media only screen and (min-width: 430px) and (min-height: 900px) {
@@ -986,7 +1030,8 @@ section#contact div.return-top {
     margin-right: 0%;
   }
 
-  #case-study-second-mobile {
+  #case-study-second-mobile,
+  #case-study-sixth-mobile {
     margin-left: 0%;
     margin-right: 0%;
   }
@@ -1097,6 +1142,30 @@ section#contact div.return-top {
     margin-bottom: 0rem;
   }
 
+  .button-style-5 {
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 0px 14px -12px;
+    color: #737283;
+    display: block;
+    font-family: "WorkSans", sans-serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 800;
+    height: 48px;
+    width: 140px;
+    text-align: center;
+    padding-bottom: 1.2rem;
+    padding-top: 1.3rem;
+    text-transform: LOWERcase;
+    transition-duration: 0.5s;
+    white-space: nowrap;
+    -moz-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 14px -12px rgba(0, 0, 0, 0.4);
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+
   #case-study-first-mobile {
     background-image: url("../images/homepage/work/spaceKit-image-mobile2.png");
     background-position: center;
@@ -1174,6 +1243,20 @@ section#contact div.return-top {
     /* margin: 0 5%; */
   }
 
+  #case-study-sixth-mobile {
+    background-image: url("../images/homepage/work/findingemo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 37.4rem;
+    max-width: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    /* margin-left: 5% */
+    /* margin: 0 5%; */
+  }
+
   #case-study-second-mobile,
   #case-study-third-mobile,
   #case-study-fourth-mobile {
@@ -1214,6 +1297,9 @@ section#contact div.return-top {
 
   .top {
     margin-top: 4.5rem !important;
+  }
+  .top2 {
+    margin-top: 6.5rem !important;
   }
 
   .card-container7-mobile {
@@ -1262,6 +1348,19 @@ section#contact div.return-top {
 
   #case-study-second {
     background-image: url("../images/homepage/work/branding2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 33.4rem;
+    max-width: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    margin-left: 5%;
+  }
+
+  #case-study-second {
+    background-image: url("../images/homepage/work/findingemo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
