@@ -667,11 +667,30 @@ section#contact div.return-top {
     margin-right: 5%;
   }
 
+  #case-study-seventh-mobile {
+    background-image: url("../images/homepage/work/conf3.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 35.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    margin-top: 4rem;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
   .card-container6 {
     display: none;
   }
 
   .card-container7 {
+    display: none;
+  }
+
+  .card-container8 {
     display: none;
   }
 
@@ -690,6 +709,12 @@ section#contact div.return-top {
     padding: 0 5%;
   }
 
+  .card-container8-mobile {
+    max-width: 100%;
+    display: block;
+    float: none;
+    padding: 0 5%;
+  }
   .hero-copy-container {
     padding-left: 2.55%;
     padding-right: 2.5%;
@@ -926,6 +951,19 @@ section#contact div.return-top {
     margin-bottom: 0.5%;
     margin-top: 6rem;
   }
+
+  #case-study-seventh-mobile {
+    background-image: url("../images/homepage/work/conf3.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 35.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    margin-top: 6rem;
+  }
 }
 
 @media only screen and (min-width: 430px) and (min-height: 900px) {
@@ -1031,7 +1069,8 @@ section#contact div.return-top {
   }
 
   #case-study-second-mobile,
-  #case-study-sixth-mobile {
+  #case-study-sixth-mobile,
+  #case-study-seventh-mobile {
     margin-left: 0%;
     margin-right: 0%;
   }
@@ -1109,7 +1148,8 @@ section#contact div.return-top {
     margin-right: 0%;
   }
 
-  #case-study-second-mobile {
+  #case-study-second-mobile,
+  #case-study-seventh-mobile {
     margin-left: 0%;
     margin-right: 0%;
   }
@@ -1190,6 +1230,11 @@ section#contact div.return-top {
     margin-right: 5%;
   }
 
+  .card-container8 {
+    margin-left: 0%;
+    margin-right: 5%;
+  }
+
   #case-study-first {
     background-image: url("../images/homepage/work/spaceKit-image2.png");
     background-position: center;
@@ -1257,6 +1302,32 @@ section#contact div.return-top {
     /* margin: 0 5%; */
   }
 
+  #case-study-second {
+    background-image: url("../images/homepage/work/branding2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 33.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+  }
+
+  #case-study-second-mobile {
+    background-image: url("../images/homepage/work/branding2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 37.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    /* margin-left: 5% */
+    /* margin: 0 5%; */
+  }
+
   #case-study-second-mobile,
   #case-study-third-mobile,
   #case-study-fourth-mobile {
@@ -1292,7 +1363,15 @@ section#contact div.return-top {
     display: inline-block;
     float: left;
     margin-top: 11.9%;
-    margin-top: 9.9%;
+    margin-top: 6.5%;
+  }
+
+  .card-container8 {
+    max-width: 50%;
+    display: inline-block;
+    float: left;
+    margin-top: 11.9%;
+    margin-top: 4.6%;
   }
 
   .top {
@@ -1303,6 +1382,9 @@ section#contact div.return-top {
   }
 
   .card-container7-mobile {
+    display: none;
+  }
+  .card-container8-mobile {
     display: none;
   }
 }
