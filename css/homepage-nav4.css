@@ -420,7 +420,7 @@ li.-flex {
 }
 
 .contact-me {
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 
 section#contact div.return-top {
@@ -682,15 +682,39 @@ section#contact div.return-top {
     margin-right: 5%;
   }
 
-  .card-container6 {
-    display: none;
+
+  #case-study-eighth-mobile {
+    background-image: url("../images/homepage/work/covid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 35.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    margin-top: 4rem;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
-  .card-container7 {
-    display: none;
+    #case-study-sixth-mobile {
+    background-image: url("../images/homepage/work/findingemo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 35.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    margin-top: 4rem;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
-  .card-container8 {
+
+  .card-container6, .card-container7, .card-container8 {
     display: none;
   }
 
@@ -716,6 +740,14 @@ section#contact div.return-top {
     float: none;
     padding: 0 5%;
   }
+
+  .card-container9-mobile {
+    max-width: 100%;
+    display: block;
+    float: none;
+    padding: 0 5%;
+  }
+  
   .hero-copy-container {
     padding-left: 2.55%;
     padding-right: 2.5%;
@@ -950,11 +982,24 @@ section#contact div.return-top {
     overflow: hidden;
     position: relative;
     margin-bottom: 0.5%;
-    margin-top: 6rem;
+    margin-top: 4.5rem;
   }
 
   #case-study-seventh-mobile {
     background-image: url("../images/homepage/work/conf3.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 35.4rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    margin-top: 6rem;
+  }
+
+  #case-study-eighth-mobile {
+    background-image: url("../images/homepage/work/covid.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -981,6 +1026,10 @@ section#contact div.return-top {
     float: none;
     padding: 5% 5% 0 5%;
     margin-top: -3rem;
+  }
+
+  #case-study-first-mobile {
+    padding-top: 3rem;
   }
 }
 
@@ -1070,8 +1119,9 @@ section#contact div.return-top {
   }
 
   #case-study-second-mobile,
-  #case-study-sixth-mobile,
-  #case-study-seventh-mobile {
+  #case-study-sixth-mobile, 
+  #case-study-seventh-mobile,
+  #case-study-eighth-mobile {
     margin-left: 0%;
     margin-right: 0%;
   }
@@ -1150,7 +1200,8 @@ section#contact div.return-top {
   }
 
   #case-study-second-mobile,
-  #case-study-seventh-mobile {
+  #case-study-seventh-mobile,
+  #case-study-eighth-mobile {
     margin-left: 0%;
     margin-right: 0%;
   }
@@ -1217,6 +1268,7 @@ section#contact div.return-top {
     overflow: hidden;
     position: relative;
     margin-bottom: 0.5%;
+    margin-top: 11rem;
     /* margin-left: 5% */
     /* margin: 0 5%; */
   }
@@ -1294,6 +1346,20 @@ section#contact div.return-top {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    min-height: 34.4rem;
+    max-width: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    /* margin-left: 5% */
+    /* margin: 0 5%; */
+  }
+
+  #case-study-seventh-mobile {
+    background-image: url("../images/homepage/work/conf3.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
     min-height: 37.4rem;
     max-width: 50%;
     overflow: hidden;
@@ -1302,6 +1368,21 @@ section#contact div.return-top {
     /* margin-left: 5% */
     /* margin: 0 5%; */
   }
+
+  #case-study-eighth-mobile {
+    background-image: url("../images/homepage/work/covid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 37.4rem;
+    max-width: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5%;
+    /* margin-left: 5% */
+    /* margin: 0 5%; */
+  }
+
 
   #case-study-second {
     background-image: url("../images/homepage/work/branding2.png");
@@ -1340,11 +1421,12 @@ section#contact div.return-top {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    min-height: 37.4rem;
+    min-height: 34.4rem;
     max-width: 100%;
     overflow: hidden;
     position: relative;
     margin-bottom: 0.5%;
+    margin-top: 10rem;
     /* margin-left: 5% */
     /* margin: 0 5%; */
   }
@@ -1541,7 +1623,7 @@ section#contact div.return-top {
   }
 
   .cs-padding-last {
-    margin-top: 10rem;
+    margin-top: 9rem;
   }
 }
 
