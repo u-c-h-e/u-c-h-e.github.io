@@ -280,12 +280,12 @@ body {
   margin-bottom: 32px;
   font-family: 'DM Sans', sans-serif;
   font-size: 18px;
-  line-height: 164%;
+  line-height: 175%;
 }
 
 .text-block-3.test {
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .text-block-3.test.spa {
@@ -327,7 +327,7 @@ body {
   margin-left: auto;
   padding-top: 80px;
   padding-bottom: 40px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .project-cols {
@@ -459,7 +459,7 @@ body {
   display: inline;
   padding-left: 10px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .image-3 {
@@ -1110,7 +1110,7 @@ body {
   margin-bottom: 32px;
   font-family: 'DM Sans', sans-serif;
   font-size: 18px;
-  line-height: 164%;
+  line-height: 175%;
 }
 
 .project-1 {
@@ -1224,7 +1224,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-style: italic;
 }
 
@@ -1479,7 +1479,7 @@ body {
   padding-bottom: 20px;
   font-family: 'Outer sans', sans-serif;
   color: #000;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -1640,7 +1640,7 @@ body {
   padding-left: 34px;
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
-  line-height: 164%;
+  line-height: 175%;
 }
 
 .section-2 {
@@ -1816,7 +1816,7 @@ body {
   padding-left: 34px;
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
-  line-height: 164%;
+  line-height: 175%;
 }
 
 .small-text-14-copy-made.no-pad {
@@ -2054,12 +2054,12 @@ body {
   margin-bottom: 32px;
   font-family: 'DM Sans', sans-serif;
   font-size: 18px;
-  line-height: 164%;
+  line-height: 175%;
 }
 
 .text-block-3-copy-2.test {
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .h2-2 {
@@ -2189,8 +2189,8 @@ body {
   margin-top: 12px;
   margin-bottom: 20px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
-  line-height: 164%;
+  font-size: 15px;
+  line-height: 175%;
 }
 
 .read-body.right {
@@ -2267,12 +2267,12 @@ body {
   margin-bottom: 32px;
   font-family: 'DM Sans', sans-serif;
   font-size: 18px;
-  line-height: 164%;
+  line-height: 175%;
 }
 
 .text-block-6.test {
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .text-block-6.test-copy {
@@ -2285,13 +2285,13 @@ body {
   padding: 0px;
   border-style: none;
   color: #333;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 174%;
 }
 
 .text-block-6.test-copy.white {
   border-style: none;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .text-block-6.test-copy.white.rem {
@@ -2300,33 +2300,33 @@ body {
 
 .text-block-6.test-copy.black {
   color: #333;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .text-block-6.test-copy.black {
   color: #333;
-  font-size: 16px;
-  line-height: 164%;
+  font-size: 15px;
+  line-height: 175%;
 }
 
 .text-block-6.test-copy.white-2 {
   padding: 0px;
   border-style: none;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .text-block-6.test-2-copy {
   margin-right: 100px;
   margin-bottom: 0px;
   padding-left: 100px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .text-block-6.test-copy {
   margin-bottom: 31px;
   padding: 10px;
   border: 1px solid #000;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .text-block-6.test-copy.pw-gray {
@@ -2343,23 +2343,23 @@ body {
   padding: 0px;
   border-style: none;
   color: #333;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 174%;
 }
 
 .text-block-6.test-copy-copy.white {
   padding-left: 0px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .text-block-6.test-copy-copy.black {
   color: #333;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .text-block-6.test-copy-copy.black {
   color: #333;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 174%;
 }
 
@@ -2421,22 +2421,22 @@ body {
 .body-small {
   margin-bottom: 0px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
-  line-height: 164%;
+  font-size: 15px;
+  line-height: 175%;
 }
 
 .body-17-top {
   margin-bottom: 32px;
   font-family: 'DM Sans', sans-serif;
   color: #333;
-  font-size: 16px;
-  line-height: 164%;
+  font-size: 15px;
+  line-height: 175%;
 }
 
 .body-17-top.body-17-top-btm {
   margin-bottom: 0px;
   color: #333;
-  font-size: 16px;
+  font-size: 15px;
   text-align: left;
 }
 
@@ -2471,7 +2471,7 @@ body {
 
 .body-17-top.body-17-top-btm-copy {
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .body-17-top.body-17-top-btm-copy.list {
@@ -4361,14 +4361,14 @@ body {
   margin-bottom: 32px;
   font-family: 'DM Sans', sans-serif;
   color: #333;
-  font-size: 16px;
-  line-height: 164%;
+  font-size: 15px;
+  line-height: 175%;
 }
 
 .body-17-top-2.body-17-top-btm {
   margin-bottom: 0px;
   color: #333;
-  font-size: 16px;
+  font-size: 15px;
   text-align: left;
 }
 
@@ -4478,7 +4478,7 @@ body {
   border-color: #efeff6;
   background-color: #fff;
   font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .chimp-gif {
@@ -5100,12 +5100,12 @@ body {
   }
 
   .text-block-3-copy {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .text-block-3-copy.pad {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .project-1 {
@@ -5385,7 +5385,7 @@ body {
   }
 
   .text-block-3-copy-2.test {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 174%;
   }
 
@@ -6274,7 +6274,7 @@ body {
     box-shadow: 5px 5px 0 0 #000;
     font-family: 'Outer sans', sans-serif;
     color: #000;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .btn-norm.btn-pad-right {
@@ -6319,7 +6319,7 @@ body {
     max-width: 40px;
     padding-left: 10px;
     float: none;
-    font-size: 16px;
+    font-size: 15px;
     text-align: left;
   }
 
@@ -6594,7 +6594,7 @@ body {
     box-shadow: 5px 5px 0 0 #000;
     font-family: 'Outer sans', sans-serif;
     color: #000;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .btn-center.btn-pad-right {
@@ -6611,7 +6611,7 @@ body {
     box-shadow: 5px 5px 0 0 #000;
     font-family: 'Outer sans', sans-serif;
     color: #000;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .btn-center-2.btn-pad-right {
@@ -6765,7 +6765,7 @@ body {
     box-shadow: 5px 5px 0 0 #000;
     font-family: 'Outer sans', sans-serif;
     color: #000;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .btn-left.btn-pad-right {
@@ -6891,7 +6891,7 @@ body {
     box-shadow: 5px 5px 0 0 #000;
     font-family: 'Outer sans', sans-serif;
     color: #000;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .btn-center-2.rem.ls {
@@ -7351,7 +7351,7 @@ body {
     box-shadow: 5px 5px 0 0 #000;
     font-family: 'Outer sans', sans-serif;
     color: #000;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .body-36 {
@@ -7789,7 +7789,7 @@ body {
     box-shadow: 5px 5px 0 0 #000;
     font-family: 'Outer sans', sans-serif;
     color: #000;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .h3-v2-2 {
@@ -7813,7 +7813,7 @@ body {
     box-shadow: 5px 5px 0 0 #000;
     font-family: 'Outer sans', sans-serif;
     color: #000;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .text-block-14 {
@@ -8022,7 +8022,7 @@ body {
     box-shadow: 5px 5px 0 0 #000;
     font-family: 'Outer sans', sans-serif;
     color: #000;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .cart-border {
@@ -10706,7 +10706,7 @@ body {
     width: auto;
     float: right;
     font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 22px;
   }
 
