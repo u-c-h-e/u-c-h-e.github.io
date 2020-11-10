@@ -10425,6 +10425,10 @@ body {
     text-align: center;
   }
 
+  .text-block-3.test.about {
+    text-align: left;
+  }
+
   .text-block-3.test-copy-copy {
     text-align: center;
   }
