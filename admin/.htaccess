@@ -1,8 +1,0 @@
-AuthName "Admin Only"
-AuthType Basic
-AuthUserFile "/uoffomah/passwordTest/admin/.htpasswd"
-require valid-user
-
-<Limit GET POST>
-require valid-user
-</Limit
