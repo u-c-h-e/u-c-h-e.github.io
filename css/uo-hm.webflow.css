@@ -984,7 +984,7 @@ body {
 
 .img-about-desk.hm-hero {
   background-image: url('../images/homemakers-hero.png');
-  background-size: 853px;
+  /* background-size: 853px; */
 }
 
 .img-about-desk.hm-hero.hm {
