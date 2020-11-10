@@ -4121,7 +4121,7 @@ body {
 }
 
 .button.modal-button.btn-center-2.rem.ls.get-copy-copy {
-  display: block;
+  /* display: block; */
   margin-top: 0px;
   margin-left: 0px;
 }
@@ -4901,7 +4901,7 @@ body {
   }
 
   .img-desk-group.img-pagerduty-copy {
-    background-image: url('../images/pd-hp-2.png');
+    background-image: url('../images/pd-2-2.svg');
   }
 
   .img-desk-group.img-pagerduty-copy-copy {
