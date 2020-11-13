@@ -334,7 +334,7 @@ body {
   margin-left: auto;
   padding-top: 80px;
   padding-bottom: 40px;
-  font-size: 14.5px;
+  font-size: 16px;
 }
 
 .text-block-3.about {
@@ -1507,7 +1507,7 @@ body {
   font-family: 'Outer sans', sans-serif;
   color: #000;
   font-size: 16px;
-  text-align: left;
+  text-align: center;
 }
 
 .caption {
@@ -1555,8 +1555,20 @@ body {
   color: #000;
   font-size: 22px;
   line-height: 140%;
-  text-align: left;
+  text-align: center;
 }
+
+.subheader-22-slider {
+  display: block;
+  margin-top: 40px;
+  font-family: 'Outer sans', sans-serif;
+  color: #000;
+  font-size: 22px;
+  line-height: 140%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 
 .subheader-22-copy.ctr {
   text-align: center;
@@ -4326,11 +4338,11 @@ body {
   width: auto;
   height: auto;
   padding: 0px;
-  border: 1px solid #000;
-  border-radius: 5px;
+  /* border: 1px solid #000; */
+  /* border-radius: 5px; */
   background-color: #fff;
   box-shadow: none;
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 
@@ -4974,16 +4986,6 @@ body {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-}
-
-.subheader-22-slider {
-  display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-family: 'Outer sans', sans-serif;
-  color: #000;
-  font-size: 16px;
-  text-align: left;
 }
 
 @media screen and (min-width: 1280px) {
@@ -6533,10 +6535,6 @@ body {
     -ms-grid-rows: auto;
     grid-template-rows: auto;
   }
-
-  .subheader-22-slider {
-    text-align: center;
-  }
 }
 
 @media screen and (max-width: 991px) {
@@ -7599,10 +7597,6 @@ body {
     float: none;
   }
 
-  .project-two.modal {
-    width: 100%;
-  }
-
   .text-span-5 {
     color: #787878;
   }
@@ -8627,7 +8621,6 @@ body {
 
   .body-17-top-2 {
     color: #333;
-    text-align: left;
   }
 
   .margin-100 {
@@ -10218,7 +10211,7 @@ body {
   }
 
   .nav-white.tall {
-    margin-bottom: -39px;
+    /* margin-bottom: -39px; */
   }
 
   .nav-white.short {
@@ -10289,11 +10282,6 @@ body {
 
   .pad-life.more {
     padding-bottom: 40px;
-  }
-
-  .pad-life.mod {
-    padding-right: 0px;
-    padding-left: 0px;
   }
 
   .pad-life-mini {
@@ -11054,11 +11042,6 @@ body {
     width: 90%;
   }
 
-  .div-block-49-copy-2 {
-    padding-right: 25px;
-    padding-left: 25px;
-  }
-
   .modal-gri-copy {
     padding-right: 0px;
     padding-left: 0px;
@@ -11694,7 +11677,7 @@ body {
 
   .project-2.test.na {
     display: block;
-    padding-top: 0px;
+    padding-top: 100px;
   }
 
   .project-2.test {
@@ -11730,17 +11713,7 @@ body {
     padding-bottom: 29px;
   }
 
-  .grid-box-padding.mob {
-    height: 210px;
-    margin-top: 0px;
-  }
-
-  .grid-box-padding.next {
-    height: 190px;
-  }
-
   .grid-box-copy {
-    height: 350px;
     padding-top: 22px;
   }
 
@@ -11783,7 +11756,7 @@ body {
   }
 
   .image-13 {
-    max-width: 85%;
+    max-width: 90%;
     margin-left: 12px;
   }
 
@@ -12038,17 +12011,9 @@ body {
     text-align: left;
   }
 
-  .subheader-ctr.nah {
-    margin-top: 40px;
-  }
-
   .slider {
     margin-top: 40px;
     background-color: #fff;
-  }
-
-  .slider.hex {
-    margin-top: 90px;
   }
 
   .flex {
@@ -12137,7 +12102,7 @@ body {
   .grid-5 {
     margin-right: auto;
     margin-left: auto;
-    padding-top: 0px;
+    padding-top: 30px;
     padding-right: 20px;
     padding-left: 20px;
     grid-template-areas: "Area"
@@ -12430,10 +12395,6 @@ body {
     grid-template-rows: auto auto;
   }
 
-  .text-block-6 {
-    font-size: 14.5px;
-  }
-
   .text-block-6.test-copy {
     border-style: none;
   }
@@ -12681,25 +12642,21 @@ body {
 
   .nav-white.nav-2 {
     display: inline-block;
-    margin-bottom: -44px;
+    margin-bottom: -31px;
     padding-bottom: 0px;
   }
 
   .nav-white.nav1 {
-    margin-bottom: -52px;
+    margin-bottom: -26px;
     padding-bottom: 0px;
   }
 
   .nav-white.nav0 {
-    margin-bottom: -48px;
-  }
-
-  .nav-white.tall {
-    margin-bottom: -51px;
+    margin-bottom: -37px;
   }
 
   .nav-white.short {
-    margin-bottom: 22px;
+    margin-bottom: 9px;
   }
 
   .section-3-copy {
@@ -12744,14 +12701,6 @@ body {
 
   .pad-life.more.this {
     padding-bottom: 80px;
-  }
-
-  .pad-life.extra {
-    margin-top: 34px;
-  }
-
-  .pad-life.extra.two {
-    margin-top: 40px;
   }
 
   .pad-life-mini {
@@ -13396,8 +13345,8 @@ body {
   }
 
   .modal-gri {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     grid-template-areas: "Area";
@@ -13413,7 +13362,6 @@ body {
   .image-14-copy {
     display: block;
     width: auto;
-    max-width: 90%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -13616,14 +13564,6 @@ body {
   .div-block-65 {
     position: relative;
     z-index: 6000;
-  }
-
-  .subheader-22-slider {
-    text-align: center;
-  }
-
-  .image-37 {
-    max-width: 90%;
   }
 }
 
@@ -14550,6 +14490,15 @@ body {
 }
 
 #w-node-e2fa36b9c480-3b0ffdac {
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+}
+
+#w-node-c6b28fdb3bae-3b0ffdac {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   -ms-grid-row-align: auto;
@@ -42979,4 +42928,15 @@ body {
   font-weight: 700;
   font-style: normal;
   font-display: swap;
+}
+
+body {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😀</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  cursor: url('images/mouse-pointer.svg') 16 0, auto;	
+
+  
+  cursor:url("https://uploads-ssl.webflow.com/5f67ba0f14126704e028ea98/5faef86e2cfc951e2dee3f6a_white-mouse.svg") 5 0, auto;	
+
+
+  
 }
