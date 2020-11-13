@@ -108,7 +108,7 @@
                             <!-- <hr class="staticrypt-hr"> -->
 
                             <form id="staticrypt-form" action="#" method="post">
-                                <input id="staticrypt-password" type="password" name="password" placeholder="Passphrase"
+                                <input id="staticrypt-password" type="password" name="password" placeholder="Password"
                                     class="new-box-mob" style="outline: none; margin-bottom: 31px;
                                      padding: 10px;
                                      border: 1px solid #000;
@@ -6158,7 +6158,7 @@
                 decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
 
             if (decryptedHMAC !== encryptedHMAC) {
-                alert('Bad passphrase!');
+                alert('Wrong password.f');
                 return;
             }
 
