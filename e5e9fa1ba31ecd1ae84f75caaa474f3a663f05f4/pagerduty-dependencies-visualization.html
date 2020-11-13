@@ -1,6 +1,6 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Nov 10 2020 00:05:59 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="5fa9d903fd4c697db2f1c1ef" data-wf-site="5f67ba0f14126704e028ea98">
+<!--  Last Published: Fri Nov 13 2020 03:18:36 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5fadfa7fbbfd21239d0ffdad" data-wf-site="5f67ba0f14126704e028ea98">
 <head>
   <meta charset="utf-8">
   <title>PagerDuty: Dependencies Visualization</title>
@@ -10,7 +10,7 @@
   <meta content="Webflow" name="generator">
   <link href="../css/normalize.css" rel="stylesheet" type="text/css">
   <link href="../css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="../css/uo-hm.webflow.css" rel="stylesheet" type="text/css">
+  <link href="../css/uche-oh.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["DM Sans:regular,italic,500,500italic,700,700italic"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -18,8 +18,6 @@
   <link href="../images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="../images/webclip.png" rel="apple-touch-icon">
   <style>
-  .w-slider-nav {
-}
 .w-slider-dot.w-active {
     background: #03f9ba!important;
 }
@@ -29,6 +27,24 @@
 </style>
   <meta name="robots" content="noindex,nofollow">
   <meta name="robots" content="noarchive">
+  <!--  Global site tag (gtag.js) - Google Analytics  -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-142981687-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-142981687-1');
+  </script>
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 1410118, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
   <style>
 .w-slider-nav {
 }
@@ -70,38 +86,40 @@ a {
 <body class="body-38">
   <div class="body-copy">
     <div class="div-block-2 testing">
-      <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar-2 w-nav">
-        <div class="container-6-copy w-container">
-          <div class="nav-link-right">
-            <a href="../fun.html" class="nav-link-5 w-nav-link">fun</a>
-            <a href="../get-in-touch.html" class="nav-link-5 no-pad2 w-nav-link">get in touch</a>
-          </div>
-          <nav role="navigation" class="nav-menu-3 w-nav-menu">
-            <a href="../index.html" class="nav-link-2 hp w-nav-link"><span>work</span></a>
-            <a href="../about.html" class="nav-link-3 hp w-nav-link">about</a>
-            <a href="../fun.html" class="nav-link-4 hp w-nav-link">fun</a>
-            <a href="../get-in-touch.html" class="nav-link-4 hp k w-nav-link">get in touch</a>
-          </nav>
-          <div class="columns w-row">
-            <div class="col-1-2 w-col w-col-5 w-col-medium-4 w-col-small-4 w-col-tiny-4">
-              <div class="nav-menu-left">
-                <a href="../home.html" class="nav-link-5 no-pad w-nav-link">work</a>
-                <a href="../about.html" class="nav-link-5 w-nav-link">about</a>
+      <div data-collapse="medium" data-animation="default" data-duration="400" id="menu" role="banner" class="navbar-2 w-nav">
+        <div class="nav-background">
+          <div class="container-6-copy w-container">
+            <div class="nav-link-right">
+              <a href="../fun.html" class="nav-link-5 w-nav-link">fun</a>
+              <a href="../get-in-touch.html" class="nav-link-5 no-pad2 w-nav-link">get in touch</a>
+            </div>
+            <nav role="navigation" class="nav-menu-3 w-nav-menu">
+              <a href="../home.html" class="nav-link-2 hp w-nav-link"><span>work</span></a>
+              <a href="../about.html" class="nav-link-3 hp w-nav-link">about</a>
+              <a href="../fun.html" class="nav-link-4 hp w-nav-link">fun</a>
+              <a href="../get-in-touch.html" class="nav-link-4 hp k w-nav-link">get in touch</a>
+            </nav>
+            <div class="columns w-row">
+              <div class="col-1-2 w-col w-col-5 w-col-medium-4 w-col-small-4 w-col-tiny-4">
+                <div class="nav-menu-left">
+                  <a href="../home.html" class="nav-link-5 no-pad w-nav-link">work</a>
+                  <a href="../about.html" class="nav-link-5 w-nav-link">about</a>
+                </div>
               </div>
-            </div>
-            <div class="col-2 w-col w-col-2 w-col-medium-4 w-col-small-4 w-col-tiny-4">
-              <a href="../home.html" class="link-block-2 w-inline-block"><img src="../images/logo-svg.svg" loading="lazy" width="100" alt="" class="image"></a>
-            </div>
-            <div class="column w-col w-col-5 w-col-medium-4 w-col-small-4 w-col-tiny-4">
-              <div class="menu-button-4 op w-nav-button">
-                <div class="icon-3 w-icon-nav-menu"></div>
+              <div class="col-2 w-col w-col-2 w-col-medium-4 w-col-small-4 w-col-tiny-4">
+                <a href="../home.html" class="link-block-2 w-inline-block"><img src="../images/logo-svg.svg" loading="lazy" width="100" alt="" class="image"></a>
+              </div>
+              <div class="column w-col w-col-5 w-col-medium-4 w-col-small-4 w-col-tiny-4">
+                <div class="menu-button-4 op w-nav-button">
+                  <div class="icon-3 w-icon-nav-menu"></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="w-layout-grid case-study-hero">
-        <div id="w-node-fc7a8224c27d-b2f1c1ef" class="project-content-2-copy">
+        <div id="w-node-fc7a8224c27d-9d0ffdad" class="project-content-2-copy">
           <div class="project-2 no-pad na">
             <div class="text-block-5"><span class="text-span-4">PagerDuty  </span><span class="text-span-5">|  UI • UX • Web App</span></div>
             <div class="h2-2 ctr">Adding Context When It Matters Most</div>
@@ -114,20 +132,20 @@ a {
             <div class="h2-2 ctr">Adding context when it matters most</div>
           </div>
         </div>
-        <div id="w-node-fc7a8224c28f-b2f1c1ef">
-          <div class="img-about-group-copy"><img src="../images/pd1.png" loading="lazy" width="853" sizes="100vw" srcset="../images/pd1-p-500.png 500w, ../images/pd1-p-800.png 800w, ../images/pd1-p-1080.png 1080w, ../images/pd1-p-1600.png 1600w, ../images/pd1.png 1706w" alt="" class="img-mobile img-hm-hero hm pd"></div>
+        <div id="w-node-fc7a8224c28f-9d0ffdad">
+          <div class="img-about-group-copy"><img src="../images/pd-1-hero.png" loading="lazy" width="853" sizes="100vw" srcset="../images/pd-1-hero-p-500.png 500w, ../images/pd-1-hero-p-800.png 800w, ../images/pd-1-hero-p-1080.png 1080w, ../images/pd-1-hero.png 1706w" alt="" class="img-mobile img-hm-hero hm pd"></div>
           <div class="img-about-tablet img-hm pd-1"><img src="https://uploads-ssl.webflow.com/5f697fd097c40acb85eb1ef8/5f697fd097c40a28c3eb1f15_hm-tab.png" loading="lazy" alt="" class="img-tablet-2"></div>
           <div class="img-about-desk hm-hero-copy-copy"><img src="https://uploads-ssl.webflow.com/5f697fd097c40acb85eb1ef8/5f697fd097c40afe45eb1f1f_hm.png" loading="lazy" height="" alt="" class="img-desk"></div>
         </div>
       </div>
       <div class="w-layout-grid test lorem-2 testing show-desk">
-        <div id="w-node-6ae853a0a13b-b2f1c1ef" class="project-content-2-2">
+        <div id="w-node-6ae853a0a13b-9d0ffdad" class="project-content-2-2">
           <div class="project-2">
             <div class="mini-header-2">Overview</div>
             <a href="#" class="btn-norm-2 btn-center w-button">view project</a>
           </div>
         </div>
-        <div id="w-node-6ae853a0a141-b2f1c1ef" class="div">
+        <div id="w-node-6ae853a0a141-9d0ffdad" class="div">
           <div class="mini-header-2 test">Overview</div>
         </div>
         <div class="div-block-4">
@@ -143,7 +161,7 @@ a {
             <div class="mini-header-2">Overview</div>
             <a href="#" class="btn-norm-2 btn-center w-button">view project</a>
           </div>
-          <div id="w-node-d4eeec0967b1-b2f1c1ef" class="div-2">
+          <div id="w-node-d4eeec0967b1-9d0ffdad" class="div-2">
             <div class="mini-header-2 test black">Overview</div>
           </div>
           <div class="div-block-4">
@@ -163,42 +181,57 @@ a {
           </div>
         </div>
       </div>
-      <div class="wrapper-problem">
-        <div class="marquee-wrapper">
-          <div class="marquee">
-            <div class="card">
-              <div class="div-block-47 problem">
-                <div class="item-new">problem meet solution</div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="div-block-47 problem">
-                <div class="item-new">problem meet solution</div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="div-block-47 problem">
-                <div class="item-new">problem meet solution</div>
+      <div class="carousel">
+        <div class="w-embed">
+          <div class="section">
+            <div id="ctn">
+              <div class="marquee">
+                <div class="marquee-text problem"></div>
+                <div class="marquee-text problem"></div>
+                <div class="marquee-text problem"></div>
               </div>
             </div>
           </div>
-          <div class="marquee">
-            <div class="card">
-              <div class="div-block-47 problem">
-                <div class="item-new">problem meet solution</div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="div-block-47 problem">
-                <div class="item-new">problem meet solution</div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="div-block-47 problem">
-                <div class="item-new">problem meet solution</div>
-              </div>
-            </div>
-          </div>
+          <style>
+.marquee {
+  width: 100%;
+  /* border-bottom: 3px solid #000000;
+  background-color: #000000; */
+  white-space: nowrap;
+}
+.marquee-text.problem {
+  display: inline-block;
+  width: 1400px;
+ 	align-items: center;
+	letter-spacing: 4px;
+  font-family: 'Outer sans outline', sans-serif;
+  color: #000;
+  font-size: 32px;
+  line-height: normal;
+  text-shadow: rgb(6, 6, 7) 0px 0px 0px, rgb(6, 6, 7) 0px 0px 0px, rgb(6, 6, 7) 0px 0px 0px;
+  animation: scroll 12s linear infinite;
+}
+.marquee-text.problem:before {
+  content: "problem meets solution \a0\a0\a0\a0\a0 problem meets solution \a0\a0\a0\a0\a0";
+}
+@keyframes scroll {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+#sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff0000;
+}
+#ctn {
+  margin-top: 24px;
+  margin-bottom:26px;
+  text-align: center;
+  overflow: hidden;
+}
+</style>
         </div>
       </div>
       <div class="w-layout-grid problem0img-copy lorem">
@@ -213,17 +246,17 @@ a {
             <div class="body-17-top">As an organization scales, it becomes difficult to understand how infrastructure is connected. When this isn’t understood or documented by employees, it can result in complex, cross-cutting <span data-tippy-content="Represents a problem or an issue that needs to be addressed and resolved." class="tippy">incidents</span> that are incredibly difficult to address or unravel during incident triage.<br></div>
             <div class="body-17-top"><span data-tippy-content="Responsible for responding to incidents assigned to them." class="tippy"><strong>Responders</strong></span><strong>—especially those newer to the org—lose hours trying to figure out whether the issues they are seeing originated somewhere else</strong>. They also worry that the incident on their <span data-tippy-content="May represent an application, component, or team that you wish to open incidents against." class="tippy">service</span> may be causing issues on another team&#x27;s service.<br></div>
             <div class="body-17-top last"><em>PagerDuty identified two key milestones they wanted to be addressed. This case study covers the first; to learn about the second, click </em>
-              <a href="../e5e9fa1ba31ecd1ae84f75caaa474f3a663f05f4/pagerduty-suggested-dependencies.html" target="_blank" class="link-2"><strong class="bold-text-4"><em>here</em></strong></a><em>.</em><br>
+              <a href="../e5e9fa1ba31ecd1ae84f75caaa474f3a663f05f4/pagerduty-suggested-dependencies.html" target="_blank" class="link-blackkk"><strong class="bold-text-4"><em>here</em></strong></a><em>.</em><br>
             </div>
             <a href="#" class="btn-center-2 rem w-button">view project</a>
           </div>
         </div>
       </div>
       <div class="w-layout-grid about-hero-2">
-        <div id="w-node-fc7a8224c2ca-b2f1c1ef" class="div-block-8">
+        <div id="w-node-fc7a8224c2ca-9d0ffdad" class="div-block-8">
           <div>
             <div class="subheader-left ctr ctrr not">Solution: More relevant info, faster resolutions<br></div>
-            <div class="text-block-6 test-copy black">Most of the time, an incident on one service causes an incident on a related or dependent service. Responders need to know this information, so they can move quickly and take the right actions to resolve an issue. The focus of the first milestone was to aid on-call teams by:<br></div>
+            <div class="body-17-top body-17-top-btm">Most of the time, an incident on one service causes an incident on a related or dependent service. Responders need to know this information, so they can move quickly and take the right actions to resolve an issue. The focus of the first milestone was to aid on-call teams by:<br></div>
             <ul role="list" class="list-2-copy last">
               <li class="body-17-top body-17-top-btm small-pad">Equipping them with context about active incidents on related services<br></li>
               <li class="body-17-top body-17-top-btm small-pad">Forewarning them of an impending incident on their service</li>
@@ -231,56 +264,71 @@ a {
             </ul>
           </div>
         </div>
-        <div id="w-node-fc7a8224c2d9-b2f1c1ef">
-          <div class="img-about-group"><img src="../images/pd-sol-1.png" loading="lazy" sizes="100vw" srcset="../images/pd-sol-1-p-500.png 500w, ../images/pd-sol-1-p-800.png 800w, ../images/pd-sol-1-p-1080.png 1080w, ../images/pd-sol-1.png 1708w" alt="" class="img-mobile img-hm-sol-copy"></div>
+        <div id="w-node-fc7a8224c2d9-9d0ffdad">
+          <div class="img-about-group"><img src="../images/pd-sol.svg" loading="lazy" alt="" class="img-mobile img-hm-sol-copy"></div>
           <div class="img-about-tablet img-solution-copy"><img src="https://uploads-ssl.webflow.com/5f697fd097c40acb85eb1ef8/5f697fd097c40a28c3eb1f15_hm-tab.png" loading="lazy" alt="" class="img-tablet-2"></div>
           <div class="img-about-desk spacekit-solution-copy-copy"><img src="https://uploads-ssl.webflow.com/5f697fd097c40acb85eb1ef8/5f697fd097c40afe45eb1f1f_hm.png" loading="lazy" height="" alt="" class="img-desk"></div>
         </div>
       </div>
     </div>
-    <div class="wrapper-discover">
-      <div class="marquee-wrapper">
-        <div class="marquee">
-          <div class="card">
-            <div class="div-block-47 discover">
-              <div class="item-new">discover &amp; research</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 discover">
-              <div class="item-new">discover &amp; research</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 discover">
-              <div class="item-new">discover &amp; research</div>
+    <div class="carousel">
+      <div class="w-embed">
+        <div class="section">
+          <div id="ctn">
+            <div class="marquee">
+              <div class="marquee-text discover"></div>
+              <div class="marquee-text discover"></div>
+              <div class="marquee-text discover"></div>
             </div>
           </div>
         </div>
-        <div class="marquee">
-          <div class="card">
-            <div class="div-block-47 discover">
-              <div class="item-new">discover &amp; research</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 discover">
-              <div class="item-new">discover &amp; research</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 discover">
-              <div class="item-new">discover &amp; research</div>
-            </div>
-          </div>
-        </div>
+        <style>
+.marquee {
+  width: 100%;
+  /* border-bottom: 3px solid #000000;
+  background-color: #000000; */
+  white-space: nowrap;
+}
+.marquee-text.discover {
+  display: inline-block;
+  width: 1400px;
+ 	align-items: center;
+	letter-spacing: 4px;
+  font-family: 'Outer sans outline', sans-serif;
+  color: #000;
+  font-size: 32px;
+  line-height: normal;
+  text-shadow: rgb(6, 6, 7) 0px 0px 0px, rgb(6, 6, 7) 0px 0px 0px, rgb(6, 6, 7) 0px 0px 0px;
+  animation: scroll 10s linear infinite;
+}
+.marquee-text.discover:before {
+  content: "discover & research \a0\a0\a0\a0\a0 discover & research \a0\a0\a0\a0\a0";
+}
+@keyframes scroll {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+#sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff0000;
+}
+#ctn {
+  margin-top: 24px;
+  margin-bottom:26px;
+  text-align: center;
+  overflow: hidden;
+}
+</style>
       </div>
     </div>
     <div class="w-layout-grid center-body-copy">
       <div class="pad-life">
         <div class="project-two no">
           <div class="subheader-ctr">Uncovering Underlying Challenges</div>
-          <div class="body-17-top">On its face, PagerDuty may seem like just a tool for alerting engineers when something&#x27;s wrong. <strong>At its core, however, PagerDuty is focused on giving teams the context and tools to more quickly resolve technical issues.</strong> That’s easier said than done, as finding the root cause of an issue can be challenging and time-consuming, particularly when it&#x27;s an incident a responder is seeing for the first time. <br></div>
+          <div class="body-17-top">On its face, PagerDuty may seem like just a tool for alerting engineers when something&#x27;s wrong. At its core, however, PagerDuty is focused on giving teams the context and tools to more <span class="highlight"><strong>quickly resolve technical issues</strong></span><strong>.</strong> That’s easier said than done, as finding the root cause of an issue can be challenging and time-consuming, particularly when it&#x27;s an incident a responder is seeing for the first time. <br></div>
           <div class="body-17-top body-17-top-btm">Responders can only effectively work through incidents if they’re able to identify relevant relationships between issues. There are a few reasons why this doesn’t always happen.<br></div>
           <a href="#" class="btn-center-2 rem w-button">view project</a>
         </div>
@@ -331,7 +379,7 @@ a {
     </div>
     <div class="top-60">
       <div class="w-layout-grid grid-5 no-btm">
-        <div id="w-node-fc7a8224c391-b2f1c1ef" class="subheader-22-copy">Morgan, the Newest Engineer</div>
+        <div id="w-node-fc7a8224c391-9d0ffdad" class="subheader-22-copy">Morgan, the Newest Engineer</div>
         <div>
           <div class="columns-4 w-row">
             <div class="column-5 w-col w-col-3 w-col-small-3 w-col-tiny-3"><img src="../images/morg.png" loading="lazy" width="85.5" alt=""></div>
@@ -340,11 +388,11 @@ a {
             </div>
           </div>
         </div>
-        <div id="w-node-fc7a8224c39a-b2f1c1ef" class="body-20 left body-20-made">Key Callouts</div>
+        <div id="w-node-fc7a8224c39a-9d0ffdad" class="body-20 left body-20-made">Key Callouts</div>
         <ul role="list" class="list-2">
-          <li class="body-17-top body-17-top-btm small-pad">New to the company with no experience being on call </li>
+          <li class="body-17-top body-17-top-btm small-pad"><span class="highlight">New to the company</span> with no experience being on call </li>
           <li class="body-17-top body-17-top-btm small-pad">Not familiar with the deployment pipeline</li>
-          <li class="body-17-top body-17-top-btm small-pad">Possesses little to no tribal knowledge</li>
+          <li class="body-17-top body-17-top-btm small-pad">Possesses little to <span class="highlight">no tribal knowledge</span></li>
           <li class="body-17-top body-17-top-btm small-pad">Unfamiliar with the holistic ecosystem</li>
         </ul>
       </div>
@@ -368,23 +416,23 @@ a {
           <div class="caption test">It&#x27;s the middle of the night and you&#x27;re woken up by a page to your phone from PagerDuty. </div>
         </div>
         <div>
-          <div class="cart-border"><img src="../images/sb-2.png" loading="lazy" sizes="(max-width: 479px) 79vw, (max-width: 767px) 100vw, (max-width: 991px) 84vw, 645.9765625px" srcset="../images/sb-2-p-500.png 500w, ../images/sb-2.png 640w" alt="" class="image-29"></div>
+          <div class="cart-border"><img src="../images/sb-2.png" loading="lazy" sizes="(max-width: 479px) 79vw, (max-width: 991px) 84vw, 645.9765625px" srcset="../images/sb-2-p-500.png 500w, ../images/sb-2.png 640w" alt="" class="image-29"></div>
           <div class="caption test">You log into the PD mobile app to acknowledge the incident to avoid getting additional notification.</div>
         </div>
         <div>
-          <div class="cart-border"><img src="../images/sb-3.png" loading="lazy" sizes="(max-width: 479px) 79vw, (max-width: 767px) 100vw, (max-width: 991px) 84vw, 645.9765625px" srcset="../images/sb-3-p-500.png 500w, ../images/sb-3.png 640w" alt="" class="image-29"></div>
+          <div class="cart-border"><img src="../images/sb-3.png" loading="lazy" sizes="(max-width: 479px) 79vw, (max-width: 991px) 84vw, 645.9765625px" srcset="../images/sb-3-p-500.png 500w, ../images/sb-3.png 640w" alt="" class="image-29"></div>
           <div class="caption test">While in the app, you read the incident title. This is only your second on-call shift and you haven&#x27;t seen this incident before causes you some concern and confusion.</div>
         </div>
         <div>
-          <div class="cart-border"><img src="../images/sb-5.png" loading="lazy" sizes="(max-width: 479px) 79vw, (max-width: 767px) 100vw, (max-width: 991px) 84vw, 645.9765625px" srcset="../images/sb-5-p-500.png 500w, ../images/sb-5.png 640w" alt="" class="image-29"></div>
+          <div class="cart-border"><img src="../images/sb-5.png" loading="lazy" sizes="(max-width: 479px) 79vw, (max-width: 991px) 84vw, 645.9765625px" srcset="../images/sb-5-p-500.png 500w, ../images/sb-5.png 640w" alt="" class="image-29"></div>
           <div class="caption test">As you read through the incident details, the pressing question on your mind is whether or not the root cause of this incident stem&#x27;s from your service or someone else&#x27;s?</div>
         </div>
         <div>
-          <div class="cart-border"><img src="../images/sb-66.png" loading="lazy" sizes="(max-width: 479px) 79vw, (max-width: 767px) 100vw, (max-width: 991px) 84vw, 645.9765625px" srcset="../images/sb-66-p-500.png 500w, ../images/sb-66.png 640w" alt="" class="image-29"></div>
+          <div class="cart-border"><img src="../images/sb-66.png" loading="lazy" sizes="(max-width: 479px) 79vw, (max-width: 991px) 84vw, 645.9765625px" srcset="../images/sb-66-p-500.png 500w, ../images/sb-66.png 640w" alt="" class="image-29"></div>
           <div class="caption test">If the issue stems from your own service, you&#x27;ll be responsible for resolving this unfamiliar issue. If the issue stems from another service, your service&#x27;s issue will likely auto-resolve once the root cause has been fixed (by some else).</div>
         </div>
         <div>
-          <div class="cart-border"><img src="../images/sb-4.png" loading="lazy" sizes="(max-width: 479px) 79vw, (max-width: 767px) 100vw, (max-width: 991px) 84vw, 645.9765625px" srcset="../images/sb-4-p-500.png 500w, ../images/sb-4.png 640w" alt="" class="image-29"></div>
+          <div class="cart-border"><img src="../images/sb-4.png" loading="lazy" sizes="(max-width: 479px) 79vw, (max-width: 991px) 84vw, 645.9765625px" srcset="../images/sb-4-p-500.png 500w, ../images/sb-4.png 640w" alt="" class="image-29"></div>
           <div class="caption test">But how and where can you quickly find the information you need to confirm if the issue you&#x27;re seeing is your problem or someone else&#x27;s?</div>
         </div>
       </div>
@@ -393,70 +441,75 @@ a {
     <div class="w-layout-grid center-body-top-40 skj">
       <div class="pad-life-mini">
         <div class="project-two">
-          <div class="body-17-top body-17-top-btm">The example above is one of &quot;wartime&quot;, the mode of operation that occurs when systems are not normal. I wanted to keep this in mind and design the most optimal experience I could for the most stressful situation PagerDuty responders may experience.<br></div>
+          <div class="body-17-top body-17-top-btm">The example above is one of &quot;wartime&quot;, the mode of operation that occurs when systems are not normal. I wanted to keep this in mind and <span class="highlight">design the most optimal experience I could for the most stressful situation</span> PagerDuty responders may experience.<br></div>
         </div>
       </div>
     </div>
-    <div class="wrapper-define">
-      <div class="marquee-wrapper">
-        <div class="marquee">
-          <div class="card">
-            <div class="div-block-47 define">
-              <div class="item-new">define &amp; analyze</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 define">
-              <div class="item-new">define &amp; analyze</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 define">
-              <div class="item-new">define &amp; analyze</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 define">
-              <div class="item-new">define &amp; analyze</div>
+    <div class="carousel">
+      <div class="w-embed">
+        <div class="section">
+          <div id="ctn">
+            <div class="marquee">
+              <div class="marquee-text define"></div>
+              <div class="marquee-text define"></div>
+              <div class="marquee-text define"></div>
             </div>
           </div>
         </div>
-        <div class="marquee">
-          <div class="card">
-            <div class="div-block-47 define">
-              <div class="item-new">define &amp; analyze</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 define">
-              <div class="item-new">define &amp; analyze</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 define">
-              <div class="item-new">define &amp; analyze</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 define">
-              <div class="item-new">define &amp; analyze</div>
-            </div>
-          </div>
-        </div>
+        <style>
+.marquee {
+  width: 100%;
+  /* border-bottom: 3px solid #000000;
+  background-color: #000000; */
+  white-space: nowrap;
+}
+.marquee-text.define {
+  display: inline-block;
+  width: 1360px;
+ 	align-items: center;
+	letter-spacing: 4px;
+  font-family: 'Outer sans outline', sans-serif;
+  color: #000;
+  font-size: 32px;
+  line-height: normal;
+  text-shadow: rgb(6, 6, 7) 0px 0px 0px, rgb(6, 6, 7) 0px 0px 0px, rgb(6, 6, 7) 0px 0px 0px;
+  animation: scroll 8.5s linear infinite;
+}
+.marquee-text.define:before {
+  content: "define & analyze \a0\a0\a0\a0\a0 define & analyze \a0\a0\a0\a0\a0";
+}
+@keyframes scroll {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+#sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff0000;
+}
+#ctn {
+  margin-top: 24px;
+  margin-bottom:26px;
+  text-align: center;
+  overflow: hidden;
+}
+</style>
       </div>
     </div>
     <div class="w-layout-grid center-body-copy">
       <div class="pad-life">
         <div class="project-two">
           <div class="subheader-ctr">Framing Ideation &amp; Factoring in Constraints</div>
-          <div class="body-17-top">I used the information I’d gathered from both quantitative and qualitative research and a one-page product brief given to me by the company to craft a more targeted problem statement. I then translated it into the following “How might we…” (HMW) question, which I used to think through various tactical approaches to solving the challenge.<br></div>
+          <div class="body-17-top">I used the information I’d gathered from both quantitative and qualitative research and a one-page product brief given to me by the company to craft a more targeted problem statement. I then translated it into the following “How might we…” (HMW) question, which I used to <span class="highlight">think through various tactical approaches</span> to solving the challenge.<br></div>
           <div class="div-block-6 ins">
             <div class="body-20 btm"><em class="italic-text-2">How might we surface relevant information about service dependencies to responders during wartime?<br></em></div>
           </div>
           <div class="body-17-top body-17-top-btm toop">Responders need these relevant relationships to be highlighted during triage so they can avoid dead ends, collaborate quickly, and take the correct actions to resolve issues. I also made sure to factor in constraints early in my design process:<br></div>
           <ul role="list" class="list-2-copy no-pad">
-            <li class="body-17-top body-17-top-btm small-pad"><strong>Limited real estate: </strong>There was a limited amount of space available on a page chock-full of information and features.</li>
-            <li class="body-17-top body-17-top-btm small-pad"><strong>Limited time: </strong>The deadline for launch—before PagerDuty’s annual summit—was tight, which meant the design and implementation process needed to move fast.</li>
+            <li class="body-17-top body-17-top-btm small-pad"><strong class="highlight">Limited real estate: </strong>There was a limited amount of space available on a page chock-full of information and features.</li>
+            <li class="body-17-top body-17-top-btm small-pad"><strong class="highlight">Limited time: </strong>The deadline for launch—before PagerDuty’s annual summit—was tight, which meant the design and implementation process needed to move fast.</li>
           </ul>
           <a href="#" class="btn-center-2 rem w-button">view project</a>
         </div>
@@ -473,7 +526,7 @@ a {
             <li class="body-17-top body-17-top-btm small-pad"><strong>% Engagement with service dependency data displayed: </strong>% of people that click on any of the links displayed related to the services</li>
             <li class="body-17-top body-17-top-btm small-pad"><strong>% of accounts that add dependencies: </strong>% of people that add dependencies overall</li>
           </ul>
-          <div class="body-17-top body-17-top-btm top">Why these metrics matter: Less time resolving incidents means improved employee productivity and satisfaction, while higher engagement indicates that users are getting value from the feature. Additionally, accounts that add dependencies are more likely to be satisfied with the product and expand their account with PagerDuty.<br></div>
+          <div class="body-17-top body-17-top-btm top">Why these metrics matter: Less time resolving incidents means improved employee productivity and satisfaction, while higher engagement indicates that users are getting value from the feature. Additionally, accounts that add dependencies are <span class="highlight">37% more likely to expand their account</span> with PagerDuty. (<em>Ka-ching! </em>🤑)<br></div>
           <a href="#" class="btn-center-2 rem w-button">view project</a>
         </div>
       </div>
@@ -482,68 +535,78 @@ a {
       <div class="pad-life">
         <div class="project-two">
           <div class="subheader-ctr">Prioritizing Value-Adds by Defining Users’ Goals</div>
-          <div class="body-17-top body-17-top-btm">Data from existing research and the product one-pager helped me identify high-priority actions users like Morgan would want to take while triaging from the Incident List page. The job stories were converted into user flows to illustrate how potential users could interact with the product to successfully resolve incidents in (hopefully) less time.<br></div>
+          <div class="body-17-top body-17-top-btm">Data from existing research and the product one-pager helped me <span class="highlight">identify high-priority actions</span> users like Morgan would want to take while triaging from the Incident List page. The job stories were converted into user flows to illustrate how potential users could interact with the product to successfully resolve incidents in (hopefully) less time.<br></div>
         </div>
       </div>
     </div>
     <div class="div-block-10 pd">
-      <div class="div-block-13-copy"><img src="../images/pd-stories.svg" loading="lazy" width="936" alt="" class="image-8 show-desk"><img src="../images/pd-story-mob.svg" loading="lazy" width="309" alt="" class="image-mob hide-desk"></div>
-      <div class="caption caption-sketched"><strong class="bold-text">Jobs to be Done</strong></div>
+      <div class="div-block-13-copy"><img src="../images/pd-stories.svg" loading="lazy" width="936" alt="" class="image-8 show-desk"><img src="../images/pd-story-mob.svg" loading="lazy" width="250" alt="" class="image-mob hide-desk"></div>
+      <div class="caption caption-sketched"><strong class="bold-text">Example of job stories created</strong></div>
     </div>
-    <div class="wrapper-design">
-      <div class="marquee-wrapper">
-        <div class="marquee">
-          <div class="card">
-            <div class="div-block-47 design">
-              <div class="item-new">design &amp; prototype</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 design">
-              <div class="item-new">design &amp; prototype</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 design">
-              <div class="item-new">design &amp; prototype</div>
+    <div class="carousel">
+      <div class="w-embed">
+        <div class="section">
+          <div id="ctn">
+            <div class="marquee">
+              <div class="marquee-text design"></div>
+              <div class="marquee-text design"></div>
+              <div class="marquee-text design"></div>
             </div>
           </div>
         </div>
-        <div class="marquee">
-          <div class="card">
-            <div class="div-block-47 design">
-              <div class="item-new">design &amp; prototype</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 design">
-              <div class="item-new">design &amp; prototype</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 design">
-              <div class="item-new">design &amp; prototype</div>
-            </div>
-          </div>
-        </div>
+        <style>
+.marquee {
+  width: 100%;
+  /* border-bottom: 3px solid #000000;
+  background-color: #000000; */
+  white-space: nowrap;
+}
+.marquee-text.design {
+  display: inline-block;
+  width: 1300px;
+ 	align-items: center;
+	letter-spacing: 4px;
+  font-family: 'Outer sans outline', sans-serif;
+  color: #000;
+  font-size: 32px;
+  line-height: normal;
+  text-shadow: rgb(6, 6, 7) 0px 0px 0px, rgb(6, 6, 7) 0px 0px 0px, rgb(6, 6, 7) 0px 0px 0px;
+  animation: scroll 8s linear infinite;
+}
+.marquee-text.design:before {
+  content: "design & prototype \a0\a0\a0\a0\a0 design & prototype \a0\a0\a0\a0\a0";
+}
+@keyframes scroll {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+#sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff0000;
+}
+#ctn {
+  margin-top: 24px;
+  margin-bottom:26px;
+  text-align: center;
+  overflow: hidden;
+}
+</style>
       </div>
     </div>
     <div class="w-layout-grid center-body-copy">
       <div class="pad-life">
         <div class="project-two">
           <div class="subheader-ctr">Exploring Potential Design Solutions</div>
-          <div class="body-17-top body-17-top-btm">Visual hierarchy of services dependencies was a key focus for this project; the idea was that visually communicating a service’s position in relation to other services would help responders grasp impact faster and more often. I considered options to quickly communicate where a service sat when it came to its upstream and downstream services. I also explored how to best utilize the small real estate and employ the accordion to show and hide relevant information.<br></div>
+          <div class="body-17-top body-17-top-btm">Visual hierarchy of services dependencies was a key focus for this project; the idea was that visually communicating a service’s position in relation to other services would help responders grasp impact faster and more often. I considered options to quickly communicate where a service sat when it came to its upstream and downstream services. I also explored how to <span class="highlight">best utilize the small real estate</span> and employ the accordion to show and hide relevant information.<br></div>
           <a href="#" class="btn-center-2 rem w-button">view project</a>
         </div>
       </div>
     </div>
-    <div class="user-flow">
-      <div class="flex">
-        <div><img src="../images/hm-role.png" loading="lazy" width="105" alt=""></div>
-        <div><img src="../images/hm-task.png" loading="lazy" width="203" alt="" class="image-13"></div>
-        <div><img src="../images/hm-why.png" loading="lazy" width="270" alt="" class="image-14"></div>
-      </div>
-      <div class="caption hm-job"><strong>Sample user story</strong></div>
+    <div class="user-flow test"><img src="../images/pd-lofi.jpg" loading="lazy" sizes="(max-width: 479px) 350px, 100vw" srcset="../images/pd-lofi-p-500.jpeg 500w, ../images/pd-lofi-p-800.jpeg 800w, ../images/pd-lofi-p-1080.jpeg 1080w, ../images/pd-lofi-p-1600.jpeg 1600w, ../images/pd-lofi-p-2000.jpeg 2000w, ../images/pd-lofi-p-2600.jpeg 2600w, ../images/pd-lofi.jpg 2880w" alt="" class="div-block-54-copy">
+      <div class="caption hm-job"><strong>Sample from more than 30 early explorations</strong></div>
     </div>
     <div class="section-5">
       <div class="div-block-23 pad">
@@ -559,84 +622,69 @@ a {
         </div>
       </div>
     </div>
-    <div class="wrapper-read">
-      <div class="marquee-wrapper">
-        <div class="marquee">
-          <div class="card">
-            <div class="div-block-47 testing">
-              <div class="item-new">testing</div>
-            </div>
-          </div>
-          <div class="card testing">
-            <div class="div-block-47">
-              <div class="item-new">testing</div>
-            </div>
-          </div>
-          <div class="card testing mobile-hide">
-            <div class="div-block-47">
-              <div class="item-new">testing</div>
-            </div>
-          </div>
-          <div class="card testing mobile-hide">
-            <div class="div-block-47">
-              <div class="item-new">testing</div>
-            </div>
-          </div>
-          <div class="card testing mobi">
-            <div class="div-block-47">
-              <div class="item-new">testing</div>
-            </div>
-          </div>
-          <div class="card testing mobile-hide">
-            <div class="div-block-47">
-              <div class="item-new">testing</div>
+    <div class="carousel">
+      <div class="w-embed">
+        <div class="section">
+          <div id="ctn">
+            <div class="marquee">
+              <div class="marquee-text testing"></div>
+              <div class="marquee-text testing"></div>
+              <div class="marquee-text testing"></div>
             </div>
           </div>
         </div>
-        <div class="marquee">
-          <div class="card">
-            <div class="div-block-47 testing">
-              <div class="item-new">testing</div>
-            </div>
-          </div>
-          <div class="card testing">
-            <div class="div-block-47">
-              <div class="item-new">testing</div>
-            </div>
-          </div>
-          <div class="card testing mobile-hide">
-            <div class="div-block-47">
-              <div class="item-new">testing</div>
-            </div>
-          </div>
-          <div class="card testing mobile-hide">
-            <div class="div-block-47">
-              <div class="item-new">testing</div>
-            </div>
-          </div>
-          <div class="card testing mobi">
-            <div class="div-block-47">
-              <div class="item-new">testing</div>
-            </div>
-          </div>
-          <div class="card testing mobile-hide">
-            <div class="div-block-47">
-              <div class="item-new">testing</div>
-            </div>
-          </div>
-        </div>
+        <style>
+.marquee {
+  width: 100%;
+  /* border-bottom: 3px solid #000000;
+  background-color: #000000; */
+  white-space: nowrap;
+}
+.marquee-text.testing {
+  display: inline-block;
+  width: 800px;
+ 	align-items: center;
+	letter-spacing: 4px;
+  font-family: 'Outer sans outline', sans-serif;
+  color: #000;
+  font-size: 32px;
+  line-height: normal;
+  text-shadow: rgb(6, 6, 7) 0px 0px 0px, rgb(6, 6, 7) 0px 0px 0px, rgb(6, 6, 7) 0px 0px 0px;
+  animation: scroll 7s linear infinite;
+}
+.marquee-text.testing:before {
+  content: "testing \a0\a0\a0\a0\a0 testing \a0\a0\a0\a0\a0 testing \a0\a0\a0\a0\a0";
+}
+@keyframes scroll {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+#sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff0000;
+}
+#ctn {
+  margin-top: 24px;
+  margin-bottom:26px;
+  text-align: center;
+  overflow: hidden;
+}
+</style>
       </div>
     </div>
     <div class="w-layout-grid center-body-copy">
       <div class="pad-life">
         <div class="project-two">
-          <div class="subheader-ctr lil">Understanding Success Metrics</div>
+          <div class="subheader-ctr lil">Design Direction Validation</div>
           <div class="body-17-top lil no">While there was some existing research around the type of information users wanted when looking at services dependencies during wartime, knowledge gaps remained. I looked at testing as an opportunity to learn more about user behaviors and expectations. In summary, my primary objectives were:<br></div>
           <ul role="list" class="list-2-copy">
-            <li class="body-17-top body-17-top-btm small-pad">Validate what pieces of information responders would find most useful</li>
+            <li class="body-17-top body-17-top-btm small-pad"><span class="highlight">Validate what pieces of information responders would find most useful</span></li>
             <li class="body-17-top body-17-top-btm small-pad">Gauge how quickly users grasped new concepts</li>
           </ul>
-          <div class="body-17-top body-17-top-btm top">The PM and I worked closely to conduct six usability tests ranging from 30 to 45 minutes among engineers with different on-call experiences. These remote tests were critical in gathering feedback that informed the revisions to key action items, which are summarized below:<br></div>
+          <div class="body-17-top body-17-top-btm top">The PM and I worked closely to conduct <span class="highlight">six usability tests</span> ranging from 30 to 45 minutes among engineers with different on-call experiences. These remote tests were critical in gathering feedback that informed the revisions to key action items, which are summarized below:<br></div>
           <a href="#" class="btn-center-2 rem w-button">view project</a>
         </div>
       </div>
@@ -645,7 +693,7 @@ a {
       <div class="mask-3 w-slider-mask">
         <div class="w-slide">
           <div class="w-layout-grid grid-7 tab white">
-            <div id="w-node-55d77762ee35-b2f1c1ef" class="div-block-25 wht">
+            <div id="w-node-55d77762ee35-9d0ffdad" class="div-block-25 wht">
               <div class="new-black">
                 <div class="project-2 test">
                   <div class="subheader-left ctr">Shifting focus to what’s important<br></div>
@@ -653,14 +701,14 @@ a {
                 </div>
               </div>
             </div>
-            <div id="w-node-55d77762ee3d-b2f1c1ef" class="div-block-20 test">
-              <div class="div-block-26-copy"><img src="../images/pd-1-1.png" loading="lazy" width="524" sizes="(max-width: 479px) 100vw, 523.984375px" srcset="../images/pd-1-1-p-500.png 500w, ../images/pd-1-1-p-800.png 800w, ../images/pd-1-1-p-1080.png 1080w, ../images/pd-1-1.png 1230w" alt="" class="hm-change-1-black"><img src="../images/hm-before-after-1-white.png" loading="lazy" width="524" sizes="100vw" srcset="../images/hm-before-after-1-white-p-500.png 500w, ../images/hm-before-after-1-white-p-800.png 800w, ../images/hm-before-after-1-white.png 1049w" alt="" class="hm-change-1-white"></div>
+            <div id="w-node-55d77762ee3d-9d0ffdad" class="div-block-20 test">
+              <div class="div-block-26-copy"><img src="../images/Group-393-n1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 652.36328125px, (max-width: 991px) 85vw, 832.98828125px" width="833" srcset="../images/Group-393-n1-p-500.png 500w, ../images/Group-393-n1-p-800.png 800w, ../images/Group-393-n1-p-1080.png 1080w, ../images/Group-393-n1.png 1430w" alt="" class="hm-change-1-black"><img src="../images/hm-before-after-1-white.png" loading="lazy" width="524" sizes="100vw" srcset="../images/hm-before-after-1-white-p-500.png 500w, ../images/hm-before-after-1-white-p-800.png 800w, ../images/hm-before-after-1-white.png 1049w" alt="" class="hm-change-1-white"></div>
             </div>
           </div>
         </div>
         <div class="w-slide">
           <div class="w-layout-grid grid-7 tab black">
-            <div id="w-node-55d77762ee43-b2f1c1ef" class="div-block-25 wht">
+            <div id="w-node-55d77762ee43-9d0ffdad" class="div-block-25 wht">
               <div class="new-black">
                 <div class="project-2 test">
                   <div class="subheader-left ctr">Communicating information at a glance<br></div>
@@ -668,14 +716,14 @@ a {
                 </div>
               </div>
             </div>
-            <div id="w-node-55d77762ee4b-b2f1c1ef" class="div-block-20 test">
-              <div class="div-block-26-copy"><img src="../images/pd-1-2-2.png" loading="lazy" width="524" sizes="(max-width: 479px) 100vw, 523.984375px" srcset="../images/pd-1-2-2-p-500.png 500w, ../images/pd-1-2-2-p-800.png 800w, ../images/pd-1-2-2-p-1080.png 1080w, ../images/pd-1-2-2.png 1236w" alt="" class="hm-change-1-black"><img src="../images/hm-before-after-1-white.png" loading="lazy" width="524" sizes="100vw" srcset="../images/hm-before-after-1-white-p-500.png 500w, ../images/hm-before-after-1-white-p-800.png 800w, ../images/hm-before-after-1-white.png 1049w" alt="" class="hm-change-1-white"></div>
+            <div id="w-node-55d77762ee4b-9d0ffdad" class="div-block-20 test">
+              <div class="div-block-26-copy"><img src="../images/Group-395-n2.png" loading="lazy" srcset="../images/Group-395-n2-p-500.png 500w, ../images/Group-395-n2-p-800.png 800w, ../images/Group-395-n2-p-1080.png 1080w, ../images/Group-395-n2.png 1430w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 652.36328125px, 85vw" alt="" class="hm-change-1-black"><img src="../images/hm-before-after-1-white.png" loading="lazy" width="524" sizes="100vw" srcset="../images/hm-before-after-1-white-p-500.png 500w, ../images/hm-before-after-1-white-p-800.png 800w, ../images/hm-before-after-1-white.png 1049w" alt="" class="hm-change-1-white"></div>
             </div>
           </div>
         </div>
         <div class="w-slide">
           <div class="w-layout-grid grid-7 tab black">
-            <div id="w-node-55d77762ee51-b2f1c1ef" class="div-block-25 wht">
+            <div id="w-node-55d77762ee51-9d0ffdad" class="div-block-25 wht">
               <div class="new-black">
                 <div class="project-2 test">
                   <div class="subheader-left ctr">Reducing clicks to get context<br></div>
@@ -683,8 +731,8 @@ a {
                 </div>
               </div>
             </div>
-            <div id="w-node-55d77762ee59-b2f1c1ef" class="div-block-20 test">
-              <div class="div-block-26-copy"><img src="../images/pd-1-3.png" loading="lazy" width="524" sizes="(max-width: 479px) 100vw, 523.984375px" srcset="../images/pd-1-3-p-500.png 500w, ../images/pd-1-3-p-800.png 800w, ../images/pd-1-3-p-1080.png 1080w, ../images/pd-1-3.png 1230w" alt="" class="hm-change-1-black"><img src="../images/hm-before-after-1-white.png" loading="lazy" width="524" sizes="100vw" srcset="../images/hm-before-after-1-white-p-500.png 500w, ../images/hm-before-after-1-white-p-800.png 800w, ../images/hm-before-after-1-white.png 1049w" alt="" class="hm-change-1-white"></div>
+            <div id="w-node-55d77762ee59-9d0ffdad" class="div-block-20 test">
+              <div class="div-block-26-copy"><img src="../images/Group-394-n3.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 652.36328125px, (max-width: 991px) 85vw, 832.98828125px" width="833" srcset="../images/Group-394-n3-p-500.png 500w, ../images/Group-394-n3-p-800.png 800w, ../images/Group-394-n3-p-1080.png 1080w, ../images/Group-394-n3.png 1430w" alt="" class="hm-change-1-black"><img src="../images/hm-before-after-1-white.png" loading="lazy" width="524" sizes="100vw" srcset="../images/hm-before-after-1-white-p-500.png 500w, ../images/hm-before-after-1-white-p-800.png 800w, ../images/hm-before-after-1-white.png 1049w" alt="" class="hm-change-1-white"></div>
             </div>
           </div>
         </div>
@@ -697,7 +745,7 @@ a {
       <div class="mask-3 w-slider-mask">
         <div class="w-slide">
           <div class="w-layout-grid grid-7 tab black">
-            <div id="w-node-aaf1ec85db7b-b2f1c1ef" class="div-block-25 wht">
+            <div id="w-node-aaf1ec85db7b-9d0ffdad" class="div-block-25 wht">
               <div class="new-black">
                 <div class="project-2 test na">
                   <div class="subheader-left ctr white">Shifting focus to what’s important<br></div>
@@ -705,38 +753,38 @@ a {
                 </div>
               </div>
             </div>
-            <div id="w-node-aaf1ec85db84-b2f1c1ef" class="div-block-20 test na">
-              <div class="div-block-26-copy"><img src="../images/pd-1-1.png" loading="lazy" width="524" sizes="100vw" srcset="../images/pd-1-1-p-500.png 500w, ../images/pd-1-1-p-800.png 800w, ../images/pd-1-1-p-1080.png 1080w, ../images/pd-1-1.png 1230w" alt="" class="hm-change-1-black"><img src="../images/hm-before-after-1-white.png" loading="lazy" width="524" sizes="(max-width: 479px) 75vw, 100vw" srcset="../images/hm-before-after-1-white-p-500.png 500w, ../images/hm-before-after-1-white-p-800.png 800w, ../images/hm-before-after-1-white.png 1049w" alt="" class="hm-change-1-white"></div>
+            <div id="w-node-aaf1ec85db84-9d0ffdad" class="div-block-20 test na">
+              <div class="div-block-26-copy"><img src="../images/Group-393-n1.png" loading="lazy" width="524" sizes="100vw" srcset="../images/Group-393-n1-p-500.png 500w, ../images/Group-393-n1-p-800.png 800w, ../images/Group-393-n1-p-1080.png 1080w, ../images/Group-393-n1.png 1430w" alt="" class="hm-change-1-black"><img src="../images/Group-367.png" loading="lazy" width="524" sizes="(max-width: 479px) 85vw, 100vw" srcset="../images/Group-367-p-500.png 500w, ../images/Group-367-p-800.png 800w, ../images/Group-367-p-1080.png 1080w, ../images/Group-367-p-1600.png 1600w, ../images/Group-367.png 1666w" alt="" class="hm-change-1-white"></div>
             </div>
           </div>
         </div>
         <div class="w-slide">
           <div class="w-layout-grid grid-7 tab black">
-            <div id="w-node-aaf1ec85db8a-b2f1c1ef" class="div-block-25 wht">
+            <div id="w-node-aaf1ec85db99-9d0ffdad" class="div-block-25 wht">
               <div class="new-black">
-                <div class="project-2 test">
-                  <div class="subheader-left ctr">Communicating information at a glance<br></div>
-                  <div class="text-block-6 test-copy black">I realized the cluttered page was competing for responders&#x27; attention, so I changed the background to intuitively signal the status of service dependencies. For example, a red background indicated that 1+ dependencies had open incidents, while green indicated that all dependencies were operational.<br></div>
+                <div class="project-2 test na">
+                  <div class="subheader-left ctr white">Reducing clicks to get context<br></div>
+                  <div class="text-block-6 test-copy white">To make it easier for responders to learn what dependencies were affected, I removed the click previously required to find that info. Now they can start to identify the source of the incident they’re investigating without unnecessary extra steps.<br></div>
                 </div>
               </div>
             </div>
-            <div id="w-node-aaf1ec85db93-b2f1c1ef" class="div-block-20 test">
-              <div class="div-block-26-copy"><img src="../images/pd-1-2-2.png" loading="lazy" width="524" sizes="100vw" srcset="../images/pd-1-2-2-p-500.png 500w, ../images/pd-1-2-2-p-800.png 800w, ../images/pd-1-2-2-p-1080.png 1080w, ../images/pd-1-2-2.png 1236w" alt="" class="hm-change-1-black"><img src="../images/hm-before-after-1-white.png" loading="lazy" width="524" sizes="(max-width: 479px) 75vw, 100vw" srcset="../images/hm-before-after-1-white-p-500.png 500w, ../images/hm-before-after-1-white-p-800.png 800w, ../images/hm-before-after-1-white.png 1049w" alt="" class="hm-change-1-white"></div>
+            <div id="w-node-aaf1ec85dba2-9d0ffdad" class="div-block-20 test">
+              <div class="div-block-26-copy"><img src="../images/Group-395-n2.png" loading="lazy" width="524" sizes="100vw" srcset="../images/Group-395-n2-p-500.png 500w, ../images/Group-395-n2-p-800.png 800w, ../images/Group-395-n2-p-1080.png 1080w, ../images/Group-395-n2.png 1430w" alt="" class="hm-change-1-black"><img src="../images/Group-369.png" loading="lazy" width="524" sizes="(max-width: 479px) 85vw, 100vw" srcset="../images/Group-369-p-500.png 500w, ../images/Group-369-p-800.png 800w, ../images/Group-369-p-1080.png 1080w, ../images/Group-369-p-1600.png 1600w, ../images/Group-369.png 1666w" alt="" class="hm-change-1-white"></div>
             </div>
           </div>
         </div>
         <div class="w-slide">
           <div class="w-layout-grid grid-7 tab black">
-            <div id="w-node-aaf1ec85db99-b2f1c1ef" class="div-block-25 wht">
+            <div id="w-node-aaf1ec85db8a-9d0ffdad" class="div-block-25 wht">
               <div class="new-black">
-                <div class="project-2 test">
-                  <div class="subheader-left ctr">Reducing clicks to get context<br></div>
-                  <div class="text-block-6 test-copy black">To make it easier for responders to learn what dependencies were affected, I removed the click previously required to find that info. Now they can start to identify the source of the incident they’re investigating without unnecessary extra steps.<br></div>
+                <div class="project-2 test na">
+                  <div class="subheader-left ctr white">Communicating information at a glance<br></div>
+                  <div class="text-block-6 test-copy white">I realized the cluttered page was competing for responders&#x27; attention, so I changed the background to intuitively signal the status of service dependencies. For example, a red background indicated that 1+ dependencies had open incidents, while green indicated that all dependencies were operational.<br></div>
                 </div>
               </div>
             </div>
-            <div id="w-node-aaf1ec85dba2-b2f1c1ef" class="div-block-20 test">
-              <div class="div-block-26-copy"><img src="../images/pd-1-3.png" loading="lazy" width="524" sizes="100vw" srcset="../images/pd-1-3-p-500.png 500w, ../images/pd-1-3-p-800.png 800w, ../images/pd-1-3-p-1080.png 1080w, ../images/pd-1-3.png 1230w" alt="" class="hm-change-1-black"><img src="../images/hm-before-after-1-white.png" loading="lazy" width="524" sizes="(max-width: 479px) 75vw, 100vw" srcset="../images/hm-before-after-1-white-p-500.png 500w, ../images/hm-before-after-1-white-p-800.png 800w, ../images/hm-before-after-1-white.png 1049w" alt="" class="hm-change-1-white"></div>
+            <div id="w-node-aaf1ec85db93-9d0ffdad" class="div-block-20 test">
+              <div class="div-block-26-copy"><img src="../images/Group-394-n3.png" loading="lazy" width="524" sizes="100vw" srcset="../images/Group-394-n3-p-500.png 500w, ../images/Group-394-n3-p-800.png 800w, ../images/Group-394-n3-p-1080.png 1080w, ../images/Group-394-n3.png 1430w" alt="" class="hm-change-1-black"><img src="../images/Group-368.png" loading="lazy" width="524" sizes="(max-width: 479px) 85vw, 100vw" srcset="../images/Group-368-p-500.png 500w, ../images/Group-368-p-800.png 800w, ../images/Group-368-p-1080.png 1080w, ../images/Group-368-p-1600.png 1600w, ../images/Group-368.png 1666w" alt="" class="hm-change-1-white this"></div>
             </div>
           </div>
         </div>
@@ -744,21 +792,6 @@ a {
       <div class="left w-slider-arrow-left"><img src="../images/chevron-left-white.svg" loading="lazy" width="40" height="30" alt="" class="image-12 nah"></div>
       <div class="right-arrow w-slider-arrow-right"><img src="../images/chevron-right-white.svg" loading="lazy" width="40" height="30" alt="" class="image-12 right"></div>
       <div class="slide-nav left-arrow _2 w-slider-nav w-round"></div>
-    </div>
-    <div class="w-layout-grid center-body-copy">
-      <div class="pad-life">
-        <div class="project-two">
-          <div class="subheader-ctr">Prototype Validation</div>
-          <div class="body-17-top body-17-top-btm">After addressing usability challenges and polishing the app&#x27;s aesthetics, I went through a final phase of testing to see how visual and usability changes tracked with users. I gave a new set of testers a more robust set of tasks, including ones around the key takeaways I discovered. Here were the results:<br></div>
-          <ul role="list" class="list-2-copy">
-            <li class="body-17-top body-17-top-btm small-pad">All eight users were able to articulate the purpose of &quot;Categories&quot;.</li>
-            <li class="body-17-top body-17-top-btm small-pad">80% of testers were able to find the option to tag a file in 38% less time.</li>
-            <li class="body-17-top body-17-top-btm small-pad">The time it took testers to find the sort button went down 65%.</li>
-          </ul>
-          <div class="body-17-top body-17-top-btm top">The changes I made drastically reduced the time it took for users to complete tasks, and feedback around the design was positive. Users commented on how clean and sleek the interface felt. The biggest callouts were around the customizable folder covers—which was one of the few MLP (Minimum Lovable Product) features I kept in the design. Users also loved the new tag feature.<br></div>
-          <a href="#" class="btn-center-2 rem w-button">view project</a>
-        </div>
-      </div>
     </div>
     <div class="section-5">
       <div class="div-block-23 pad">
@@ -774,62 +807,55 @@ a {
         </div>
       </div>
     </div>
-    <div class="wrapper-read">
-      <div class="marquee-wrapper">
-        <div class="marquee">
-          <div class="card">
-            <div class="div-block-47 read-more-2">
-              <div class="item-new">read more</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 read-more-2">
-              <div class="item-new">read more</div>
-            </div>
-          </div>
-          <div class="card mobile-hide">
-            <div class="div-block-47 read-more-2">
-              <div class="item-new">read more</div>
-            </div>
-          </div>
-          <div class="card mobile-hide">
-            <div class="div-block-47 read-more-2">
-              <div class="item-new">read more</div>
-            </div>
-          </div>
-          <div class="card mobile-hide">
-            <div class="div-block-47 read-more-2">
-              <div class="item-new">read more</div>
+    <div class="carousel">
+      <div class="w-embed">
+        <div class="section">
+          <div id="ctn">
+            <div class="marquee">
+              <div class="marquee-text read"></div>
+              <div class="marquee-text read"></div>
+              <div class="marquee-text read"></div>
             </div>
           </div>
         </div>
-        <div class="marquee">
-          <div class="card">
-            <div class="div-block-47 read-more-2">
-              <div class="item-new">read more</div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div-block-47 read-more-2">
-              <div class="item-new">read more</div>
-            </div>
-          </div>
-          <div class="card mobile-hide">
-            <div class="div-block-47 read-more-2">
-              <div class="item-new">read more</div>
-            </div>
-          </div>
-          <div class="card mobile-hide">
-            <div class="div-block-47 read-more-2">
-              <div class="item-new">read more</div>
-            </div>
-          </div>
-          <div class="card mobile-hide">
-            <div class="div-block-47 read-more-2">
-              <div class="item-new">read more</div>
-            </div>
-          </div>
-        </div>
+        <style>
+.marquee {
+  width: 100%;
+  white-space: nowrap;
+}
+.marquee-text.read {
+  display: inline-block;
+  width: 1200px;
+ 	align-items: center;
+	letter-spacing: 4px;
+  font-family: 'Outer sans outline', sans-serif;
+  color: #000;
+  font-size: 32px;
+  line-height: normal;
+  text-shadow: rgb(6, 6, 7) 0px 0px 0px, rgb(6, 6, 7) 0px 0px 0px, rgb(6, 6, 7) 0px 0px 0px;
+  animation: scroll 8.5s linear infinite;
+}
+.marquee-text.read:before {
+  content: "read me \a0\a0\a0\a0\a0 read me \a0\a0\a0\a0\a0 read me \a0\a0\a0\a0\a0";
+}
+@keyframes scroll {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+#sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff0000;
+}
+#ctn {
+  margin-top: 24px;
+  margin-bottom:26px;
+  text-align: center;
+  overflow: hidden;
+}
+</style>
       </div>
     </div>
     <div class="ticker-section milestone">
@@ -846,9 +872,9 @@ a {
         <div class="pad-life">
           <div class="project-two">
             <div class="subheader-ctr lil">To Be Continued...</div>
-            <div class="body-17-top body-17-top-btm">Because the two milestones were being worked on simultaneously, there was not a clear delineation between them. Even as we moved into Milestone 2, we continued to uncover changes that needed to be made for Milestone 1. To learn about the final product, click here.<br></div>
+            <div class="body-17-top body-17-top-btm">Because the two milestones were being worked on simultaneously, there was not a clear delineation between them. Even as we moved into Milestone 2, we continued to uncover changes that needed to be made for Milestone 1. To learn about the final product, click <a href="#" class="link-blackkk">here</a> or the button below.<br></div>
             <div class="project-two">
-              <div class="subheader-24 right-copy">Milestone 2</div><img src="../images/pd-2-next-2.png" loading="lazy" width="376" sizes="(max-width: 479px) 78vw, (max-width: 767px) 75vw, 375.99609375px" srcset="../images/pd-2-next-2-p-500.png 500w, ../images/pd-2-next-2-p-800.png 800w, ../images/pd-2-next-2-p-1080.png 1080w, ../images/pd-2-next-2-p-1600.png 1600w, ../images/pd-2-next-2.png 1706w" alt="" class="image-18-copy">
+              <div class="subheader-24 right-copy">Milestone 2</div><img src="../images/pd-next.png" loading="lazy" width="376" sizes="(max-width: 479px) 100vw, (max-width: 767px) 75vw, 375.99609375px" srcset="../images/pd-next-p-500.png 500w, ../images/pd-next.png 1706w" alt="" class="image-18-copy">
               <a href="#" class="btn-center-2 rem w-button">view project</a>
             </div>
             <a href="../e5e9fa1ba31ecd1ae84f75caaa474f3a663f05f4/pagerduty-suggested-dependencies.html" data-w-id="53d2388b-8b9f-6fb1-f1fd-5f7e9387df21" class="button modal-button btn-center-2 rem ls na case w-button">view project</a>
@@ -860,8 +886,12 @@ a {
   <footer class="footer-2">
     <div class="div-block-3">
       <div class="columns-3 w-row">
-        <div class="github w-col w-col-6 w-col-small-6 w-col-tiny-6"><img src="https://uploads-ssl.webflow.com/5f697fd097c40acb85eb1ef8/5f697fd097c40acc94eb1f2b_github.png" loading="lazy" width="44" alt=""></div>
-        <div class="twitter w-clearfix w-col w-col-6 w-col-small-6 w-col-tiny-6"><img src="https://uploads-ssl.webflow.com/5f697fd097c40acb85eb1ef8/5f697fd097c40a0f95eb1f2c_twitter.png" loading="lazy" width="44" alt="" class="image-4"></div>
+        <div class="github w-col w-col-6 w-col-small-6 w-col-tiny-6">
+          <a href="https://github.com/uxdesignuo" target="_blank" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/5f697fd097c40acb85eb1ef8/5f697fd097c40acc94eb1f2b_github.png" loading="lazy" width="44" alt=""></a>
+        </div>
+        <div class="twitter w-clearfix w-col w-col-6 w-col-small-6 w-col-tiny-6">
+          <a href="#menu" class="link-block-15 w-inline-block w-clearfix"><img src="../images/arrow.png" loading="lazy" width="44" alt="" class="image-4"></a>
+        </div>
       </div>
     </div>
   </footer>
