@@ -1580,6 +1580,13 @@ body {
   font-size: 20px;
 }
 
+.subheader-22-copy.cs {
+  margin-bottom: 32px;
+  color: #333;
+  font-size: 20px;
+  text-align: left;
+}
+
 .about-hero-2 {
   -webkit-box-align: center;
   -webkit-align-items: center;
