@@ -1558,6 +1558,16 @@ body {
   text-align: center;
 }
 
+.subheader-22-copy.persona {
+  display: block;
+  margin-top: 00px;
+  font-family: 'Outer sans', sans-serif;
+  color: #000;
+  font-size: 22px;
+  line-height: 140%;
+  text-align: center;
+}
+
 .subheader-22-slider {
   display: block;
   margin-top: 40px;
@@ -3905,7 +3915,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 200%;
+  width: 100%;
 }
 
 .marquee-wrapper.v2 {
@@ -4507,7 +4517,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 200%;
+  width: 100%;
 }
 
 .marquee-2 {
@@ -8874,7 +8884,7 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 200%;
+    width: 100%;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -11071,6 +11081,13 @@ body {
   .image {
     min-width: 100px;
     margin-left: -19px;
+  }
+
+  .image-27 {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 26px;
+    float: none;
   }
 
   .menu-button-4 {
@@ -20716,6 +20733,8 @@ body {
   }
 
   @media screen and (max-width: 767px) {
+   
+
     .grid-2>#w-node-5c4eb64f6d72-130ffda9 {
       -ms-grid-row: 1;
       -ms-grid-column: 1;
