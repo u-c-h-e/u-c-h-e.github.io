@@ -6182,7 +6182,7 @@
                 decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
 
             if (decryptedHMAC !== encryptedHMAC) {
-                alert('Wrong password.');
+                alert('Wrong password. This site may have been updated recently. Reach out for new password.');
                 return;
             }
 
