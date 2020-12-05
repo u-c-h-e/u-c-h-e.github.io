@@ -289,6 +289,8 @@ body {
   line-height: 164%;
 }
 
+
+
 .text-block-3.test {
   display: inline-block;
   font-size: 15px;
@@ -554,6 +556,15 @@ body {
   height: 600px;
   background-image: url('../images/homemakers-home.svg');
   background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.img-desk-group.img-pd-3 {
+  height: 600px;
+  background-image: url('../images/pd-3-hp-p-500.png');
+  background-position: 0% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -5147,6 +5158,14 @@ body {
     background-repeat: no-repeat;
   }
 
+  .img-desk-group.img-pd-3 {
+    height: 600px;
+    background-image: url('../images/pd-3-hp-p-800.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   .img-desk-group.img-covid {
     height: 580px;
     background-image: url('../images/yellow.png');
@@ -7030,6 +7049,12 @@ body {
     background-position: 20% 50%;
   }
 
+  .img-mob-tablet.img-pd {
+    background-image: url('../images/pd-3-hp-p-500.png');
+    background-position: 20% 50%;
+  }
+
+
   .img-mob-tablet.img-about-2 {
     background-image: url('../images/about-2.png');
     background-position: 0% 50%;
@@ -7169,6 +7194,11 @@ body {
     background-position: 10% 50%;
   }
 
+  .img-mob-tablet.img-pd {
+    background-image: url('../images/hm-tab.png');
+    background-position: 10% 50%;
+  }
+
   .img-desk-group {
     display: none;
   }
@@ -7283,6 +7313,10 @@ body {
 
   .img-about-tablet.img-hackathon {
     background-image: url('../images/pd-tab_1.png');
+  }
+
+  .img-mob-tablet.img-pd {
+    background-image: url('../images/pd-3-hp-p-500.png');
   }
 
   .img-about-tablet.img-hm {
@@ -8980,6 +9014,10 @@ body {
 
   .img-mobile.img-ref-spacekit {
     opacity: 0;
+  }
+
+  .img-mobile.img-pd3{
+    opacity: 1;
   }
 
   .img-mobile.img-ref-spacekit.prob {
