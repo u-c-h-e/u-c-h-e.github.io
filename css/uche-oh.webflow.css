@@ -15,6 +15,10 @@ body {
   color: #333;
   font-size: 14px;
   line-height: 20px;
+  background-color: #efeff6;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .nav-menu-right {
