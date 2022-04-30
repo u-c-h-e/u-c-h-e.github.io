@@ -4191,7 +4191,7 @@ body {
   width: 340px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 29px;
+  /*padding-top: 29px;*/
   padding-right: 0px;
   font-family: 'Tan mon cheri', sans-serif;
   color: #fff;
@@ -50292,6 +50292,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Neogroteskess webfont';
   src: url('../fonts/neogroteskess-regular-webfont.woff') format('woff');
@@ -50299,6 +50300,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Neogroteskess webfont';
   src: url('../fonts/neogroteskess-bold-webfont.woff') format('woff');
@@ -50306,6 +50308,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'The Seasons';
   src: url('../fonts/theseasons-bdit-webfont.woff') format('woff');
@@ -50313,6 +50316,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'The Seasons';
   src: url('../fonts/theseasons-lt-webfont.woff') format('woff');
@@ -50320,6 +50324,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'The Seasons';
   src: url('../fonts/theseasons-reg-webfont.woff') format('woff');
@@ -50327,6 +50332,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Neogrotesksc webfont';
   src: url('../fonts/neogrotesksc-light-webfont.ttf') format('truetype');
@@ -50334,6 +50340,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Outer sans';
   src: url('../fonts/made_outer_sans_black.otf') format('opentype');
@@ -50341,6 +50348,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Outer sans';
   src: url('../fonts/made_outer_sans_bold.otf') format('opentype');
@@ -50348,6 +50356,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Outer sans';
   src: url('../fonts/made_outer_sans_medium.otf') format('opentype');
@@ -50355,6 +50364,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Outer sans';
   src: url('../fonts/made_outer_sans_regular.otf') format('opentype');
@@ -50362,6 +50372,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Outer sans outline';
   src: url('../fonts/made_outer_sans_outline_black.otf') format('opentype');
@@ -50369,6 +50380,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Outer sans outline';
   src: url('../fonts/made_outer_sans_outline_bold.otf') format('opentype');
@@ -50376,6 +50388,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Tan mon cheri';
   src: url('../fonts/TAN---MON-CHERI.otf') format('opentype');
@@ -50383,6 +50396,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Butler';
   src: url('../fonts/Butler_Regular.otf') format('opentype');
@@ -50390,6 +50404,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Butler';
   src: url('../fonts/Butler_Bold.otf') format('opentype'), url('../fonts/Butler_ExtraBold.otf') format('opentype');
@@ -50397,6 +50412,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Butler';
   src: url('../fonts/Butler_Ultra_Light.otf') format('opentype');
@@ -50404,6 +50420,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Butler';
   src: url('../fonts/Butler_Medium.otf') format('opentype');
@@ -50411,6 +50428,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Butler';
   src: url('../fonts/Butler_Light.otf') format('opentype');
@@ -50418,6 +50436,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Butler';
   src: url('../fonts/Butler_Black.otf') format('opentype');
