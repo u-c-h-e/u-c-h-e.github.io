@@ -5908,7 +5908,10 @@ body {
 }
 
 .carousel-copy {
-  border: 1px solid #000;
+  /*border: 1px solid #000;
+  border: 1px 0px 1px 0px solid #000;*/
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
   background-color: #fff;
 }
 
@@ -8354,6 +8357,8 @@ body {
 
   .carousel {
     border: 1px none #000;
+    border: 1px 0px 1px 0px solid #000;
+
   }
 
   .highlight {
@@ -8387,8 +8392,10 @@ body {
 
   .carousel-copy {
     border-style: solid none;
-    border-width: 1px;
-    border-color: #000;
+    /*border-width: 1px;
+    border-color: #000;*/
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
   }
 
   .html-embed-2 {
