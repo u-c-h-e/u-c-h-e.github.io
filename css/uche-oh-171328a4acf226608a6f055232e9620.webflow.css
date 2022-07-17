@@ -597,7 +597,7 @@ body {
 
 .img-desk-group.img-covid {
   width: 100%;
-  background-image: url('../images/yellow.png');
+  background-image: url('../images/web3.png');
   background-position: 0% 50%;
   background-size: cover;
 }
@@ -1091,7 +1091,7 @@ body {
 }
 
 .img-about-desk.img-covid {
-  background-image: url('../images/covid.png');
+  background-image: url('../images/web3.png');
   background-position: 0% 50%;
 }
 
@@ -6700,6 +6700,13 @@ body {
   background-color: #000;
 }
 
+@media screen and (min-width: 769px) {
+  .h2-46 {
+    text-align: center;
+  }
+}
+
+
 @media screen and (min-width: 1280px) {
   .main-nav {
     max-width: none;
@@ -6851,7 +6858,7 @@ body {
 
   .img-desk-group.img-covid {
     height: 580px;
-    background-image: url('../images/yellow.png');
+    background-image: url('../images/web3.png');
     background-size: 853px;
   }
 
@@ -7138,6 +7145,7 @@ body {
     margin: 0px auto 40px;
     padding-bottom: 0px;
     line-height: 193.7%;
+    text-align: center;
   }
 
   .btn-center {
@@ -7194,7 +7202,7 @@ body {
   }
 
   .img-about-desk.img-covid {
-    background-image: url('../images/covid.png');
+    background-image: url('../images/web3.png');
   }
 
   .img-about-desk.img-pagerduty {
@@ -8924,7 +8932,7 @@ body {
   }
 
   .img-mob-tablet.img-covid {
-    background-image: url('../images/covid-tab.png');
+    background-image: url('../images/web3.png');
     background-position: 50% 0%;
   }
 
@@ -23858,6 +23866,8 @@ body {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
   }
+
+
 
   @media screen and (min-width: 1280px) {
     #w-node-_15c91d5d-424f-362c-a7bc-5c4eb64f6d72-0b9ca04d {
@@ -50290,6 +50300,11 @@ body {
       -ms-grid-column: 1;
       -ms-grid-column-span: 1;
     }
+
+
+
+
+
   }
 }
 
