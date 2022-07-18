@@ -238,6 +238,8 @@ body {
   float: right;
 }
 
+
+
 .project.project-alt {
   display: block;
   width: auto;
@@ -1080,6 +1082,10 @@ body {
   font-size: 49px;
   line-height: 135%;
   font-weight: 500;
+}
+
+.h2.no-pad {
+  margin-bottom: 0px;
 }
 
 .img-about-desk {
@@ -6749,6 +6755,10 @@ body {
     margin-right: 120px;
     padding-left: 120px;
     float: none;
+  }
+
+  .h2.no-pad {
+    padding-bottom: 0px;
   }
 
   .body {
