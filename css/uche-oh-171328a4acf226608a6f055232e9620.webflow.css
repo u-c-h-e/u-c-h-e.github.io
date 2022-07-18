@@ -3844,21 +3844,8 @@ body {
   display: inline;
 }
 
-.contact-hover:after {}
 
 
-
-/*
-.contact-hover {
-  position: absolute;
-  left: auto;
-  top: auto;
-  right: -203%;
-  bottom: -1015%;
-  display: none;
-  max-width: 300px;
-}
-*/
 .tooltip {
   cursor: auto;
 }
@@ -3876,7 +3863,23 @@ body {
   top: 32px;
   right: -70px;
   z-index: 6;
-  /* 
+
+}
+
+.tooltip.two:hover:after {
+  content: url('../images/dance-computer-1.gif');
+
+  content: ' ';
+  display: inline-block;
+  position: absolute;
+  background: url('../images/dance-computer-1.gif') no-repeat;
+  background-size: contain;
+  height: 125px;
+  width: 350px;
+  top: 53%;
+  left: 50%;
+  z-index: 0;
+
 }
 
 .new-black-copy {
@@ -6465,6 +6468,7 @@ body {
   overflow: visible;
   max-width: 500px;
   margin-top: 63px;
+  margin-top: -30px;
   margin-right: auto;
   margin-left: 0px;
   padding-right: 0px;
@@ -8192,8 +8196,8 @@ body {
   }
 
   .div-block-30-cop {
-    padding-top: 73px;
-    padding-bottom: 72px;
+    /*padding-top: 73px;
+    padding-bottom: 72px;*/
   }
 
   .project-copy555 {
