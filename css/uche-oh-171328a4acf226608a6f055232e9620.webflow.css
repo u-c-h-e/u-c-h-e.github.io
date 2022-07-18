@@ -3838,6 +3838,11 @@ body {
   display: inline;
 }
 
+.contact-hover:after {}
+
+
+
+/*
 .contact-hover {
   position: absolute;
   left: auto;
@@ -3847,9 +3852,25 @@ body {
   display: none;
   max-width: 300px;
 }
-
+*/
 .tooltip {
   cursor: auto;
+}
+
+.tooltip:hover:after {
+  content: url('../images/high-five.gif');
+
+  content: ' ';
+  display: inline-block;
+  position: absolute;
+  background: url('../images/high-five.gif') no-repeat;
+  background-size: contain;
+  height: 140px;
+  width: 270px;
+  top: 32px;
+  right: -72px;
+  z-index: 6;
+  /* 
 }
 
 .new-black-copy {
@@ -8118,7 +8139,7 @@ body {
 
   .div-block-30-copy-copy {
     padding-top: 64px;
-    padding-bottom: 24px;
+    padding-bottom: 88px;
     text-align: center;
   }
 
@@ -8133,13 +8154,14 @@ body {
   }
 
   .div-block-41 {
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
 
+  /*
   .contact-hover {
     right: -134%;
   }
-
+*/
   .grid-7-copy {
     -ms-grid-columns: 0.75fr 1fr;
     grid-template-columns: 0.75fr 1fr;
@@ -10334,11 +10356,13 @@ body {
     text-align: center;
   }
 
+  /*
   .contact-hover {
     right: -58%;
     bottom: -1072%;
     z-index: 600;
   }
+*/
 
   .grid-7-copy {
     -webkit-box-align: stretch;
@@ -12847,6 +12871,7 @@ body {
     text-align: center;
   }
 
+  /*
   .contact-hover {
     left: 0%;
     top: 0%;
@@ -12854,6 +12879,7 @@ body {
     bottom: auto;
     z-index: 500;
   }
+*/
 
   .new-black-copy {
     background-color: #000;
@@ -15562,6 +15588,7 @@ body {
     z-index: 500;
   }
 
+  /*
   .contact-hover {
     left: 0%;
     top: auto;
@@ -15571,7 +15598,7 @@ body {
     display: none;
     max-width: 200px;
   }
-
+*/
   .grid-7-copy.tab.black {
     padding-top: 0px;
   }
